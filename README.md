@@ -117,4 +117,4 @@ If the benchmark includes:
 - `gold_doc_keys`
 - `gold_article_keys`
 
-then the full retrieval, QA, citation-grounding, and hallucination-proxy metrics will be computed.
+then the full retrieval, QA, citation-grounding, and hallucination-proxy metrics will be computed..
