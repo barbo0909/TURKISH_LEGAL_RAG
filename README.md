@@ -102,6 +102,11 @@ If the instructor prefers to run the project with Google Drive and Colab:
    - or a Colab cell with:
 
 ```python
+from google.colab import drive
+drive.mount('/content/drive')
+
+%cd /content/drive/MyDrive/TURKISH_LEGAL_RAG
+!pip install -r requirements.txt
 !python run_teacher_eval.py
 ```
 

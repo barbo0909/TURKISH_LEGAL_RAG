@@ -416,7 +416,7 @@ def main() -> None:
     else:
         final_report["generation_eval"] = {
             "skipped": True,
-            "reason": "Answer generation not requested. Use --generate-answers to run the full QA pipeline.",
+            "reason": "Answer generation not requested. Remove --no-generate-answers to run the full QA pipeline.",
         }
 
     final_report_path = output_dir / "teacher_eval_report.json"

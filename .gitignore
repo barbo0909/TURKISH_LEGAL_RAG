@@ -1,7 +1,10 @@
 # Large generated artifacts
 models/
 indexes/
-outputs/
+outputs/*
+!outputs/teacher_eval/
+outputs/teacher_eval/*
+!outputs/teacher_eval/.gitkeep
 
 # Large or private datasets
 data/raw/
