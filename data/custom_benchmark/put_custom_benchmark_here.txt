@@ -1,0 +1,13 @@
+Put the instructor-provided custom benchmark CSV in this folder.
+
+Expected filename:
+- custom_benchmark.csv
+
+Minimum required column:
+- question
+
+Recommended columns:
+- question
+- gold_answer
+- gold_doc_keys
+- gold_article_keys

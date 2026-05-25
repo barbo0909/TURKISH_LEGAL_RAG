@@ -1,0 +1,13 @@
+{
+  "input_jsonl": "/content/drive/MyDrive/rag/data/external/embedding.jsonl",
+  "raw_records": 2059,
+  "kept_records": 2059,
+  "removed_records": 0,
+  "train_records": 1854,
+  "val_records": 205,
+  "leakage_threshold": 0.88,
+  "removed_reason_counts": {},
+  "removed_examples": [],
+  "output_train_jsonl": "/content/drive/MyDrive/rag/data/processed/embedding_tune_train.jsonl",
+  "output_val_jsonl": "/content/drive/MyDrive/rag/data/processed/embedding_tune_val.jsonl"
+}

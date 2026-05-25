@@ -1,0 +1,79 @@
+{
+  "project_name": "turkish_legal_rag",
+  "drive_root": "/content/drive/MyDrive/rag",
+  "corpus_version": "v3",
+  "raw_curated_csv": "data/raw/legal_documents_curated.csv",
+  "old_baseline_eval": "data/benchmark/evaluation_results_baseline_old.csv",
+  "processed_dir": "data/processed",
+  "reports_dir": "reports",
+  "main_law_corpus_csv": "data/processed/legal_main_law_corpus_v3.csv",
+  "main_law_corpus_jsonl": "data/processed/legal_main_law_corpus_v3.jsonl",
+  "qa_auxiliary_csv": "data/processed/legal_qa_auxiliary_v3.csv",
+  "rejected_review_csv": "data/processed/legal_rejected_review_v3.csv",
+  "normalization_report_json": "reports/normalization_report_v3.json",
+  "benchmark_csv": "data/benchmark/gold_benchmark_v1.csv",
+  "benchmark_source_csv": "data/benchmark/turkish_legal_gold190_working_clean.csv",
+  "benchmark_report_json": "reports/benchmark_preparation_report_v1.json",
+  "official_index_root": "indexes/official_law_v3",
+  "external_dataset": {
+    "root": "data/external",
+    "corpus": "data/external/corpus.jsonl",
+    "llm_sft": "data/external/llm.jsonl",
+    "embedding_pairs": "data/external/embedding.jsonl",
+    "reranker_pairs": "data/external/reranker.jsonl",
+    "secondary_gold_benchmark": "data/external/gold_benchmark.json",
+    "secondary_rag_eval": "data/external/rag_eval.json"
+  },
+  "retrieval_text_field": "retrieval_text",
+  "generation_text_field": "generation_text",
+  "citation_field": "citation_label",
+  "base_llm_model": "google/gemma-2-2b-it",
+  "heavy_llm_models": {
+    "primary": "Qwen/Qwen3-32B",
+    "fallback": "Qwen/Qwen3-14B"
+  },
+  "embedding_models": {
+    "default": "BAAI/bge-m3",
+    "alternative": "intfloat/multilingual-e5-base",
+    "heavy": "Qwen/Qwen3-Embedding-8B"
+  },
+  "reranker_models": {
+    "baseline": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "heavy": "Qwen/Qwen3-Reranker-8B"
+  },
+  "retrieval_defaults": {
+    "top_k_retrieval": 30,
+    "top_k_context": 10,
+    "bm25_weight": 0.45,
+    "dense_weight": 0.55
+  },
+  "best_retrieval": {
+    "index_root": "indexes/official_law_v3_qwen3_embedding_8b",
+    "embedding_model": "Qwen/Qwen3-Embedding-8B",
+    "retriever_mode": "dense",
+    "candidate_k": 30,
+    "top_k_context": 10,
+    "reranker_model": "Qwen/Qwen3-Reranker-8B"
+  },
+  "tuning_data": {
+    "embedding_train": "data/processed/embedding_tune_train.jsonl",
+    "embedding_val": "data/processed/embedding_tune_val.jsonl",
+    "reranker_train": "data/processed/reranker_tune_train.jsonl",
+    "reranker_val": "data/processed/reranker_tune_val.jsonl"
+  },
+  "normalization": {
+    "official_source_domain": "mevzuat.gov.tr",
+    "valid_quality_flags": [
+      "valid_article",
+      "short_but_valid"
+    ],
+    "review_quality_flags": [
+      "empty_or_too_short",
+      "metadata_only",
+      "amendment_fragment",
+      "table_fragment",
+      "duplicate_candidate",
+      "duplicate_conflict"
+    ]
+  }
+}

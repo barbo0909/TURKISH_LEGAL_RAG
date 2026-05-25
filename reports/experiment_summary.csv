@@ -1,0 +1,6 @@
+﻿experiment_id,stage,raw_rows,valid_law_rows,qa_rows,rejected_rows,notes,train_records,val_records,removed_records,exact_match,token_f1,rouge_l,retrieval_gold_available,citation_present,citation_gold_match,grounded_citation_score,unsupported_or_missing_citation
+corpus_normalization_v3,corpus,39223.0,24473.0,4997.0,9753.0,Official-law corpus only; QA separated as auxiliary.,,,,,,,,,,,
+finetune_dataset_qa_aux,data,,,,,QA auxiliary fine-tune data after benchmark leakage filtering.,4497.0,499.0,1.0,,,,,,,,
+finetune_dataset_external_combined,data,,,,,External instructor SFT plus QA auxiliary; benchmark leakage filtered.,16880.0,1874.0,0.0,,,,,,,,
+base_rag_dense_top10,generation,,,,,"Base checkpoint, dense retrieval, top_k_context=10.",,,,0.0,0.14362952258745187,0.12755168522007554,0.7315789473684211,0.5684210526315789,0.3368421052631579,0.2894736842105263,0.5736842105263158
+finetuned_rag_lora_medium_dense_top10,generation,,,,,Same base checkpoint plus LoRA medium adapter; same retrieval/prompt/decoding.,,,,0.0,0.12680278813096377,0.10921139184950303,0.7315789473684211,0.6421052631578947,0.17894736842105263,0.1631578947368421,0.5631578947368421

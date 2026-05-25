@@ -1,0 +1,21 @@
+{
+  "external_llm_jsonl": "/content/drive/MyDrive/rag/data/external/llm.jsonl",
+  "benchmark_csv": "/content/drive/MyDrive/rag/data/benchmark/gold_benchmark_v1.csv",
+  "raw_external_records": 13758,
+  "kept_external_records": 13758,
+  "external_train_records": 12383,
+  "external_val_records": 1375,
+  "existing_train_records": 4497,
+  "existing_val_records": 499,
+  "combined_train_records": 16880,
+  "combined_val_records": 1874,
+  "removed_external_records": 0,
+  "removed_reason_counts": {},
+  "removed_examples": [],
+  "similarity_threshold": 0.88,
+  "max_external_samples": null,
+  "output_train_jsonl": "/content/drive/MyDrive/rag/data/processed/finetune_train_combined.jsonl",
+  "output_val_jsonl": "/content/drive/MyDrive/rag/data/processed/finetune_val_combined.jsonl",
+  "output_external_train_jsonl": "/content/drive/MyDrive/rag/data/processed/finetune_external_train.jsonl",
+  "output_external_val_jsonl": "/content/drive/MyDrive/rag/data/processed/finetune_external_val.jsonl"
+}

@@ -1,0 +1,1362 @@
+﻿question_id,topic,difficulty,question,gold_answer,generated_answer,gold_article_keys,retrieved_article_keys,retrieved_citations,token_f1,rouge_l,retrieval_gold_available,citation_present,citation_gold_match,grounded_citation_score,error_type_auto
+Q078,Ceza Hukuku,medium,Ceza hukukunda mülkilik ilkesi neyi ifade eder?,Türkiye'de işlenen suçlar hakkında Türk kanunları uygulanır.,"1. **Kısa cevap:**  
+Ceza hukukunda mülkilik ilkesi doğrudan ifade edilmemiştir. Ancak, mülkiyetin korunması, hukukun temel ilkeleri arasında yer almakta olup, suç ve ceza konusunda kanunilik ilkesi, adalet ve eşitlik ilkesi ile birlikte bu korunma kapsamında değerlendirilebilir.
+
+2. **Şartlar / açıklama:**  
+Mülkiyet ilkesi, genellikle medeni hukukta (örneğin Türk Medeni Kanunu m. 685) doğrudan düzenlenirken, ceza hukukunda doğrudan bir ""mülkilik ilkesi"" ifade edilmemiştir. Ancak, ceza hukukunun temel ilkeleri arasında yer alan kanunilik ilkesi (Madde 2), adalet ve eşitlik ilkesi (Madde 3), ve kişisel hakların korunması (Madde 25 ve 26) mülkiyetin korunmasıyla ilişkilendirilebilir. Bu ilkeler, kişilerin haklarına zarar veren fiillerin cezalandırılmasında temel oluşturmaktadır.
+
+3. **Dayanak maddeler:**  
+- **TÜRK CEZA KANUNU m.2** – Kanunilik ilkesi  
+- **TÜRK CEZA KANUNU m.3** – Adalet ve eşitlik ilkesi  
+- **TÜRK CEZA KANUNU m.25** – Hakların korunması  
+- **TÜRK CEZA KANUNU m.26** – Hakların kullanılması ve rızanın etkisi  
+- **TÜRKİYE CUMHURİYETİ ANAYASASI m.38** – Ceza ve ceza mahkumiyeti ilkeleri  
+
+4. **Not / sınırlılık:**  
+Mülkiyet ilkesi doğrudan ceza hukukunda ifade edilmemiştir. Ancak, mülkiyetin korunması, ceza hukukunun genel ilkeleri ve Anayasa’nın ilgili hükümleriyle dolaylı olarak desteklenmektedir.",1_5_5237_MADDE_8,1_5_5237_MADDE_26; 1_5_5237_MADDE_2; 1_5_5275_MADDE_6; 1_5_2709_MADDE_38; 1_5_5237_MADDE_25; 1_5_5237_MADDE_1; 1_5_5237_MADDE_3; 1_5_5237_MADDE_20; 1_5_5237_MADDE_7; 1_5_4721_MADDE_685,TÜRK CEZA KANUNU m.26 | TÜRK CEZA KANUNU m.2 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.6 | TÜRKİYE CUMHURİYETİ ANAYASASI m.38 | TÜRK CEZA KANUNU m.25 | TÜRK CEZA KANUNU m.1 | TÜRK CEZA KANUNU m.3 | TÜRK CEZA KANUNU m.20 | TÜRK CEZA KANUNU m.7 | TÜRK MEDENİ KANUNU m.685,0.0111111111111111,0.0111111111111111,0.0,1.0,1.0,0.0,retrieval_miss
+Q175,Ticaret Hukuku,medium,Şirketlerin ticaret siciline tescili neden önemlidir?,"Tescil, kanunda öngörülen hâllerde kurucu veya açıklayıcı etki doğurur ve üçüncü kişilere karşı ileri sürülebilirliği sağlar.","1. **Kısa cevap**  
+Şirketlerin ticaret siciline tescili, tüzel kişiliğin kazanılması ve şirketin hukuki varlık olarak tanınması için gereklidir. Ayrıca, tescil olmadan yapılan işlemlerden kurucular ve diğer kişiler şahsen sorumlu olabilir.
+
+2. **Şartlar / açıklama**  
+Ticaret siciline tescil olmadan şirket, hukuki anlamda bir tüzel kişilik kazanamaz. Bu durumda şirket adına yapılan işlemler ve taahhütlerden kurucular şahsen ve müteselsilen sorumlu olur. Tescil, şirketin resmi olarak varlık kazanması ve ticari faaliyetlerini yürütebilmesi için şarttır. Ayrıca, tescil ile şirketin ticaret unvanı, sermayesi, temsil şekli gibi bilgiler kamuoyuyla paylaşılarak şeffaflık sağlanır.
+
+3. **Dayanak maddeler**  
+- **TÜRK TİCARET KANUNU m.588/1**: ""Şirket, ticaret siciline tescil ile tüzel kişilik kazanır.""  
+- **TÜRK TİCARET KANUNU m.355/1**: ""Şirket ticaret siciline tescil ile tüzel kişilik kazanır.""  
+- **TÜRK TİCARET KANUNU m.355/2**: ""Tescilden önce şirket adına işlem yapanlar ve taahhütlere girişenler, bu işlem ve taahhütlerden şahsen ve müteselsilen sorumludurlar.""
+
+4. **Not / sınırlılık**  
+Tescil işlemi, şirketin kurulmasıyla birlikte yapılması gereken zorunlu bir adımdır. Tescil yapılmazsa şirket, hukuki anlamda varlık kazanamaz ve ticari işlemlerle ilgili sorumluluklar kuruculara ait olur. Bu durum, şirketin ticari güvenilirliğini ve hukuki statüsünü etkiler.",1_5_6102_MADDE_30,1_5_6102_MADDE_588; 1_5_6102_MADDE_355; 1_5_6102_MADDE_354; 1_5_6103_MADDE_16; 1_5_6102_MADDE_40; 1_5_6102_MADDE_373; 1_5_6102_MADDE_215; 1_5_6102_MADDE_587; 1_5_6102_MADDE_586; 1_5_6102_MADDE_152,TÜRK TİCARET KANUNU m.588 | TÜRK TİCARET KANUNU m.355 | TÜRK TİCARET KANUNU m.354 | TÜRK TİCARET KANUNUNUN YÜRÜRLÜĞÜ VE UYGULAMA ŞEKLİ HAKKINDA KANUN m.16 | TÜRK TİCARET KANUNU m.40 | TÜRK TİCARET KANUNU m.373 | TÜRK TİCARET KANUNU m.215 | TÜRK TİCARET KANUNU m.587 | TÜRK TİCARET KANUNU m.586 | TÜRK TİCARET KANUNU m.152,0.0204081632653061,0.0204081632653061,0.0,1.0,0.0,0.0,retrieval_miss
+Q146,Ceza Hukuku,easy,İştirak hâlinde azmettirme neyi ifade eder?,"Azmettirme, belli bir suçu işleme kararı bulunmayan kişide suç işleme kararını oluşturmaktır.","1. **Kısa cevap:**  
+İştirak hâlinde azmettirme, bir fiilin işlenmesine başkasının kasten ve hukuka aykırı olarak katılması ve bu fiilin suç teşkil etmesi durumunda, azmettirenin de fail olarak sorumlu tutulması anlamına gelir.
+
+2. **Şartlar / açıklama:**  
+İştirak hâlinde azmettirme, bir fiilin işlenmesine başkasının kasten katılması ve bu fiilin suç teşkil etmesi durumunda meydana gelir. Azmettiren kişi, fiilin işlenmesine katıldığı ölçüde fail olarak sorumlu tutulur. Suçun işlenişine iştirak eden herkes, kendi kusurlu fiiline göre cezalandırılır. Ayrıca, suçun en az teşebbüs aşamasına ulaşmış olması gerekir.
+
+3. **Dayanak maddeler:**  
+- **TÜRK CEZA KANUNU m.40/1:** ""Suça iştirak için kasten ve hukuka aykırı işlenmiş bir fiilin varlığı yeterlidir. Suçun işlenişine iştirak eden her kişi, diğerinin cezalandırılmasını önleyen kişisel nedenler göz önünde bulundurulmaksızın kendi kusurlu fiiline göre cezalandırılır.""  
+- **TÜRK CEZA KANUNU m.37/2:** ""Suçun işlenmesinde bir başkasını araç olarak kullanan kişi de fail olarak sorumlu tutulur.""
+
+4. **Not / sınırlılık:**  
+Azmettirme yalnızca suçun işlenmesine iştirak edildiğinde söz konusu olur. Kabahatler kanununda azmettirme kavramı doğrudan geçerli değildir. Ayrıca, özel faillik niteliği taşıyan kişilerle ilgili durumlarda özel hükümler uygulanabilir.",1_5_5237_MADDE_38,1_5_5237_MADDE_40; 1_5_5237_MADDE_41; 1_5_6102_MADDE_1064; 1_5_5326_MADDE_14; 1_5_6102_MADDE_197; 1_5_5237_MADDE_37; 1_5_6102_MADDE_201; 1_5_6102_MADDE_1083; 1_5_6102_MADDE_196; 1_5_6102_MADDE_1081,TÜRK CEZA KANUNU m.40 | TÜRK CEZA KANUNU m.41 | TÜRK TİCARET KANUNU m.1064 | KABAHATLER KANUNU m.14 | TÜRK TİCARET KANUNU m.197 | TÜRK CEZA KANUNU m.37 | TÜRK TİCARET KANUNU m.201 | TÜRK TİCARET KANUNU m.1083 | TÜRK TİCARET KANUNU m.196 | TÜRK TİCARET KANUNU m.1081,0.032258064516129,0.032258064516129,0.0,1.0,0.0,0.0,retrieval_miss
+Q065,Borçlar Hukuku,medium,Hakim cezai şartı hangi durumda indirebilir?,"Hakim, aşırı gördüğü cezai şartı kendiliğinden indirebilir.","1. **Kısa cevap**  
+Hakim, cezai şartı, suçtan sonra failin gösterdiği pişmanlık, zararın giderilmesi, suçun niteliği ve failin durumu gibi faktörlere göre takdiri olarak indirebilir.
+
+2. **Şartlar / açıklama**  
+Hakim, cezai şartı indirme kararı alırken, failin suçtan sonra gösterdiği pişmanlık, mağdurun zararının giderilmesi, failin sosyal durumu, suçun işlenme biçimi ve ağırlığı gibi faktörleri göz önünde bulundurur. Bu karar, kanunda açıkça belirtilmiş genel ilkeler çerçevesinde, hakimin takdir yetkisiyle verilir. Cezai şartın indirilmesi, özellikle zararın aynen iade edilmesi veya tazmin edilmesi, etkin pişmanlık gösterilmesi gibi durumlarda mümkün olabilir.
+
+3. **Dayanak maddeler**  
+- TÜRK CEZA KANUNU m.248  
+- TÜRK CEZA KANUNU m.62  
+- TÜRK CEZA KANUNU m.61  
+- TÜRK CEZA KANUNU m.110  
+- TÜRK CEZA KANUNU m.293  
+- TÜRK CEZA KANUNU m.29  
+- TÜRK CEZA KANUNU m.50  
+
+4. **Not / sınırlılık**  
+Cezai şartın indirilmesi, kanunda açıkça belirtilmiş özel durumlar (örneğin zararın iadesi, etkin pişmanlık) dışında genel olarak hakimin takdir yetkisiyle yapılır. Ancak, bu yetki sınırlıdır ve failin duruşmadaki şekli tutumu gibi nedenler dikkate alınmaz (bkz. TÜRK CEZA KANUNU m.62/2). Ayrıca, cezaların artırılması veya eksiltilmesi, kanunda açıkça yazılı olmayan durumlarda yapılamaz (bkz. TÜRK CEZA KANUNU m.6",1_5_6098_MADDE_182,1_5_5237_MADDE_248; 1_5_5237_MADDE_62; 1_5_5237_MADDE_61; 1_5_5275_MADDE_100; 1_5_5237_MADDE_63; 1_5_5237_MADDE_110; 1_5_5237_MADDE_293; 1_5_5237_MADDE_29; 1_5_5237_MADDE_51; 1_5_5237_MADDE_50,TÜRK CEZA KANUNU m.248 | TÜRK CEZA KANUNU m.62 | TÜRK CEZA KANUNU m.61 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.100 | TÜRK CEZA KANUNU m.63 | TÜRK CEZA KANUNU m.110 | TÜRK CEZA KANUNU m.293 | TÜRK CEZA KANUNU m.29 | TÜRK CEZA KANUNU m.51 | TÜRK CEZA KANUNU m.50,0.0423280423280423,0.0423280423280423,0.0,1.0,0.0,0.0,retrieval_miss
+Q040,Ticaret Hukuku,medium,Tacir olmanın temel sonuçları (hükümleri) nelerdir?,"Tacir; her türlü borcu için iflasa tabi olur, ticaret unvanı seçip kullanmak, ticari işletmesini tescil ettirmek ve gerekli ticari defterleri tutmakla yükümlüdür. Ayrıca tüm ticari faaliyetlerinde basiretli bir iş adamı gibi davranmak zorundadır.","Cevap:
+
+1. **Kısa cevap:**  
+Verilen mevzuat bağlamında, tacir olmanın temel sonuçları veya hukuki hükümleri doğrudan ele alınmamıştır. Bağlamda yer alan kaynaklar, tacir olmanın sonuçlarıyla değil, tacirlerin cezai sorumluluğu, taksirli davranışlar ve bazı ticari faaliyetlerle ilgili idari yaptırımlarla ilgili hükümleri içermektedir.
+
+2. **Şartlar / açıklama:**  
+Tacir olmanın genel hukuki sonuçları (örneğin ticari işletmenin kurulması, ticari işletmenin yasal yükümlülükleri, ticari faaliyetlerdeki özel sorumluluklar vb.) verilen mevzuat metinlerinde yer almamaktadır. Bağlamda yer alan maddeler, tacirlerin taksirli davranışları sonucu cezai sorumlulukları, iflas durumlarında cezai yaptırımlar ve bazı ticari faaliyetlerle ilgili idari yaptırımları içermektedir.
+
+3. **Dayanak maddeler:**  
+- TÜRK CEZA KANUNU m.162  
+- TÜRK CEZA KANUNU m.22  
+- TİCARETTE TAĞŞİŞİN MEN'İ VE İHRACATIN MURAKABESİ VE KORUNMASI HAKKINDA KANUN m.6  
+- TÜRK CEZA KANUNU m.171  
+- TÜRK CEZA KANUNU m.85  
+- TÜRK CEZA KANUNU m.89  
+- TÜRK TİCARET KANUNU m.14  
+- TÜRK CEZA KANUNU m.53  
+- TÜRK CEZA KANUNU m.105  
+- TÜRK CEZA KANUNU m.27  
+
+4. **Not / sınırlılık:**  
+Tacir olmanın temel sonuçları (örneğin ticari işletmenin kurulması, ticari faaliyetlerdeki özel hukuki statü,",1_5_6102_MADDE_18,1_5_5237_MADDE_162; 1_5_5237_MADDE_22; 1_3_1705_MADDE_6; 1_5_5237_MADDE_171; 1_5_5237_MADDE_85; 1_5_5237_MADDE_89; 1_5_6102_MADDE_14; 1_5_5237_MADDE_53; 1_5_5237_MADDE_105; 1_5_5237_MADDE_27,TÜRK CEZA KANUNU m.162 | TÜRK CEZA KANUNU m.22 | TİCARETTE TAĞŞİŞİN MEN'İ VE İHRACATIN MURAKABESİ VE KORUNMASI HAKKINDA KANUN m.6 | TÜRK CEZA KANUNU m.171 | TÜRK CEZA KANUNU m.85 | TÜRK CEZA KANUNU m.89 | TÜRK TİCARET KANUNU m.14 | TÜRK CEZA KANUNU m.53 | TÜRK CEZA KANUNU m.105 | TÜRK CEZA KANUNU m.27,0.0492610837438423,0.0492610837438423,0.0,1.0,0.0,0.0,retrieval_miss
+Q062,Borçlar Hukuku,medium,Hata veya hile sebebiyle iptal hakkı hangi süre içinde kullanılmalıdır?,"Yanılma veya aldatmayı öğrenen taraf, bir yıl içinde sözleşmeyle bağlı olmadığını bildirmez veya verdiği şeyi geri istemezse sözleşmeyi onamış sayılır.","1. **Kısa cevap**  
+Hata veya hile sebebiyle iptal hakkı, genellikle iptal sebebini öğrenildiği tarihten itibaren **altı ay** ve her hâlde **beş yıl** içinde kullanılmalıdır. Ancak, duruma göre farklı süreler de söz konusu olabilir.
+
+2. **Şartlar / açıklama**  
+İptal hakkının kullanılması, iptal sebebini öğrenildiği tarihten itibaren bir süreyle sınırlıdır. Bu süre, genel olarak **altı ay** olmakla birlikte, bu süre **beş yıl** ile sınırlıdır. Bu süreler, hukuka veya ahlaka aykırı yollarla yapılan ihalenin iptal edilmesi gibi özel durumlarda farklılık gösterebilir. Ancak, verilen bağlamda hata veya hile sebebiyle iptal hakkının genel süresi, **altı ay** ve **beş yıl** olarak belirtilmiştir.
+
+3. **Dayanak maddeler**  
+- **TÜRK MEDENİ KANUNU m.152**  
+  ""İptal davası açma hakkı, iptal sebebinin öğrenildiği veya korkunun etkisinin ortadan kalktığı tarihten başlayarak altı ay ve her hâlde evlenmenin üzerinden beş yıl geçmekle düşer.""
+
+4. **Not / sınırlılık**  
+Verilen bağlamda, hata veya hile sebebiyle iptal hakkının süresi doğrudan belirtilmemiştir. Ancak, genel iptal süresi olarak **altı ay** ve **beş yıl** sürelerine yer verilmiştir. Bu süreler, hata veya hile gibi özel durumlarda da geçerli olabilir. Daha özel bir durum söz konusuysa, ilgili mevzuattan ayrı bir süre belirtilebilir.",1_5_6098_MADDE_39,1_5_6098_MADDE_281; 1_5_4721_MADDE_152; 1_5_4721_MADDE_559; 1_5_6100_MADDE_376; 1_5_6102_MADDE_445; 1_5_6769_MADDE_26; 1_5_6102_MADDE_1449; 1_5_6100_MADDE_439; 1_5_6098_MADDE_28; 1_5_6102_MADDE_448,TÜRK BORÇLAR KANUNU m.281 | TÜRK MEDENİ KANUNU m.152 | TÜRK MEDENİ KANUNU m.559 | HUKUK MUHAKEMELERİ KANUNU m.376 | TÜRK TİCARET KANUNU m.445 | SINAİ MÜLKİYET KANUNU m.26 | TÜRK TİCARET KANUNU m.1449 | HUKUK MUHAKEMELERİ KANUNU m.439 | TÜRK BORÇLAR KANUNU m.28 | TÜRK TİCARET KANUNU m.448,0.0495049504950495,0.0396039603960396,0.0,1.0,0.0,0.0,retrieval_miss
+Q132,Borçlar Hukuku,medium,Sözleşmede icap hangi unsuru taşımalıdır?,"İcap, sözleşmenin kurulması için gerekli esaslı noktaları içermeli ve bağlanma iradesini göstermelidir.","1. **Kısa cevap**  
+Sözleşmede icap, tarafların iradelerinin karşılıklı ve birbirine uygun olarak açıklanmasını taşımalıdır.
+
+2. **Şartlar / açıklama**  
+Sözleşmenin kurulabilmesi için tarafların iradelerinin karşılıklı ve uyumlu bir şekilde açıklanmış olması gerekir. Bu, bir taraftan gelen öneriye diğer tarafın onay vermesiyle gerçekleşir. İrade açıklaması açık veya örtülü olabilir. Tarafların iradeleri birbiriyle uyumluysa ve karşılıklı bir anlayış sağlanmışsa, bu durum sözleşmenin kurulduğunu gösterir.
+
+3. **Dayanak maddeler**  
+- **TÜRK BORÇLAR KANUNU m.1**  
+  ""Sözleşme, tarafların iradelerini karşılıklı ve birbirine uygun olarak açıklamalarıyla kurulur. İrade açıklaması, açık veya örtülü olabilir.""
+
+4. **Not / sınırlılık**  
+Bağlamda, genel sözleşmelerin kurulmasıyla ilgili temel hukuki kavramlar yer almakta olup, özel hukuk düzenlemelerinde sözleşmelerin içeriğine ilişkin ayrıntılı şartlar da yer alabilmektedir. Ancak, soruya doğrudan cevap veren temel dayanak, Türk Borçlar Kanunu’nun 1. maddesidir.",1_5_6098_MADDE_8,1_5_6098_MADDE_1; 1_5_4735_MADDE_7; 1_5_5738_MADDE_21; 1_5_6098_MADDE_13; 1_5_6098_MADDE_2; 1_5_6098_MADDE_6; 1_5_4721_MADDE_204; 1_5_6098_MADDE_19; 1_5_6098_MADDE_20; 1_5_6098_MADDE_206,TÜRK BORÇLAR KANUNU m.1 | KAMU İHALE SÖZLEŞMELERİ KANUNU m.7 | SPOR MÜSABAKALARINA DAYALI SABİT İHTİMALLİ VE MÜŞTEREK BAHİS OYUNLARININ ÖZEL HUKUK TÜZEL KİŞİLERİNE YAPTIRILMASI HAKKINDA KANUN m.21 | TÜRK BORÇLAR KANUNU m.13 | TÜRK BORÇLAR KANUNU m.2 | TÜRK BORÇLAR KANUNU m.6 | TÜRK MEDENİ KANUNU m.204 | TÜRK BORÇLAR KANUNU m.19 | TÜRK BORÇLAR KANUNU m.20 | TÜRK BORÇLAR KANUNU m.206,0.0583941605839416,0.0437956204379562,0.0,1.0,0.0,0.0,retrieval_miss
+Q155,Ceza Muhakemesi Hukuku,hard,Koruma tedbirleri nedeniyle tazminat isteme hakkı hangi durumda doğar?,Kanunda belirtilen koruma tedbirlerinin haksız veya hukuka aykırı uygulanması hâlinde kişiler maddi ve manevi tazminat isteyebilir.,"1. **Kısa cevap:**  
+Koruma tedbirleri nedeniyle tazminat isteme hakkı, tedbirin haksız olduğu anlaşılması, tedbir kararı kendiliğinden veya itiraz üzerine kaldırılması durumunda doğar.
+
+2. **Şartlar / açıklama:**  
+Tazminat isteme hakkı, lehine koruma tedbir kararı verilen bir taraf için, aşağıdaki durumlardan birinin gerçekleşmesiyle doğar:  
+- Tedbirin haksız olduğu anlaşılır.  
+- Tedbir kararı kendiliğinden kalkar.  
+- Tedbir kararı hakkında yapılan itiraz sonucu tedbir kararı kaldırılır.  
+
+Bu durumlarda, tedbir nedeniyle zarara uğramış olan taraf, tazminat isteme hakkına sahiptir. Tazminat davası, esas hakkındaki dava mahkemesinde açılır ve tazminat isteme hakkı, tedbir kararının kesinleşmesi veya kalkmasından itibaren bir yıl içinde zamanaşımına uğrar.
+
+3. **Dayanak maddeler:**  
+- **HUKUK MUHAKEMELERİ KANUNU m.399**
+
+4. **Not / sınırlılık:**  
+Verilen bağlamda sadece hukuk muhakemeleri kanununun 399. maddesi tazminat isteme hakkının doğuşunu düzenlemektedir. Diğer kaynaklar, farklı tazminat türlerini veya özel durumları düzenlediğinden, bu soruya doğrudan uygulanamazlar.",1_5_5271_MADDE_141,1_5_6100_MADDE_399; 1_5_6098_MADDE_439; 1_5_7091_MADDE_9; 1_5_5271_MADDE_142; 1_5_2330_MADDE_2; 1_5_6102_MADDE_1448; 1_5_2920_MADDE_127; 1_5_5510_MADDE_21; 1_5_2453_MADDE_3; 1_5_6331_MADDE_13,HUKUK MUHAKEMELERİ KANUNU m.399 | TÜRK BORÇLAR KANUNU m.439 | OLAĞANÜSTÜ HAL KAPSAMINDA ALINMASI GEREKEN TEDBİRLER HAKKINDA KANUN HÜKMÜNDE KARARNAMENİN KABUL EDİLMESİNE DAİR KANUN m.9 | CEZA MUHAKEMESİ KANUNU m.142 | NAKDİ TAZMİNAT VE AYLIK BAĞLANMASI HAKKINDA KANUN m.2 | TÜRK TİCARET KANUNU m.1448 | TÜRK SİVİL HAVACILIK KANUNU m.127 | SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU m.21 | YURT DIŞINDA GÖREVLİ PERSONELE NAKTİ TAZMİNAT VERİLMESİ VE AYLIK BAĞLANMASI HAKKINDA KANUN m.3 | İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU m.13,0.0684931506849315,0.0684931506849315,0.0,1.0,0.0,0.0,retrieval_miss
+Q137,Borçlar Hukuku,medium,Borcun naklinde alacaklının rızası gerekli midir?,"Borcun üstlenilmesi, alacaklı ile üstlenen arasında veya borçlu ile üstlenen arasında yapılan ve alacaklının onayını gerektiren işlemlerle gerçekleşir; alacaklının rızası esastır.","1. **Kısa cevap:**  
+Alacaklının rızası genellikle gerekli değildir; ancak bazı özel durumlarda rıza aranabilir.
+
+2. **Şartlar / açıklama:**  
+Alacağın üçüncü kişilere devri, genel olarak alacaklının rızasını gerektirmemektedir. Ancak, alacakın devredilebilirliği bazı özel durumlarda sınırlanabilir. Örneğin, takas gibi bazı işlemlerde alacaklının rızası gerekli olabilir. Ayrıca, alacaklının rızasız devir durumunda savunmaları sınırlı olabilir.
+
+3. **Dayanak maddeler:**  
+- **TÜRK BORÇLAR KANUNU m.183:** Alacaklı, borçlunun rızasını aramaksızın alacağını üçüncü bir kişiye devredebilir.  
+- **TÜRK BORÇLAR KANUNU m.185:** Alacağın devir özel bir şekle ve önceki alacaklının rızasını açıklamasına gerek olmaksızın üçüncü kişilere karşı ileri sürülebilir.  
+- **TÜRK BORÇLAR KANUNU m.144:** Belirli alacaklar alacaklıların rızasıyla takas edilebilir.  
+- **TÜRK BORÇLAR KANUNU m.196:** Alacaklı, iç veya dış üstlenme sözleşmesini kabul edebilir; kabul açık veya örtülü olabilir.  
+
+4. **Not / sınırlılık:**  
+Alacağın devri genelde alacaklının rızasını gerektirmez; ancak takas gibi özel durumlarda alacaklının rızası aranabilir. Ayrıca, alacaklının rıza göstermemesi durumunda, alacak devredilmiş sayılır ve alacaklının savunmaları sınırlı olabilir.",1_5_6098_MADDE_195,1_5_6098_MADDE_185; 1_5_4721_MADDE_961; 1_5_6098_MADDE_196; 1_5_6098_MADDE_144; 1_5_6098_MADDE_183; 1_5_6098_MADDE_143; 1_5_6098_MADDE_198; 1_5_6098_MADDE_197; 1_5_4721_MADDE_821; 1_3_2004_MADDE_120,TÜRK BORÇLAR KANUNU m.185 | TÜRK MEDENİ KANUNU m.961 | TÜRK BORÇLAR KANUNU m.196 | TÜRK BORÇLAR KANUNU m.144 | TÜRK BORÇLAR KANUNU m.183 | TÜRK BORÇLAR KANUNU m.143 | TÜRK BORÇLAR KANUNU m.198 | TÜRK BORÇLAR KANUNU m.197 | TÜRK MEDENİ KANUNU m.821 | İCRA VE İFLAS KANUNU m.120,0.0710059171597633,0.0591715976331361,0.0,1.0,0.0,0.0,retrieval_miss
+Q058,Anayasa Hukuku,hard,Anayasa Mahkemesi'ne itiraz yolu ile başvurulabilmesi için hangi koşullar gerekir?,Bir davaya bakmakta olan mahkemenin uygulanacak kanun veya Cumhurbaşkanlığı kararnamesi hükmünü Anayasaya aykırı görmesi ya da taraflardan birinin ciddi aykırılık iddiasını haklı bulması gerekir.,"**Cevap:**
+
+1. **Kısa cevap**  
+Anayasa Mahkemesi'ne itiraz yolu ile başvurulabilmesi için başvuruda yer alan kanun hükmüne ilişkin önce bir itiraz başvurusunun yapılmamış olması ve bu hükmün Anayasa Mahkemesi tarafından reddedilmemiş olması gerekir.
+
+2. **Şartlar / açıklama**  
+Anayasa Mahkemesi'ne itiraz yolu ile başvurulabilmesi için aşağıdaki koşulların yerine getirilmesi gerekir:
+
+- Aynı kanun hükmüne ilişkin olarak daha önce bir itiraz başvurusu yapılmamış olmalıdır.
+- Anayasa Mahkemesi tarafından bu hükmün Anayasaya aykırılığı iddiasıyla reddedilmiş bir karar verilmemiş olmalıdır.
+- Mahkemenin işin esasına girerek verdiği ret kararının Resmî Gazetede yayımlanmasından itibaren 10 yıl geçmemiş olmalıdır. Bu süre geçmişse, itiraz başvurusu yapılamaz.
+
+3. **Dayanak maddeler**  
+- ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.41
+
+4. **Not / sınırlılık**  
+Bağlamda sadece itiraz başvurularına ilişkin genel bir kural yer almakta olup, bireysel başvurular veya iptal davaları ile ilgili diğer koşullar bu bağlamda yer almamaktadır.",1_5_2709_MADDE_152,1_5_6216_MADDE_41; 1_5_6216_MADDE_45; 1_5_6216_MADDE_40; 1_5_2709_MADDE_148; 1_5_6216_MADDE_48; 1_5_6216_MADDE_38; 1_5_6216_MADDE_47; 1_5_6216_MADDE_43; 1_5_6216_MADDE_46; 1_5_6216_MADDE_39,ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.41 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.45 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.40 | TÜRKİYE CUMHURİYETİ ANAYASASI m.148 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.48 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.38 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.47 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.43 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.46 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.39,0.0745341614906832,0.0496894409937888,0.0,1.0,0.0,0.0,retrieval_miss
+Q016,Borçlar Hukuku,medium,"""Aşırı yararlanma"" (Gabin) davasında hak düşürücü süreler ne zaman başlar?","Aşırı yararlanma sebebiyle sözleşmenin iptali veya edimler arasındaki oransızlığın giderilmesi talebi, zarar görenin bu durumu öğrendiği tarihten itibaren bir yıl ve her hâlde sözleşmenin kurulduğu tarihten itibaren beş yıl içinde ileri sürülmelidir.","1. **Kısa cevap:**  
+""Aşırı yararlanma"" (Gabin) davasında hak düşürücü sürelerin başlangıcı doğrudan verilen bir mevzuat metninde belirtilmemiştir. Bu tür davalarda hak düşürücü sürelerin başlangıcı, genel hukuk kuralları ve ilgili kanunlarda belirtilen genel ilkeler doğrultusunda değerlendirilmelidir.
+
+2. **Şartlar / açıklama:**  
+""Aşırı yararlanma"" davaları, genellikle Türk Borçlar Kanunu'nun 157 ve 158. maddeleriyle ilgili olmakla birlikte, bu maddelerde doğrudan ""aşırı yararlanma"" davasına özel bir süre başlangıcı belirtilmemiştir. Hak düşürücü sürelerin başlangıcı, genel olarak alacak sahibinin hakkını öğrenmesi veya öğrenmesi gerektiğine inanmasıyla başlar. Ancak bu durumda da doğrudan bir mevzuat metni ""aşırı yararlanma"" davasına özel bir süre başlangıcı belirtmemektedir.
+
+3. **Dayanak maddeler:**  
+- **Türk Borçlar Kanunu m.157:** Zamanaşımı, dava veya def’i ile kesildiğinde, tarafların yargılamaya ilişkin her işleminden sonra yeniden işlemeye başlar.  
+- **Türk Borçlar Kanunu m.158:** Dava veya def’i reddedilmişse ve o arada zamanaşımı veya hak düşürücü süre dolmuşsa, alacaklı 60 günlük ek süre içinde haklarını kullanabilir.  
+
+4. **Not / sınırlılık:**  
+Verilen bağlamda doğrudan ""aşırı yararlanma"" davasına ilişkin bir hak düşürücü süre başlangıcı belirtilmemiştir. Bu tür davalarda genel hukuk ilkeleri ve ilgili kanunlarda belirtilen genel süre başlangıcı kuralları uygulanabilir. Ancak bu durum",1_5_6098_MADDE_28,1_5_6100_MADDE_142; 1_5_6102_MADDE_1189; 1_5_5237_MADDE_66; 1_5_6101_MADDE_5; 1_5_4721_MADDE_300; 1_5_5237_MADDE_73; 1_5_6102_MADDE_60; 1_5_6098_MADDE_158; 1_5_6098_MADDE_157; 1_5_5187_MADDE_26,HUKUK MUHAKEMELERİ KANUNU m.142 | TÜRK TİCARET KANUNU m.1189 | TÜRK CEZA KANUNU m.66 | TÜRK BORÇLAR KANUNUNUN YÜRÜRLÜĞÜ VE UYGULAMA ŞEKLİ HAKKINDA KANUN m.5 | TÜRK MEDENİ KANUNU m.300 | TÜRK CEZA KANUNU m.73 | TÜRK TİCARET KANUNU m.60 | TÜRK BORÇLAR KANUNU m.158 | TÜRK BORÇLAR KANUNU m.157 | BASIN KANUNU m.26,0.0751173708920187,0.0657276995305164,0.0,1.0,0.0,0.0,retrieval_miss
+Q152,Ceza Muhakemesi Hukuku,medium,Arama kararı verilebilmesi için hangi ölçü gerekir?,Arama yapılabilmesi için şüpheli veya sanığın yakalanabileceği ya da suç delillerinin elde edilebileceği hususunda makul şüphe bulunmalıdır.,"1. **Kısa cevap**  
+Arama kararı verilebilmesi için makul sebeplerin oluştuğunun gerekçeleriyle birlikte gösterilmesi gerekir.
+
+2. **Şartlar / açıklama**  
+Arama kararı verilebilmesi için aramanın gerekçesi ve makul sebepleri açıkça belirtilmelidir. Bu gerekçeler, aramanın gerekliliğini ve orantılılığını göstermelidir. Ayrıca, aramanın yapılacağı yer, zaman ve kapsamı da kararda belirtilmelidir. Bu şartlar, aramanın hukuka uygun ve orantılı bir şekilde yapılmasını sağlar.
+
+3. **Dayanak maddeler**  
+- **POLİS VAZİFE VE SÜREÇ KANUNU m.9**  
+- **TÜRK SİLAHLI KUVVETLERİ İÇ HİZMET KANUNU m.56**
+
+4. **Not / sınırlılık**  
+Bu şartlar genel arama usulüne ilişkin hükümlerdir. Konutta veya kamuya açık olmayan yerlerde arama kararı verilmesi özel şartlara tabidir ve bu durumda hukuka aykırı olabilecek uygulamalardan kaçınılmalıdır.",1_5_5271_MADDE_116,1_4_213_MADDE_142; 1_3_2559_MADDE_9; 1_4_211_MADDE_56; 1_5_5271_MADDE_119; 1_5_6491_MADDE_6; 1_5_5271_MADDE_117; 1_5_5271_MADDE_118; 1_3_3894_MADDE_61; 1_5_5271_MADDE_120; 1_3_3780_MADDE_65,VERGİ USUL KANUNU m.142 | POLİS VAZİFE VE SALȂHİYET KANUNU m.9 | TÜRK SİLAHLI KUVVETLERİ İÇ HİZMET KANUNU m.56 | CEZA MUHAKEMESİ KANUNU m.119 | TÜRK PETROL KANUNU m.6 | CEZA MUHAKEMESİ KANUNU m.117 | CEZA MUHAKEMESİ KANUNU m.118 | DENİZDE ZABT VE MÜSADERE KANUNU m.61 | CEZA MUHAKEMESİ KANUNU m.120 | MİLLİ KORUNMA KANUNU m.65,0.0793650793650793,0.0476190476190476,0.0,1.0,0.0,0.0,retrieval_miss
+Q149,Ceza Hukuku,medium,Güvenlik tedbirleri ceza dışında neyi ifade eder?,"Güvenlik tedbirleri, failin veya tehlikeliliğin durumuna göre ceza dışında uygulanan ve kanunda düzenlenen hukuki sonuçlardır.","1. **Kısa cevap**  
+Güvenlik tedbirleri ceza dışında, **koruma ve önleme amaçlı, ceza niteliği taşımayan tedbirler**i ifade eder.
+
+2. **Şartlar / açıklama**  
+Güvenlik tedbirleri, genellikle suç işleyen kişilerin toplum üzerindeki tehditlerini azaltmak, yeniden suç işlemelerini önlemek veya bireyin iyileştirilmesi ve sosyalleştirilmesi amacıyla uygulanır. Bu tedbirler, ceza gibi cezai nitelik taşımaz; yerine **önleyici, koruyucu ve tedavi edici** niteliktedirler. Özellikle akıl hastaları, uyuşturucu bağımlıları ve özel tehlikeli bireyler gibi durumlarda uygulanabilirler.
+
+3. **Dayanak maddeler**  
+- **CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.45**  
+- **CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.3**  
+- **TÜRK CEZA KANUNU m.57**
+
+4. **Not / sınırlılık**  
+Güvenlik tedbirleri, ceza infazından ayrı bir kavramdır ve genellikle **iyileştirme, koruma ve toplum güvenliği** gibi hedefler doğrultusunda uygulanır. Bu tedbirlerin uygulanması, bireyin durumuna ve mahkeme kararıyla belirlenen şartlara bağlıdır.",1_5_5237_MADDE_53,1_5_5275_MADDE_45; 1_5_5275_MADDE_37; 1_5_5275_MADDE_115; 1_5_5275_MADDE_104; 1_5_5237_MADDE_57; 1_5_5275_MADDE_49; 1_5_5275_MADDE_3; 1_5_5275_MADDE_8; 1_5_5275_MADDE_6; 1_5_5275_MADDE_50,CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.45 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.37 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.115 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.104 | TÜRK CEZA KANUNU m.57 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.49 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.3 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.8 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.6 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.50,0.0927152317880794,0.0662251655629139,0.0,1.0,0.0,0.0,retrieval_miss
+Q090,Ceza Muhakemesi Hukuku,medium,Naip hakim görevlendirilmesinin amacı nedir?,"Mahkeme, delillerin toplanması veya belirli işlemlerin yapılması için üyelerinden birini naip hakim olarak görevlendirebilir.","1. **Kısa cevap:**  
+Naip hâkim görevlendirilmesinin amacı, mahkeme başkanı tarafından mahkemenin uyumlu, verimli ve düzenli çalışmasının sağlanması ve bu doğrultuda gerekli önlemlerin alınmasıdır.
+
+2. **Şartlar / açıklama:**  
+Naip hâkim, mahkeme başkanı tarafından belirli tahkikat işlemlerinin yapılmasında görevlendirilir. Bu görevlendirme, toplu mahkemede iş veya dava ile ilgili tahkikatın heyetçe yürütüldüğü durumlarda yapılır. Naip hâkim, mahkeme başkanının yetkisi çerçevesinde görev alır ve mahkemenin işleyişini desteklemekle yükümlüdür.
+
+3. **Dayanak maddeler:**  
+- **HUKUK MUHAKEMELERİ KANUNU m.183/3:** ""Tahkikatın heyetçe yürütüldüğü iş veya davalarda mahkeme başkanı, belirli bazı tahkikat işlemlerini yapmak üzere, üyelerden birini naip hâkim olarak görevlendirebilir.""
+
+4. **Not / sınırlılık:**  
+Naip hâkim görevlendirmesi yalnızca toplu mahkemede iş veya dava ile ilgili tahkikatın heyetçe yürütüldüğü durumlarda ve mahkeme başkanı tarafından yapılır. Bağlamda bu çerçeveden öte bir genel amaca dair bilgi bulunmamaktadır.",1_5_5271_MADDE_180,1_5_6100_MADDE_183; 1_5_2802_MADDE_1; 1_5_2802_MADDE_47; 1_5_6216_MADDE_31; 1_5_2802_MADDE_77; 1_5_2709_MADDE_140; 1_5_4675_MADDE_2; 1_5_6087_MADDE_1; 1_5_5271_MADDE_30; 1_5_4675_MADDE_1,HUKUK MUHAKEMELERİ KANUNU m.183 | HAKİMLER VE SAVCILAR KANUNU m.1 | HAKİMLER VE SAVCILAR KANUNU m.47 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.31 | HAKİMLER VE SAVCILAR KANUNU m.77 | TÜRKİYE CUMHURİYETİ ANAYASASI m.140 | İNFAZ HÂKİMLİĞİ KANUNU m.2 | HÂKİMLER VE SAVCILAR KURULU KANUNU m.1 | CEZA MUHAKEMESİ KANUNU m.30 | İNFAZ HÂKİMLİĞİ KANUNU m.1,0.0972222222222222,0.0972222222222222,0.0,1.0,0.0,0.0,retrieval_miss
+Q032,Ceza Muhakemesi Hukuku,easy,"""Naip hakim"" görevlendirilmesi hangi amaçla yapılır?","Naip hâkim, mahkemece bir delilin toplanması veya belirli bir usul işleminin yerine getirilmesi için görevlendirilen hâkimdir. Amaç, özellikle duruşma dışında yapılması gereken işlemlerin daha hızlı ve etkin biçimde gerçekleştirilmesidir.","1. **Kısa cevap**  
+""Naip hâkim"" görevlendirilmesi, mahkeme başkanı tarafından, mahkemenin uyumlu, verimli ve düzenli çalışmasının sağlanması amacıyla, belirli tahkikat işlemlerinin yapılmasında destek sağlamak ve iş yükünü paylaşmak için yapılır.
+
+2. **Şartlar / açıklama**  
+Naip hâkimin görevlendirilmesi, tahkikatın heyetçe yürütüldüğü dava veya işlerde, mahkeme başkanının kararına dayanır. Bu görevlendirme, mahkemenin işleyişini kolaylaştırmak ve yargılama sürecinin aksamamasını sağlamak amacıyla yapılır. Naip hâkim, mahkeme başkanı tarafından üyelerden biri olarak seçilir ve belirli tahkikat işlemleriyle ilgili görevler üstlenir.
+
+3. **Dayanak maddeler**  
+- **HUKUK MUHAKEMELERİ KANUNU m.183/3**: ""Mahkeme başkanı, mahkemenin uyumlu, verimli ve düzenli çalışmasını sağlar ve bu yolda uygun göreceği önlemleri alır.""
+
+4. **Not / sınırlılık**  
+Bağlamda ""naip hâkim"" kavramı yalnızca Hukuk Muhakemeleri Kanunu m.183/3'te yer almakta olup, diğer mevzuatlarda bu ifadeye rastlanmamıştır. Bu nedenle, sadece bu maddeye dayanılarak açıklama yapılmıştır.",1_5_5271_MADDE_180,1_5_6100_MADDE_183; 1_5_2802_MADDE_47; 1_5_2802_MADDE_77; 1_5_6216_MADDE_31; 1_5_2802_MADDE_115; 1_5_4675_MADDE_3; 1_5_2709_MADDE_140; 1_5_2802_MADDE_1; 1_5_2802_MADDE_82; 1_5_5395_MADDE_28,HUKUK MUHAKEMELERİ KANUNU m.183 | HAKİMLER VE SAVCILAR KANUNU m.47 | HAKİMLER VE SAVCILAR KANUNU m.77 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.31 | HAKİMLER VE SAVCILAR KANUNU m.115 | İNFAZ HÂKİMLİĞİ KANUNU m.3 | TÜRKİYE CUMHURİYETİ ANAYASASI m.140 | HAKİMLER VE SAVCILAR KANUNU m.1 | HAKİMLER VE SAVCILAR KANUNU m.82 | ÇOCUK KORUMA KANUNU m.28,0.0975609756097561,0.0853658536585365,0.0,1.0,0.0,0.0,retrieval_miss
+Q043,Ticaret Hukuku,easy,"Anonim şirketlerde ""azınlık hakları"" hangi orandaki pay sahiplerine tanınmıştır?","Anonim şirkette azınlık hakları, sermayenin en az onda birini temsil eden pay sahiplerine tanınır. Halka açık şirketlerde bu oran yirmide birdir.","1. **Kısa cevap:**  
+Anonim şirketlerde ""azınlık hakları"", genellikle sermayesinin %50'sinden az pay sahipliğine sahip olanlara tanınır. Ancak, bu oranın net bir şekilde belirtildiği bir mevzuat maddesi bağlamda yer almamaktadır.
+
+2. **Şartlar / açıklama:**  
+Bağlamda yer alan mevzuat maddeleri, anonim şirketlerde azlık statüsünün genel olarak %50'den az pay sahipliğine sahip olanlar arasında olduğunu öngörmektedir. Ancak, ""azınlık hakları""nın hangi orandaki pay sahiplerine tanındığına dair net bir oran belirten bir madde bulunmamaktadır. Bazı maddelerde (örneğin 198, 201, 208, 478), pay sahipliğinin belirli oranlarda (örneğin %5, %10, %25, %33, %50) değişik hukuki sonuçlara yol açtığı belirtilmiştir. Ancak bu oranlar doğrudan ""azınlık hakları""nın tanındığı oranlar olarak yorumlanamaz.
+
+3. **Dayanak maddeler:**  
+- TÜRK TİCARET KANUNU m.198  
+- TÜRK TİCARET KANUNU m.201  
+- TÜRK TİCARET KANUNU m.208  
+- TÜRK TİCARET KANUNU m.478  
+
+4. **Not / sınırlılık:**  
+Bağlamda ""azınlık hakları""nın hangi orandaki pay sahiplerine tanındığına dair net bir mevzuat maddesi bulunmamaktadır. Bu nedenle, genel hukuki anlayışa ve mevzuattaki pay sahipliği oranlarına dayanılarak bir tahmin yapılabilir, ancak bu tahmin mevzuatla doğrudan desteklenememektedir.",1_5_6102_MADDE_411,1_5_6102_MADDE_360; 1_5_6102_MADDE_478; 1_5_6362_MADDE_27; 1_5_6102_MADDE_208; 1_5_6102_MADDE_434; 1_5_6102_MADDE_198; 1_5_6102_MADDE_618; 1_5_6102_MADDE_201; 1_5_6102_MADDE_461; 1_5_6102_MADDE_577,TÜRK TİCARET KANUNU m.360 | TÜRK TİCARET KANUNU m.478 | SERMAYE PİYASASI KANUNU m.27 | TÜRK TİCARET KANUNU m.208 | TÜRK TİCARET KANUNU m.434 | TÜRK TİCARET KANUNU m.198 | TÜRK TİCARET KANUNU m.618 | TÜRK TİCARET KANUNU m.201 | TÜRK TİCARET KANUNU m.461 | TÜRK TİCARET KANUNU m.577,0.1047120418848167,0.0837696335078534,0.0,1.0,0.0,0.0,retrieval_miss
+Q111,İş Hukuku,easy,4857 sayılı İş Kanunu'nun kapsamı genel olarak hangi işyerlerini ve çalışanları kapsar?,"İş Kanunu, 4 üncü maddede sayılan istisnalar dışında kalan işyerlerine, bu işyerlerinin işverenleri ile işveren vekillerine ve işçilerine uygulanır.","1. **Kısa cevap**  
+4857 sayılı İş Kanunu, genel olarak sanayi, ticaret ve tarım/orman sektörlerinde çalışanları kapsar; ancak belirli istisnalar hariçtir.
+
+2. **Şartlar / açıklama**  
+İş Kanunu, sanayi, ticaret ve tarım/orman işlerinde çalışanları kapsar. Ancak, deniz ve hava taşımacılığı, 50'den az işçi çalıştıran tarım/orman işyerleri, aile ekonomisi içindeki tarımsal işler, aile içi iş ilişkileri, ev hizmetleri, sporcular, rehabilitasyon kapsamında çalışanlar ve bazı küçük ölçekli esnaflık işyerleri gibi belirli durumlarda uygulanmaz. Ayrıca, 4857 sayılı Kanunun kapsamı, işyerlerinin türüne ve çalışan sayısına göre değişiklik gösterebilir.
+
+3. **Dayanak maddeler**  
+- **İŞ KANUNU m.4**  
+- **İŞ KANUNU m.111**
+
+4. **Not / sınırlılık**  
+Bu cevap, sadece verilen bağlamdaki mevzuat metinlerine dayanmaktadır. 4857 sayılı İş Kanunu'nun kapsamına ilişkin daha kapsamlı bilgi için ilgili mevzuatın tamamı ve diğer ilgili yasalar da incelenmelidir.",1_5_4857_MADDE_1,1_5_6331_MADDE_38; 1_5_4857_MADDE_4; 1_5_6331_MADDE_2; 1_5_4857_MADDE_113; 1_5_6331_MADDE_37; 1_5_4857_MADDE_2; 1_5_4857_MADDE_111; 1_5_4857_MADDE_3; 1_5_7330_MADDE_7; 1_5_6331_MADDE_3,İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU m.38 | İŞ KANUNU m.4 | İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU m.2 | İŞ KANUNU m.113 | İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU m.37 | İŞ KANUNU m.2 | İŞ KANUNU m.111 | İŞ KANUNU m.3 | MAKİNE VE KİMYA ENDÜSTRİSİ ANONİM ŞİRKETİ HAKKINDA KANUN m.7 | İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU m.3,0.1052631578947368,0.0789473684210526,0.0,1.0,1.0,0.0,retrieval_miss
+Q107,Ticaret Hukuku,medium,Ticaret unvanı kullanılırken hangi ilke gözetilmelidir?,"Ticaret unvanı taciri ve işletmeyi tanıtmalı, kanuna ve dürüstlük kuralına aykırı şekilde yanıltıcı olmamalıdır.","1. **Kısa cevap:**  
+Ticaret unvanı kullanılırken **ticari dürüstlük ilkesi** gözetilmelidir.
+
+2. **Şartlar / açıklama:**  
+Ticaret unvanı kullanılırken, üçüncü kişilerde yanlış bir görüşün oluşmasına sebep olacak, gerçeğe veya kamu düzenine aykırı olmayan, ticari dürüstlüğe aykırı olmayan şekilde kullanılmalıdır. Ayrıca, unvanın kullanılışı sırasında haksız rekabet, yanıltıcı bilgi verme veya başkasının ticaret unvanını tecavüz edici şekilde kullanma gibi durumlar yasaktır.
+
+3. **Dayanak maddeler:**  
+- TÜRK TİCARET KANUNU m.46  
+- TÜRK TİCARET KANUNU m.52  
+- TÜRK TİCARET KANUNU m.50  
+
+4. **Not / sınırlılık:**  
+Ticari dürüstlüğe aykırı bir şekilde ticaret unvanı kullanılırsa, hak sahibi tescilli ticaret unvanının değiştirilmesini veya silinmesini, tecavüzün sonucunu ortadan kaldırılmasını ve zarar durumunda tazminat talep edebilir. Bu ilke, yalnızca ticaret unvanı bağlamında değil, genel ticari faaliyetlerde de geçerlidir.",1_5_6102_MADDE_39,1_5_6102_MADDE_46; 1_5_6102_MADDE_43; 1_5_6102_MADDE_49; 1_5_6102_MADDE_52; 1_5_6102_MADDE_48; 1_5_6102_MADDE_41; 1_5_6102_MADDE_18; 1_5_6102_MADDE_44; 1_5_6769_MADDE_47; 1_5_6102_MADDE_50,TÜRK TİCARET KANUNU m.46 | TÜRK TİCARET KANUNU m.43 | TÜRK TİCARET KANUNU m.49 | TÜRK TİCARET KANUNU m.52 | TÜRK TİCARET KANUNU m.48 | TÜRK TİCARET KANUNU m.41 | TÜRK TİCARET KANUNU m.18 | TÜRK TİCARET KANUNU m.44 | SINAİ MÜLKİYET KANUNU m.47 | TÜRK TİCARET KANUNU m.50,0.106060606060606,0.0909090909090909,0.0,1.0,0.0,0.0,retrieval_miss
+Q005,Anayasa Hukuku,medium,"Kanun Hükmünde Kararnamelerin (KHK) yerini alan ""Cumhurbaşkanlığı Kararnameleri"" hangi konularda düzenlenemez?","Cumhurbaşkanlığı kararnameleri; temel haklar, kişi hakları ve ödevleri ile siyasi haklar ve ödevler alanında düzenleme yapamaz. Kanunda açıkça düzenlenen konularda da kararname çıkarılamaz; kanun ile kararname çatışırsa kanun uygulanır.","1. **Kısa cevap:**  
+Cumhurbaşkanlığı Kararnameleri, olağanüstü hal dışındaki konularda düzenlenemez.
+
+2. **Şartlar / açıklama:**  
+Cumhurbaşkanlığı Kararnameleri yalnızca olağanüstü hal süresince ve olağanüstü halin gerekli kıldığı konularda çıkarılabilir. Anayasa ve mevzuatta belirtilen genel yürütme yetkileri çerçevesinde değil, sadece olağanüstü hallerde özel yetki çerçevesinde çıkarılabilirler. Bu nedenle, olağanüstü halin kapsamı dışındaki konulara ilişkin kararnameler çıkarılamaz.
+
+3. **Dayanak maddeler:**  
+- **OLAĞANÜSTÜ HAL KANUNU m.4:**  
+  ""Olağanüstü hal süresince, Cumhurbaşkanı olağanüstü halin gerekli kıldığı konularda Anayasanın 91 inci maddesindeki kısıtlamalara ve usule bağlı olmaksızın, kanun hükmünde kararnamemeler çıkarabilir.""
+
+4. **Not / sınırlılık:**  
+Bu cevap yalnızca verilen bağlamdaki mevzuat metinlerine dayanmaktadır. Olağanüstü halin kapsamı ve Cumhurbaşkanlığı kararnamelerinin yetkileri hakkında daha geniş bilgi için Anayasa ve ilgili diğer mevzuatlar da incelenmelidir.",1_5_2709_MADDE_104,1_5_2935_MADDE_4; 1_5_5840_MADDE_8; 1_5_2946_MADDE_14; 1_5_3686_MADDE_10; 1_5_2935_MADDE_3; 1_5_2709_MADDE_124; 1_5_2565_MADDE_37; 1_5_3011_MADDE_5; 1_5_244_MADDE_10; 1_3_2489_GEÇİCİ_MADDE_4,OLAĞANÜSTÜ HAL KANUNU m.4 | KADIN ERKEK FIRSAT EŞİTLİĞİ KOMİSYONU KANUNU m.8 | KAMU KONUTLARI KANUNU m.14 | İNSAN HAKLARINI İNCELEME KOMİSYONU KANUNU m.10 | OLAĞANÜSTÜ HAL KANUNU m.3 | TÜRKİYE CUMHURİYETİ ANAYASASI m.124 | ASKERİ YASAK BÖLGELER VE GÜVENLİK BÖLGELERİ KANUNU m.37 | RESMİ GAZETE'DE YAYIMLANACAK OLAN YÖNETMELİKLER HAKKINDA KANUN m.5 | BAZI ANDLAŞMALARIN YAPILMASI İÇİN CUMHURBAŞKANINA YETKİ VERİLMESİ HAKKINDA KANUN m.10 | KEFALET KANUNU geçici m.4,0.1134751773049645,0.0851063829787233,0.0,1.0,0.0,0.0,retrieval_miss
+Q128,Anayasa Hukuku,medium,Usulsüz olarak elde edilen bulguların yargılamadaki durumu nedir?,Kanuna aykırı olarak elde edilmiş bulgular delil olarak kabul edilemez.,"1. **Kısa cevap**  
+Usulsüz olarak elde edilen bulgular, hukuka aykırı usullerle elde edilmişse, yargılamada delil olarak değerlendirilemez.
+
+2. **Şartlar / açıklama**  
+Usulsüz olarak elde edilen bulguların, yani hukuka aykırı usullerle toplanmış delillerin, yargılamada dikkate alınmaması, hukukun genel ilkeleri ve mevzuattaki açık ifadelerle desteklenmektedir. Bu durumda, mahkemeler bu tür delilleri bir vakıanın ispatında kullanamaz. Ayrıca, ceza muhakemesi kanununda da yasak usullerle elde edilen ifadelerin delil olarak değerlendirilemeyeceği belirtilmiştir.
+
+3. **Dayanak maddeler**  
+- **HUKUK MUHAKEMELERİ KANUNU m.189/2**: ""Hukuka aykırı olarak elde edilmiş olan deliller, mahkeme tarafından bir vakıanın ispatında dikkate alınamaz.""  
+- **CEZA MUHAKEMESİ KANUNU m.206/2/a**: ""Delil, kanuna aykırı olarak elde edilmişse reddolunur.""
+
+4. **Not / sınırlılık**  
+Bu hükümler, genel olarak hukuka aykırı usullerle elde edilen delillerin delil olarak kabul edilemeyeceği ilkesini yansıtmaktadır. Ancak, özel durumlarda veya özel kanunlarla belirlenmiş usuller çerçevesinde bu durumun değerlendirilmesi farklı olabilir. Verilen bağlamda bu tür özel durumlar yer almamaktadır.",1_5_2709_MADDE_38,1_5_6100_MADDE_189; 1_5_5271_MADDE_148; 1_5_5271_MADDE_217; 1_5_6100_MADDE_25; 1_5_6100_MADDE_385; 1_5_5271_MADDE_206; 1_5_6100_MADDE_187; 1_5_6100_MADDE_375; 1_5_5271_MADDE_78; 1_5_5271_MADDE_20,HUKUK MUHAKEMELERİ KANUNU m.189 | CEZA MUHAKEMESİ KANUNU m.148 | CEZA MUHAKEMESİ KANUNU m.217 | HUKUK MUHAKEMELERİ KANUNU m.25 | HUKUK MUHAKEMELERİ KANUNU m.385 | CEZA MUHAKEMESİ KANUNU m.206 | HUKUK MUHAKEMELERİ KANUNU m.187 | HUKUK MUHAKEMELERİ KANUNU m.375 | CEZA MUHAKEMESİ KANUNU m.78 | CEZA MUHAKEMESİ KANUNU m.20,0.1168831168831168,0.0909090909090909,0.0,1.0,0.0,0.0,retrieval_miss
+Q104,Ticaret Hukuku,medium,Anonim şirketlerde azınlık hakları için sermayenin hangi oranı gerekir?,"Halka açık olmayan anonim şirketlerde sermayenin en az onda birini, halka açık şirketlerde ise en az yirmide birini temsil eden pay sahipleri azınlık sayılır.","1. **Kısa cevap:**  
+Anonim şirketlerde azınlık hakları doğrudan sermayenin belirli bir oranına dayanmamaktadır. Ancak, genel kurul toplantılarında oy kullanma ve karar alma hakkına sahip olmak için genellikle sermayenin en az dörtte birini (yüzde 25'ini) karşılayan pay sahipleri gereklidir.
+
+2. **Şartlar / açıklama:**  
+Azınlık hakları doğrudan sermayenin bir oranına değil, şirketin organlarında (özellikle genel kurulda) söz sahibi olabilme ve şirket politikalarına etki edebilme kapasitesine dayanır. Türk Ticaret Kanunu'nda genel kurul toplantılarında kararların geçerli olabilmesi için sermayenin en az dörtte birini karşılayan pay sahiplerinin varlığı gerekir. Bu oran, azınlık pay sahiplerinin etkin bir şekilde şirket yönetimine dahil olabilmesi açısından önemli bir dayanak niteliğindedir.
+
+3. **Dayanak maddeler:**  
+- **TÜRK TİCARET KANUNU m.418**  
+- **TÜRK TİCARET KANUNU m.439**  
+- **TÜRK TİCARET KANUNU m.198**
+
+4. **Not / sınırlılık:**  
+Azınlık hakları doğrudan bir sermaye oranı ile değil, şirketin iç düzeni ve pay sahiplerinin etkinliği ile ilişkilidir. Bağlamda doğrudan ""azınlık hakları için gerekli sermaye oranı""na dair bir hüküm bulunmamaktadır. Bu nedenle, soruya doğrudan cevap verecek bir mevzuat metni mevcut değildir.",1_5_6102_MADDE_411,1_5_6102_MADDE_478; 1_5_6102_MADDE_208; 1_5_6102_MADDE_439; 1_5_6102_MADDE_418; 1_5_6102_MADDE_198; 1_5_6102_MADDE_461; 1_5_4632_MADDE_13; 1_5_6102_MADDE_591; 1_5_6362_MADDE_27; 1_5_6102_GEÇİCİ_MADDE_15,TÜRK TİCARET KANUNU m.478 | TÜRK TİCARET KANUNU m.208 | TÜRK TİCARET KANUNU m.439 | TÜRK TİCARET KANUNU m.418 | TÜRK TİCARET KANUNU m.198 | TÜRK TİCARET KANUNU m.461 | BİREYSEL EMEKLİLİK TASARRUF VE YATIRIM SİSTEMİ KANUNU m.13 | TÜRK TİCARET KANUNU m.591 | SERMAYE PİYASASI KANUNU m.27 | TÜRK TİCARET KANUNU geçici m.15,0.1256544502617801,0.1151832460732984,0.0,1.0,0.0,0.0,retrieval_miss
+Q180,Ticaret Hukuku,medium,Ticari temsilci neyi ifade eder?,"Ticari temsilci, işletme sahibi tarafından ticari işletmeyi yönetmek ve işletmeye ilişkin işlemleri yürütmek üzere yetkilendirilen kişidir.","1. **Kısa cevap**  
+Ticari temsilci, ticari işletmeyi yönetmek ve işletmeye ilişkin işlemlerde ticaret unvanı altında ticari temsil yetkisiyle işletme sahibini temsil etmeye yetkili kişiye denir.
+
+2. **Şartlar / açıklama**  
+Ticari temsilci, açıkça ya da örtülü olarak işletme sahibi tarafından yetki verilmiş olmalıdır. Ticari temsil yetkisi, ticaret siciline tescil edilmek zorundadır; ancak bu tescil, işletme sahibinin temsilciden doğacak fiillerden sorumlu olmasının bir şartı değildir. Ticari temsilcinin yetkisi, ticari işletmenin amacına giren işlemler ve kambiyo taahhümlerini kapsar. Ancak, taşınmazlarla ilgili işlemler gibi bazı işlemleri yapabilmesi için açıkça yetki verilmesi gerekir.
+
+3. **Dayanak maddeler**  
+- TÜRK BORÇLAR KANUNU m.547  
+- TÜRK BORÇLAR KANUNU m.548  
+- TÜRK BORÇLAR KANUNU m.553  
+
+4. **Not / sınırlılık**  
+Ticari temsilcinin yetkisi, ticari işletmenin amacına ve ticaret unvanına bağlıdır. Ticari temsilcinin yetkisini aşan işlemler, işletme sahibi tarafından onaylanmadıkça geçersiz olabilir. Ayrıca, ticari temsilcinin kendi hesabına veya üçüncü kişiler adına yaptığı ticari işlemler, işletme sahibinin izni olmadan yasaktır.",1_5_6102_MADDE_547,1_5_6098_MADDE_547; 1_5_6098_MADDE_548; 1_5_6098_MADDE_551; 1_5_6102_MADDE_102; 1_5_6102_MADDE_13; 1_4_193_MADDE_8; 1_5_6098_MADDE_546; 1_5_6098_MADDE_553; 1_5_6102_MADDE_371; 1_5_6102_MADDE_12,TÜRK BORÇLAR KANUNU m.547 | TÜRK BORÇLAR KANUNU m.548 | TÜRK BORÇLAR KANUNU m.551 | TÜRK TİCARET KANUNU m.102 | TÜRK TİCARET KANUNU m.13 | GELİR VERGİSİ KANUNU m.8 | TÜRK BORÇLAR KANUNU m.546 | TÜRK BORÇLAR KANUNU m.553 | TÜRK TİCARET KANUNU m.371 | TÜRK TİCARET KANUNU m.12,0.1481481481481481,0.1111111111111111,0.0,1.0,1.0,0.0,retrieval_miss
+Q074,Ceza Hukuku,medium,Zincirleme suç hükümlerinin uygulanabilmesi için hangi şartlar gerekir?,Aynı suç işleme kararının icrası kapsamında değişik zamanlarda bir kişiye karşı aynı suçun birden fazla işlenmesi gerekir; bu durumda bir cezaya hükmedilir ve ceza artırılır.,"**Cevap:**
+
+1. **Kısa cevap:**  
+Zincirleme suç hükümlerinin uygulanabilmesi için suçların birbirini izleyerek aynı kişi tarafından işlenmesi ve bu suçların birbirine bağlanması gerekir.
+
+2. **Şartlar / açıklama:**  
+Zincirleme suç, bir kişi tarafından işlenen ve birbirini izleyen birden fazla suçun, birinin unsuru diğerinin ağırlaştırıcı nedenini oluşturduğu hâllerde uygulanır. Bu suçlar, tek bir fiil sayılır ve içtima hükümleri uygulanmaz. Zincirleme suç kapsamında, suçların birbirini izleyerek işlenmesi ve birinin diğerine bağlanması şarttır. Bu bağ, suçların birbirini takip eden ve birbirine içten bağlı olması anlamına gelir.
+
+3. **Dayanak maddeler:**  
+- **TÜRK CEZA KANUNU m.42**  
+  ""Biri diğerinin unsurunu veya ağırlaştırıcı nedenini oluşturması dolayısıyla tek fiil sayılan suça bileşik suç denir. Bu tür suçlarda içtima hükümleri uygulanmaz. Zincirleme suç""
+
+4. **Not / sınırlılık:**  
+Bağlamda yalnızca zincirleme suçun tanımı yer almakta, uygulamada dikkate alınması gereken diğer şartlar veya özel durumlar belirtilmemektedir. Bu nedenle, sadece verilen mevzuat bağlamına dayanarak genel bir tanım yapılmıştır.",1_5_5237_MADDE_43,1_5_5237_MADDE_58; 1_5_5271_MADDE_250; 1_5_5237_MADDE_42; 1_5_5275_MADDE_50; 1_5_5275_MADDE_108; 1_5_5237_MADDE_61; 1_5_5320_GEÇİCİ_MADDE_7; 1_5_5275_MADDE_107; 1_5_5237_MADDE_50; 1_5_5237_MADDE_51,TÜRK CEZA KANUNU m.58 | CEZA MUHAKEMESİ KANUNU m.250 | TÜRK CEZA KANUNU m.42 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.50 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.108 | TÜRK CEZA KANUNU m.61 | CEZA MUHAKEMESİ KANUNUNUN YÜRÜRLÜK VE UYGULAMA ŞEKLİ HAKKINDA KANUN geçici m.7 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.107 | TÜRK CEZA KANUNU m.50 | TÜRK CEZA KANUNU m.51,0.1547619047619047,0.1071428571428571,0.0,1.0,0.0,0.0,retrieval_miss
+Q052,Anayasa Hukuku,easy,Bireysel başvuru süresi ne zaman başlar ve kaç gündür?,"Bireysel başvuru, olağan kanun yollarının tüketildiği tarihten veya başvuru yolu öngörülmemişse ihlalin öğrenildiği tarihten itibaren otuz gün içinde yapılır.","1. **Kısa cevap**  
+Bireysel başvuru süresi, başvuru yollarının tüketildiği tarihten itibaren **otuz gün**dür.
+
+2. **Şartlar / açıklama**  
+Bireysel başvuru süresi, başvuru yollarının tüketildiği tarihten itibaren başlar. Başvuru yolu öngörülmemişse, ihlalin öğrenildiği tarihten itibaren süreye başlanır. Başvurucunun geçerli bir mazereti bulunuyorsa, süresi içinde başvuramaması durumunda, mazeretin kalktığı tarihten itibaren **onbeş gün** içinde başvurması gerekir. Bu süreler, Anayasa Mahkemesi'ne yapılacak bireysel başvurular kapsamında geçerlidir.
+
+3. **Dayanak maddeler**  
+- ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.47  
+  (5) Bireysel başvurunun, başvuru yollarının tüketildiği tarihten; başvuru yolu öngörülmemişse ihlalin öğrenildiği tarihten itibaren otuz gün içinde yapılması gerekir. Haklı bir mazereti nedeniyle süresi içinde başvuramayanlar, mazeretin kalktığı tarihten itibaren onbeş gün içinde ve mazeretlerini belgeleyen delillerle birlikte başvurabilirler.
+
+4. **Not / sınırlılık**  
+Verilen bilgiler yalnızca Anayasa Mahkemesi'ne yapılacak bireysel başvurularla ilgilidir. Başka mevzuatlara yapılacak başvurular için farklı süreler söz konusu olabilir. Bu bağlamda başka bir mevzuatta bireysel başvuru süresiyle ilgili doğrudan bir bilgi bulunmamaktadır.",1_5_2709_MADDE_148,1_5_6216_MADDE_47; 1_5_6384_GEÇİCİ_MADDE_2; 1_5_6458_MADDE_75; 1_5_5233_MADDE_6; 1_5_6216_MADDE_48; 1_5_4982_MADDE_11; 1_5_5510_GEÇİCİ_MADDE_42; 1_5_6701_MADDE_18; 1_5_6384_MADDE_5; 1_5_2577_MADDE_10,ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.47 | TAZMİNAT KOMİSYONUNUN GÖREVLERİ İLE ÇALIŞMA USUL VE ESASLARI HAKKINDA KANUN geçici m.2 | YABANCILAR VE ULUSLARARASI KORUMA KANUNU m.75 | TERÖR VE TERÖRLE MÜCADELEDEN DOĞAN ZARARLARIN KARŞILANMASI HAKKINDA KANUN m.6 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.48 | BİLGİ EDİNME HAKKI KANUNU m.11 | SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU geçici m.42 | TÜRKİYE İNSAN HAKLARI VE EŞİTLİK KURUMU KANUNU m.18 | TAZMİNAT KOMİSYONUNUN GÖREVLERİ İLE ÇALIŞMA USUL VE ESASLARI HAKKINDA KANUN m.5 | İDARİ YARGILAMA USULÜ KANUNU m.10,0.186046511627907,0.186046511627907,0.0,1.0,0.0,0.0,retrieval_miss
+Q029,Ceza Muhakemesi Hukuku,easy,"Mahkemenin ""keşif"" kararı vermesi için gereken şartlar ve keşfin icrası nasıl olur?","Keşif, hâkim veya mahkemenin maddi olayı doğrudan gözlemlemek amacıyla yapılır. Olayın aydınlatılması bakımından gerekli görüldüğünde kararlaştırılır ve işlem tutanağa bağlanır.","**Cevap:**
+
+1. **Kısa cevap:**  
+Mahkemenin keşif kararı vermesi için uyuşmazlık konusunun bizzat incelemesi gerekli olup, keşif davaya bakan mahkemece veya istinade ile yapılır. Keşif kararı sözlü yargılamaya kadar taraflardan birinin talebiyle veya resen alınabilir.
+
+2. **Şartlar / açıklama:**  
+- Mahkeme, uyuşmazlık konusunu bizzat incelemek amacıyla keşif kararı verebilir.  
+- Keşif kararı, taraflardan birinin talebiyle veya mahkemenin kendi kararıyla alınabilir.  
+- Keşif davaya bakan mahkemece yapılır; eğer keşif konusu mahkemenin yargı çevresi dışında ise istinade suretiyle yapılır.  
+- Keşif sırasında taraflar hazır bulunabilir veya yokluklarında da yapılabilir.  
+- Keşif tutanağı düzenlenir ve bu tutanakta yapılan gözlemler, tanıkların ve bilirkişilerin ifadeleri yer alır.  
+- Taraflar veya üçüncü kişiler keşife karşı koyması durumunda, bu durumun sonuçları mevzuatla belirlenmiştir.
+
+3. **Dayanak maddeler:**  
+- **HUKUK MUHAKEMELERİ KANUNU m.288:** Mahkemenin keşif kararı verebileceğini ve bunun için bizzat inceleme yapmasının gerekli olduğunu belirtir.  
+- **HUKUK MUHAKEMELERİ KANUNU m.289:** Keşifin davaya bakan mahkemece yapılması gerektiğini ve yargının dışında olması durumunda istinade yapılacağını ifade eder.  
+- **HUKUK MUHAKEMELERİ KANUNU m.290:** Keşifin yeri, zamanı ve kapsamının mahkemece tespit edileceğini, tarafların hazır bulunabileceğini ve tutanak düzenlenmesi gerektiğini belirtir.  
+- **HUKUK MUHAKEMELERİ KANUNU",1_5_5271_MADDE_83,1_5_6100_MADDE_288; 1_5_6100_MADDE_289; 1_5_6100_MADDE_291; 1_5_6100_MADDE_290; 1_5_5271_MADDE_83; 1_5_6100_MADDE_402; 1_5_6100_MADDE_400; 1_5_5271_MADDE_281; 1_5_5271_MADDE_84; 1_5_5271_MADDE_82,HUKUK MUHAKEMELERİ KANUNU m.288 | HUKUK MUHAKEMELERİ KANUNU m.289 | HUKUK MUHAKEMELERİ KANUNU m.291 | HUKUK MUHAKEMELERİ KANUNU m.290 | CEZA MUHAKEMESİ KANUNU m.83 | HUKUK MUHAKEMELERİ KANUNU m.402 | HUKUK MUHAKEMELERİ KANUNU m.400 | CEZA MUHAKEMESİ KANUNU m.281 | CEZA MUHAKEMESİ KANUNU m.84 | CEZA MUHAKEMESİ KANUNU m.82,0.0721649484536082,0.0618556701030927,1.0,1.0,0.0,0.0,wrong_or_unsupported_citation
+Q147,Ceza Hukuku,easy,Yardım etme neyi ifade eder?,"Yardım etme, suçun işlenmesini kolaylaştıran veya suçun işlenmesine maddi ya da manevi katkıda bulunan davranışlardır.","**Cevap:**
+
+1. **Kısa cevap:**  
+Yardım etme, genel anlamda ihtiyaç sahiplerine maddi veya manevi destek sunma, ihtiyaçlarını giderme veya onlara yardım etme eylemini ifade eder. Bağlamda yer alan mevzuatlar çerçevesinde, yardım etme; asker ailelerine, afet mağdurlarına, çiftçilere veya kamu yararına yardım edecek kişilere yönelik olarak, belirli usuller ve şartlar çerçevesinde yapılır.
+
+2. **Şartlar / açıklama:**  
+- Asker ailelerine yardım etme, mahalli idarelerce (belediye encümenleri veya ihtiyar meclisi) ihtiyaçların tetkiki ve yardım miktarının belirlenmesiyle yapılır. Yardım, asgari geçim haddi dikkate alınarak yapılır.  
+- Afet mağdurlarına yardım etme, afet bölgesindeki ihtiyaç sahiplerine yönelik çalışmalara katılmak suretiyle yapılır. Davet edilenlerin katılmaması cezai sonuçlar doğurabilir.  
+- Kamu yararına yardım toplamak, isteğe bağlıdır ve belirli usullerle (makbuz, kutu, banka hesabı vs.) yapılır.  
+- Çiftçilere yardım etme, tabii afetler sonucu zarar görmüş olanlara, kredi, karşılıksız para veya teknik destek şeklinde yapılır.  
+- Hukuki anlamda yardım etmek, bir suçun işlenmesine yardımcı olmak da olabilir; bu durumda cezai sonuçlar doğar.
+
+3. **Dayanak maddeler:**  
+- ASKER AİLELERİNDEN MUHTAÇ OLANLARA YARDIM HAKKINDA KANUN m.3  
+- YARDIM TOPLAMA KANUNU m.3, m.4, m.5, m.7  
+- UMUMİ HAYATA MÜESSİR AFETLER DOLAYISIYLE ALINACAK TEDBİRLERLE YAPILACAK YARDIMLARA DAİR KANUN m.47  
+- TABİ",1_5_5237_MADDE_39,1_3_4109_MADDE_3; 1_5_2860_MADDE_3; 1_5_5237_MADDE_39; 1_5_2860_MADDE_4; 1_5_2860_MADDE_2; 1_3_7269_MADDE_47; 1_5_2860_MADDE_5; 1_5_2860_MADDE_7; 1_5_6100_MADDE_335; 1_5_2090_MADDE_2,ASKER AİLELERİNDEN MUHTAÇ OLANLARA YARDIM HAKKINDA KANUN m.3 | YARDIM TOPLAMA KANUNU m.3 | TÜRK CEZA KANUNU m.39 | YARDIM TOPLAMA KANUNU m.4 | YARDIM TOPLAMA KANUNU m.2 | UMUMİ HAYATA MÜESSİR AFETLER DOLAYISİYLE ALINACAK TEDBİRLERLE YAPILACAK YARDIMLARA DAİR KANUN m.47 | YARDIM TOPLAMA KANUNU m.5 | YARDIM TOPLAMA KANUNU m.7 | HUKUK MUHAKEMELERİ KANUNU m.335 | TABİİ AFETLERDEN ZARAR GÖREN ÇİFTÇİLERE YAPILACAK YARDIMLAR HAKKINDA KANUN m.2,0.0792079207920792,0.0594059405940594,1.0,1.0,0.0,0.0,wrong_or_unsupported_citation
+Q158,Ceza Muhakemesi Hukuku,medium,Sanığın hazır bulunmadığı durumda duruşmaya devam edilebilmesi hangi koşullara bağlıdır?,Sanığın sorgusu yapılmışsa ve mahkemece hazır bulunması zorunlu görülmüyorsa belirli koşullarda yokluğunda duruşmaya devam edilebilir.,"1. **Kısa cevap**  
+Sanığın hazır bulunmadığı durumda duruşmaya devam edilebilmesi, sanığın özürsüz gelmemesi, savuşmaması veya duruşmayı terk etmesi gibi koşullara bağlıdır.
+
+2. **Şartlar / açıklama**  
+Sanık, duruşmaya gelmemişse veya gelmiş olsa bile savuşmuşsa, duruşmada bulunmak istemiyorsa veya duruşmayı terk etmişse, duruşmaya devam edilebilir. Ayrıca, sanığın duruşmadan bağışık tutulması veya müdafii aracılığıyla temsil edilmek yetkisini kullanması durumunda da duruşmaya devam edilebilir. Ancak, sanığın dinlenmesi zorunlu olduğu durumlarda (örneğin, cezanın birinci derece mahkemesinin verdiği cezadan daha ağır olması gibi), duruşmaya devam edilemez.
+
+3. **Dayanak maddeler**  
+- CEZA MUHAKEMESİ KANUNU m.194  
+- CEZA MUHAKEMESİ KANUNU m.195  
+- CEZA MUHAKEMESİ KANUNU m.197  
+- CEZA MUHAKEMESİ KANUNU m.198  
+- CEZA MUHAKEMESİ KANUNU m.204  
+- CEZA MUHAKEMESİ KANUNU m.282  
+- DİSİPLİN MAHKEMELERİ KURULUŞU, YARGILAMA USULÜ VE DİSİPLİN SUÇ VE CEZALARI HAKKINDA KANUN m.19  
+
+4. **Not / sınırlılık**  
+Yukarıdaki cevap yalnızca verilen mevzuat bağlamına dayanmaktadır. Bağlamda yer almayan diğer hukuki kaynaklar veya durumlar dikkate alınmamıştır.",1_5_5271_MADDE_193,1_5_5271_MADDE_197; 1_5_477_MADDE_19; 1_5_5271_MADDE_204; 1_5_5271_MADDE_194; 1_5_5271_MADDE_193; 1_5_5271_MADDE_188; 1_5_5271_MADDE_195; 1_5_5271_MADDE_282; 1_5_5271_MADDE_198; 1_5_6100_MADDE_147,"CEZA MUHAKEMESİ KANUNU m.197 | DİSİPLİN MAHKEMELERİ KURULUŞU, YARGILAMA USULÜ VE DİSİPLİN SUÇ VE CEZALARI HAKKINDA KANUN m.19 | CEZA MUHAKEMESİ KANUNU m.204 | CEZA MUHAKEMESİ KANUNU m.194 | CEZA MUHAKEMESİ KANUNU m.193 | CEZA MUHAKEMESİ KANUNU m.188 | CEZA MUHAKEMESİ KANUNU m.195 | CEZA MUHAKEMESİ KANUNU m.282 | CEZA MUHAKEMESİ KANUNU m.198 | HUKUK MUHAKEMELERİ KANUNU m.147",0.0838323353293413,0.059880239520958,1.0,1.0,0.0,0.0,wrong_or_unsupported_citation
+Q143,Ceza Hukuku,medium,Haksız tahrik hâlinde cezada ne tür bir sonuç doğar?,Haksız bir fiilin meydana getirdiği hiddet veya şiddetli elemin etkisi altında suç işleyen kişinin cezasında indirim yapılır.,"1. **Kısa cevap:**  
+Haksız tahrik hâlinde, tahrik eden kişi, tahrik konusu suçun işlenmesi durumunda bu suçlara azmettiren sıfatıyla cezalandırılır.
+
+2. **Şartlar / açıklama:**  
+Haksız tahrik, bir kişinin başka bir kişiyi bir suç işlemeye zorlaması veya itirazsız bir şekilde yönlendirmesi anlamına gelir. Eğer tahrik edilen kişi bu tahrik sonucu suç işliyorsa, tahrik eden kişi bu suçun azmettiricisi sayılır ve buna göre cezalandırılır. Bu durumda, suçun faili tahrik edilen kişi olurken, ceza sorumluluğu tahrik eden kişiye yüklenir.
+
+3. **Dayanak maddeler:**  
+- TÜRK CEZA KANUNU m.214/3: ""Tahrik konusu suçların işlenmesi halinde, tahrik eden kişi, bu suçlara azmettiren sıfatıyla cezalandırılır.""
+
+4. **Not / sınırlılık:**  
+Bu madde sadece tahrik eden kişinin cezalandırılmasını öngörür; tahrik edilen kişi ise suçun faili olarak değerlendirilir. Ancak, haksız tahrikin meydana gelip gelmediği ve bu tahrikin suç işlenmesindeki etkisi, mahkemede değerlendirilerek karar verilir.",1_5_5237_MADDE_29,1_5_5237_MADDE_214; 1_5_5237_MADDE_223; 1_5_5237_MADDE_28; 1_5_5237_MADDE_107; 1_5_5237_MADDE_29; 1_5_5237_MADDE_129; 1_5_5237_MADDE_25; 1_5_6102_MADDE_61; 1_5_5237_MADDE_117; 1_5_5237_MADDE_277,TÜRK CEZA KANUNU m.214 | TÜRK CEZA KANUNU m.223 | TÜRK CEZA KANUNU m.28 | TÜRK CEZA KANUNU m.107 | TÜRK CEZA KANUNU m.29 | TÜRK CEZA KANUNU m.129 | TÜRK CEZA KANUNU m.25 | TÜRK TİCARET KANUNU m.61 | TÜRK CEZA KANUNU m.117 | TÜRK CEZA KANUNU m.277,0.0939597315436241,0.0671140939597315,1.0,1.0,0.0,0.0,wrong_or_unsupported_citation
+Q099,Medeni Hukuk,medium,Aile yurdu kurulunca malik üzerindeki temel sınırlama nedir?,"Aile yurdu olarak özgülenen taşınmaz ve eklentileri üzerinde malik, kanunda öngörülen sınırlar dışında serbestçe tasarruf edemez; aileyi korumaya yönelik kayıtlar doğar.","1. **Kısa cevap:**  
+Aile yurdu kurulunca malik üzerindeki temel sınırlama, taşınmazın tasarruf edilemez hale gelmesidir. Yani aile yurdu hâline getirilen taşınmaz devrolunamaz, rehnedilemez ve kiraya verilemez.
+
+2. **Şartlar / açıklama:**  
+Aile yurdu hâline getirilen taşınmazlar, malikin ailesinin barınma ve geçim ihtiyaçlarını karşılaması amacıyla koruma altına alınır. Bu durumda malik, taşınmaz üzerindeki tasarruf hakkını kaybeder. Aile yurdu, tapu kütüğüne şerh verilerek resmî olarak belirlenir ve bu durum, mal üzerindeki alacaklıların haklarını da etkiler. Aile yurdu, cebrî icra yoluyla el konulamaz ve malikin diğer malları da bu durumdan etkilenmez.
+
+3. **Dayanak maddeler:**  
+- **TÜRK MEDENİ KANUNU m.391:** ""Aile yurdu hâline getirilen taşınmazlar devrolunamaz, rehnedilemez ve kiraya verilemez. Aile yurdu ve eklentileri hakkında, mahkeme eliyle yönetim hâli saklı kalmak kaydıyla, cebrî icra yoluna başvurulamaz.""
+
+4. **Not / sınırlılık:**  
+Bu sınırlama, aile yurdu statüsünün devam ettiği sürece geçerlidir. Malikin ölümü veya aile yurdu statüsünün kaldırılması durumunda bu sınırlamalar ortadan kalkabilir.",1_5_4721_MADDE_386,1_5_4721_MADDE_387; 1_5_4721_MADDE_391; 1_5_4721_MADDE_392; 1_5_4787_MADDE_2; 1_5_4721_MADDE_394; 1_5_4721_MADDE_372; 1_5_4721_MADDE_389; 1_5_4721_MADDE_390; 1_5_4721_MADDE_386; 1_5_4787_MADDE_6,"TÜRK MEDENİ KANUNU m.387 | TÜRK MEDENİ KANUNU m.391 | TÜRK MEDENİ KANUNU m.392 | AİLE MAHKEMELERİNİN KURULUŞ, GÖREV VE YARGILAMA USULLERİNE DAİR KANUN m.2 | TÜRK MEDENİ KANUNU m.394 | TÜRK MEDENİ KANUNU m.372 | TÜRK MEDENİ KANUNU m.389 | TÜRK MEDENİ KANUNU m.390 | TÜRK MEDENİ KANUNU m.386 | AİLE MAHKEMELERİNİN KURULUŞ, GÖREV VE YARGILAMA USULLERİNE DAİR KANUN m.6",0.0946745562130177,0.0710059171597633,1.0,1.0,0.0,0.0,wrong_or_unsupported_citation
+Q171,Ticaret Hukuku,easy,Ticari iş karinesi neyi ifade eder?,Bir tacirin borçlarının ticari olması asıldır; taraflardan yalnız biri için ticari iş niteliğinde olan sözleşmeler kanunda aksi öngörülmedikçe diğer taraf için de ticari iş sayılır.,"1. **Kısa cevap**  
+Ticari iş karinesi, bir tacirin ticaretine ait faaliyetlerinde, basiretli bir iş adamı gibi hareket etmesi gerektiğine dair yükümlülüğü ifade eder.
+
+2. **Şartlar / açıklama**  
+Ticari iş karinesi, tacirlerin ticari faaliyetlerinde dürüstlük, özen ve mesleki bilgiye dayalı bir şekilde hareket etmesini gerektirir. Bu kavram, tacirlerin ticari işlemlerde karşı taraflara karşı sorumluluklarını ve ticari güvenilirliklerini ifade eder. Basiretli bir iş adamı gibi hareket etmek, ticari kararların alımında dikkatli, bilinçli ve mesleki standartlara uygun davranmayı kapsar.
+
+3. **Dayanak maddeler**  
+- **TÜRK TİCARET KANUNU m.18/2**: ""Her tacirin, ticaretine ait bütün faaliyetlerinde basiretli bir iş adamı gibi hareket etmesi gerekir.""
+
+4. **Not / sınırlılık**  
+Ticari iş karinesi, yalnızca tacirlerin ticari faaliyetlerine uygulanır ve bu yükümlülük, tacirin ticari sıfatı ile doğrudan ilişkilidir. Bu kavram, genel ticari örf ve âdetlerle de bağlantılıdır.",1_5_6102_MADDE_19,1_4_193_MADDE_39; 1_5_6102_MADDE_18; 1_4_193_MADDE_37; 1_4_193_MADDE_38; 1_5_6102_MADDE_3; 1_5_6102_MADDE_11; 1_5_6102_MADDE_90; 1_5_6102_MADDE_19; 1_5_6102_MADDE_1; 1_5_6102_MADDE_20,GELİR VERGİSİ KANUNU m.39 | TÜRK TİCARET KANUNU m.18 | GELİR VERGİSİ KANUNU m.37 | GELİR VERGİSİ KANUNU m.38 | TÜRK TİCARET KANUNU m.3 | TÜRK TİCARET KANUNU m.11 | TÜRK TİCARET KANUNU m.90 | TÜRK TİCARET KANUNU m.19 | TÜRK TİCARET KANUNU m.1 | TÜRK TİCARET KANUNU m.20,0.1045751633986928,0.0915032679738562,1.0,1.0,0.0,0.0,wrong_or_unsupported_citation
+Q179,Ticaret Hukuku,medium,Limited şirkette ortak sayısına ilişkin temel sınır nedir?,Limited şirket bir veya daha çok gerçek ya da tüzel kişi tarafından kurulabilir; ortak sayısı elliyi aşamaz.,"1. **Kısa cevap:**  
+Limited şirketlerde ortak sayısı en fazla elli olabilir.
+
+2. **Şartlar / açıklama:**  
+Limited şirketlerde ortak sayısının temel sınırı, Türk Ticaret Kanunu’nun 574. maddesinde belirlenmiştir. Bu maddeye göre, ortak sayısı elli kişiyi aşamaz. Bu sınır, şirketin kuruluşundan sonra da geçerlidir. Ortak sayısı bire düşerse, bu durumun tescil ve ilan edilmesiyle ilgili özel prosedürler uygulanır.
+
+3. **Dayanak maddeler:**  
+- **TÜRK TİCARET KANUNU m.574**  
+  (1) Ortakların sayısı elliyi aşamaz.
+
+4. **Not / sınırlılık:**  
+Bağlamda yer alan diğer mevzuat kaynaklarında (örneğin, anonim şirketlerle ilgili hükümler veya kooperatiflerle ilgili mevzuat) ortak sayısı ile ilgili farklı düzenlemeler yer almakla birlikte, bu sorunun konusu olan ""limited şirket"" için geçerli olan temel hukuki dayanak, Türk Ticaret Kanunu’nun 574. maddesidir. Diğer mevzuat kaynakları bu soruya doğrudan cevap vermez.",1_5_6102_MADDE_573,1_5_6102_MADDE_574; 1_5_6102_MADDE_573; 1_5_6103_MADDE_23; 1_5_1163_MADDE_78; 1_5_6102_MADDE_572; 1_5_6102_MADDE_629; 1_5_6102_MADDE_304; 1_5_6102_MADDE_580; 1_5_6102_MADDE_577; 1_5_6102_MADDE_618,TÜRK TİCARET KANUNU m.574 | TÜRK TİCARET KANUNU m.573 | TÜRK TİCARET KANUNUNUN YÜRÜRLÜĞÜ VE UYGULAMA ŞEKLİ HAKKINDA KANUN m.23 | KOOPERATİFLER KANUNU m.78 | TÜRK TİCARET KANUNU m.572 | TÜRK TİCARET KANUNU m.629 | TÜRK TİCARET KANUNU m.304 | TÜRK TİCARET KANUNU m.580 | TÜRK TİCARET KANUNU m.577 | TÜRK TİCARET KANUNU m.618,0.1142857142857142,0.0857142857142857,1.0,1.0,0.0,0.0,wrong_or_unsupported_citation
+Q091,Medeni Hukuk,medium,Gaiplik kararı istenebilmesi için ölüm tehlikesi hâlinde ne kadar süre geçmelidir?,"Ölüm tehlikesi içinde kaybolan kişi hakkında, tehlikenin üzerinden en az bir yıl geçmişse gaiplik istenebilir.","1. **Kısa cevap**  
+Gaiplik kararı istenebilmesi için ölüm tehlikesi hâlinde en az bir yıl geçmelidir.
+
+2. **Şartlar / açıklama**  
+Ölüm tehlikesi içinde kaybolan bir kişiyle ilgili gaiplik kararı istenebilmesi için, ölüm tehlikesinin gerçekleştiği tarihten itibaren en az bir yıl geçmesi gerekir. Bu süre, son haber tarihi üzerinden hesaplanan beş yıl süresinden daha kısadır ve ölüm tehlikesi durumunda geçerlidir.
+
+3. **Dayanak maddeler**  
+- **TÜRK MEDENİ KANUNU m.33**  
+  ""Gaiplik kararının istenebilmesi için, ölüm tehlikesinin üzerinden en az bir yıl veya son haber tarihinin üzerinden en az beş yıl geçmiş olması gerekir.""
+
+4. **Not / sınırlılık**  
+Bu süre, mahkemeye yapılacak başvurunun temel şartıdır. Ayrıca, mahkeme, gaipliğine karar verilecek kişi hakkında bilgi sahibi olan kişileri belirli bir süre içinde bilgi vermeleri için ilânla çağırır. Bu ilân süresi en az altı aydır.",1_5_4721_MADDE_32,1_5_4721_MADDE_33; 1_5_4721_MADDE_584; 1_5_4721_MADDE_35; 1_5_4721_MADDE_32; 1_5_4721_MADDE_31; 1_5_4721_MADDE_588; 1_5_2827_MADDE_5; 1_5_4721_MADDE_45; 1_5_4721_MADDE_44; 1_5_4721_MADDE_34,TÜRK MEDENİ KANUNU m.33 | TÜRK MEDENİ KANUNU m.584 | TÜRK MEDENİ KANUNU m.35 | TÜRK MEDENİ KANUNU m.32 | TÜRK MEDENİ KANUNU m.31 | TÜRK MEDENİ KANUNU m.588 | NÜFUS PLANLAMASI HAKKINDA KANUN m.5 | TÜRK MEDENİ KANUNU m.45 | TÜRK MEDENİ KANUNU m.44 | TÜRK MEDENİ KANUNU m.34,0.1678321678321678,0.1258741258741258,1.0,1.0,0.0,0.0,wrong_or_unsupported_citation
+Q035,Medeni Hukuk,medium,"Evlilik birliğinin sarsılması nedeniyle açılan boşanma davasında ""ortak hayatın yeniden kurulması""nın hukuki sonucu nedir?","Evlilik birliğinin sarsılması sebebiyle açılan boşanma davası reddedilir ve karar kesinleşmesinden itibaren üç yıl içinde ortak hayat yeniden kurulamamış olursa, evlilik birliği temelinden sarsılmış sayılır ve eşlerden birinin istemi üzerine boşanmaya karar verilir.","1. **Kısa cevap:**  
+Evlilik birliğinin sarsılması nedeniyle açılan boşanma davasında, ""ortak hayatın yeniden kurulması"" hâlinde boşanmaya karar verilmez; ayrılık kararı verilebilir.
+
+2. **Şartlar / açıklama:**  
+Evlilik birliği temelinden sarsılmış olsa bile, hâkim, ortak hayatın yeniden kurulma olasılığı bulunduğu takdirde boşanmaya değil, ayrılığa karar verebilir. Bu durumda, eşlerin birlikte yaşamaya dönmeleri hukuki olarak mümkün kılınır. Ancak, ayrılık süresi sona erdiğinde ortak hayat yeniden kurulmamışsa, eşlerden her biri boşanma davası açabilir.
+
+3. **Dayanak maddeler:**  
+- **TÜRK MEDENİ KANUNU m.170:** Boşanma sebebi ispatlanmış olursa, hâkim boşanmaya veya ayrılığa karar verir. Dava boşanmaya ilişkinse, ancak ortak hayatın yeniden kurulması olasılığı bulunduğu takdirde ayrılığa karar verilebilir.  
+- **TÜRK MEDENİ KANUNU m.172:** Ortak hayat yeniden kurulmamışsa, eşlerden her biri boşanma davası açabilir.
+
+4. **Not / sınırlılık:**  
+Bu hükümler, evlilik birliğinin sarsılması nedeniyle açılan boşanma davalarına özgüdür. Ortak hayatın yeniden kurulması, boşanma kararının verilmesini engeller; ancak bu durumun devamı, ayrılık süresi sonunda boşanma davasının açılmasını mümkün kılar.",1_5_4721_MADDE_166,1_5_4721_MADDE_166; 1_5_4721_MADDE_170; 1_5_4721_MADDE_172; 1_5_4721_MADDE_165; 1_5_4721_MADDE_164; 1_5_4721_MADDE_197; 1_5_4721_MADDE_163; 1_5_4721_MADDE_211; 1_5_4721_MADDE_195; 1_5_4721_MADDE_130,TÜRK MEDENİ KANUNU m.166 | TÜRK MEDENİ KANUNU m.170 | TÜRK MEDENİ KANUNU m.172 | TÜRK MEDENİ KANUNU m.165 | TÜRK MEDENİ KANUNU m.164 | TÜRK MEDENİ KANUNU m.197 | TÜRK MEDENİ KANUNU m.163 | TÜRK MEDENİ KANUNU m.211 | TÜRK MEDENİ KANUNU m.195 | TÜRK MEDENİ KANUNU m.130,0.1956521739130435,0.1521739130434782,1.0,1.0,0.0,0.0,wrong_or_unsupported_citation
+Q092,Medeni Hukuk,medium,Uzun zamandan beri haber alınamayan kişi hakkında gaiplik için ne kadar süre gerekir?,"Kendisinden uzun zamandan beri haber alınamayan kişi hakkında, son haber tarihinden başlayarak en az beş yıl geçmişse gaiplik istenebilir.","1. **Kısa cevap**  
+Uzun zamandan beri haber alınamayan kişi hakkında gaiplik kararı istenebilmesi için son haber tarihinin üzerinden en az **beş yıl** geçmiş olması gerekir.
+
+2. **Şartlar / açıklama**  
+Gaiplik kararı istenebilmesi için kişiyle ilgili son haber tarihinin üzerinden en az beş yıl geçmesi gerekir. Bu süre, kişinin ölüm tehlikesi içinde kaybolması durumunda bir yıl olarak da değişebilir. Mahkeme, gaipliğine karar verilecek kişi hakkında bilgi sahiplerini belirli bir süre içinde bilgilendirme zorunluluğu vardır. Bu süre, ilk ilânın yapıldığı günden itibaren en az altı aydır.
+
+3. **Dayanak maddeler**  
+- **TÜRK MEDENİ KANUNU m.33**  
+- **TÜRK MEDENİ KANUNU m.584**
+
+4. **Not / sınırlılık**  
+Gaiplik kararı, yalnızca belirli sürelerin dolması ve ilân usulüne uygun şekilde yapılması durumunda verilebilir. Bu süreler, kişinin kaybolma nedenine göre değişebilir.",1_5_4721_MADDE_32,1_5_4721_MADDE_33; 1_5_4721_MADDE_584; 1_5_4721_MADDE_588; 1_5_4721_MADDE_32; 1_5_4721_MADDE_35; 1_5_4721_MADDE_34; 1_5_2920_MADDE_17; 1_5_4721_MADDE_713; 1_5_5271_MADDE_244; 1_5_4721_MADDE_31,TÜRK MEDENİ KANUNU m.33 | TÜRK MEDENİ KANUNU m.584 | TÜRK MEDENİ KANUNU m.588 | TÜRK MEDENİ KANUNU m.32 | TÜRK MEDENİ KANUNU m.35 | TÜRK MEDENİ KANUNU m.34 | TÜRK SİVİL HAVACILIK KANUNU m.17 | TÜRK MEDENİ KANUNU m.713 | CEZA MUHAKEMESİ KANUNU m.244 | TÜRK MEDENİ KANUNU m.31,0.1985815602836879,0.1985815602836879,1.0,1.0,0.0,0.0,wrong_or_unsupported_citation
+Q051,Anayasa Hukuku,easy,Anayasa Mahkemesi'ne bireysel başvuru yapılabilmesi için hangi temel şartlar aranır?,"Bireysel başvuru yapılabilmesi için güncel ve kişisel bir hakkın kamu gücü tarafından ihlal edilmiş olması, başvurucunun bu ihlalden doğrudan etkilenmesi ve olağan kanun yollarının tüketilmiş olması gerekir.","**1. Kısa cevap**  
+Anayasa Mahkemesi'ne bireysel başvuru yapılabilmesi için başvurucunun Anayasada güvence altına alınmış temel hak ve özgürlüklerinden birinin kamu gücü tarafından ihlal edildiği iddiası bulunmalı, başvuru yollarının tüketilmiş olması gerekir ve başvurucunun ilgili işlem nedeniyle doğrudan bir hakkı etkilenmiş olmalıdır.
+
+---
+
+**2. Şartlar / açıklama**  
+- **Temel hak ve özgürlüklerin ihlali iddiası**: Başvurucunun Anayasada güvence altına alınmış temel hak ve özgürlüklerinden birinin, Avrupa İnsan Hakları Sözleşmesi ve protokolleri kapsamında da olmak üzere, kamu gücü tarafından ihlal edildiği iddiası bulunmalıdır.  
+- **Başvuru yollarının tüketilmesi**: İhlale yol açtığı ileri sürülen işlem, eylem ya da ihmal için kanunda öngörülmüş idari ve yargısal başvuru yollarının tamamının tüketilmiş olması gerekir.  
+- **Doğrudan etkilenmiş olma**: Başvuruda bulunan kişinin, ihlale yol açtığı ileri sürülen işlem nedeniyle güncel ve kişisel bir hakkı doğrudan etkilenmiş olmalıdır.  
+- **Zaman aşımı**: Başvurunun, başvuru yollarının tüketildiği tarihten itibaren 30 gün içinde yapılması gerekir. Haklı bir mazereti olanlar, mazeretin kalktığı tarihten itibaren 15 gün içinde başvurabilirler.  
+- **Başvuru dilekçesi ve belgeler**: Başvuru dilekçesinde başvurucunun kimlik bilgileri, ihlal edildiği ileri sürülen hak ve özgürlük, dayanılan Anayasa maddeleri, başvuru yollarının tüketildiği aşamalar ve deliller belirtilmelidir.  
+- **Harcın ödenmesi**: Bireysel başvurular harca tabidir.  
+- **Kamu tüzel kişileri ve yabancılar**: Kamu tüzel kişileri",1_5_2709_MADDE_148,1_5_6216_MADDE_45; 1_5_6216_MADDE_46; 1_5_6216_MADDE_48; 1_5_2709_MADDE_148; 1_5_6216_MADDE_47; 1_5_6216_MADDE_49; 1_5_2709_MADDE_149; 1_5_6216_MADDE_40; 1_5_6216_MADDE_3; 1_5_6384_GEÇİCİ_MADDE_2,ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.45 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.46 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.48 | TÜRKİYE CUMHURİYETİ ANAYASASI m.148 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.47 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.49 | TÜRKİYE CUMHURİYETİ ANAYASASI m.149 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.40 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.3 | TAZMİNAT KOMİSYONUNUN GÖREVLERİ İLE ÇALIŞMA USUL VE ESASLARI HAKKINDA KANUN geçici m.2,0.18348623853211,0.1559633027522935,1.0,0.0,0.0,0.0,missing_citation
+Q028,Ceza Muhakemesi Hukuku,medium,Telekomünikasyon yoluyla yapılan iletişimin denetlenmesi (dinleme) kararını kim verir? Acil durum yetkisi nedir?,Telekomünikasyon yoluyla iletişimin denetlenmesine kural olarak hâkim karar verir. Gecikmesinde sakınca bulunan hâllerde Cumhuriyet savcısı karar verebilir; bu karar kanundaki süre içinde hâkim onayına sunulur.,"**Cevap:**
+
+1. **Kısa cevap:**  
+Telekomünikasyon yoluyla yapılan iletişimin denetlenmesi (dinleme) kararını **hâkim** verir veya gecikmesinde sakınca bulunan hâllerde **Cumhuriyet savcısı** karar verir. Ancak, Cumhuriyet savcısı tarafından verilen kararlar en geç 24 saat içinde hâkimin onayına sunulur. **Acil durum yetkisi**, gecikmesinde sakınca bulunan hâllerde Cumhuriyet savcısının veya Jandarma Genel Komutanı veya istihbarat başkanının yazılı emriyle uygulanabilir.
+
+2. **Şartlar / açıklama:**  
+- Dinleme kararı, **suç işlendiğine ilişkin somut delillere dayanan kuvvetli şüphe sebeplerinin varlığı** ve **başka suretle delil elde edilmesi imkânının bulunmaması** durumunda verilir.  
+- Dinleme kararı, **belli suçlarla sınırlıdır** (örneğin: uyuşturucu ticareti, insan ticareti, terörle mücadele, devlet sır ihlalleri vb.).  
+- **Acil durum yetkisi**, gecikmesinde sakınca bulunan hâllerde Cumhuriyet savcısının veya Jandarma Genel Komutanı veya istihbarat başkanının yazılı emriyle uygulanabilir. Ancak bu kararlar da en geç 24 ila 48 saat içinde hâkimin onayına sunulmalıdır.  
+- Dinleme kararları en fazla **iki ay** için verilebilir ve **bir ay daha uzatılabilir**. Terörle mücadele gibi özel durumlarda bu süre **toplamda üç ayı geçmemek üzere** uzatılabilir.  
+- Dinleme kararları, **şüphelinin veya sanığın kimliği**, iletişim aracının türü, numarası ve tedbir süresi gibi bilgilerle birlikte belirtilmelidir.  
+- Dinleme kararları, **gizli tutulur**",1_5_5271_MADDE_135,1_5_5271_MADDE_135; 1_5_2803_MADDE_5; 1_5_2803_GEÇİCİ_MADDE_1; 1_3_2559_GEÇİCİ_MADDE_1; 1_5_5271_MADDE_137; 1_5_2803_GEÇİCİ_MADDE_2; 1_3_2559_GEÇİCİ_MADDE_2; 1_3_2559_MADDE_7; 1_5_2937_MADDE_6; 1_5_2709_MADDE_22,"CEZA MUHAKEMESİ KANUNU m.135 | JANDARMA TEŞKİLAT, GÖREV VE YETKİLERİ KANUNU m.5 | JANDARMA TEŞKİLAT, GÖREV VE YETKİLERİ KANUNU geçici m.1 | POLİS VAZİFE VE SALȂHİYET KANUNU geçici m.1 | CEZA MUHAKEMESİ KANUNU m.137 | JANDARMA TEŞKİLAT, GÖREV VE YETKİLERİ KANUNU geçici m.2 | POLİS VAZİFE VE SALȂHİYET KANUNU geçici m.2 | POLİS VAZİFE VE SALȂHİYET KANUNU m.7 | DEVLET İSTİHBARAT HİZMETLERİ VE MİLLİ İSTİHBARAT TEŞKİLATI KANUNU m.6 | TÜRKİYE CUMHURİYETİ ANAYASASI m.22",0.1895734597156398,0.1706161137440758,1.0,0.0,0.0,0.0,missing_citation
+Q011,Borçlar Hukuku,medium,Kira sözleşmelerinde kiracının temerrüdü nedeniyle tahliye şartları nelerdir?,"Kiracının temerrüdünde kiraya veren, muaccel kira borcu için kiracıya yazılı süre verir ve bu sürede ödeme yapılmazsa sözleşmeyi feshedeceğini bildirir. Konut ve çatılı işyeri kiralarında bu süre en az otuz gündür.","**Cevap:**
+
+1. **Kısa cevap:**  
+Kiracının temerrüdü nedeniyle kira sözleşmesinin tahliye şartları, temerrüdeki ödeme süresine, sözleşmenin süresine ve kiraya verenin bildirim süresine bağlı olarak belirlenir. Genel olarak, kiracı kira bedelini ödemezse kiraya veren, belirli bir süre vererek ve bu sürenin sonunda ödeme yapmaması durumunda sözleşmeyi feshedeceğini bildirebilir. Bu sürenin ardından dava yoluyla tahliye istenebilir.
+
+2. **Şartlar / açıklama:**  
+- **Kısa süreli kira sözleşmelerinde (bir yıldan kısa):** Kiracı kira bedelini ödemediğinde, kiraya veren, iki haklı ihtar vererek ve bu ihtarların yapıldığı kira süresinin sonunda bir ay içinde dava yoluyla sözleşmeyi sona erdirebilir.  
+- **Uzun süreli kira sözleşmelerinde (bir yıl ve üzeri):** Kiracı bir kira yılını veya onu aşan bir süreyi temerrüde geçirdiğinde, iki haklı ihtar verilmesi ve bu ihtarların yapıldığı kira yılının sonunda bir ay içinde dava yoluyla sözleşmeyi sona erdirebilir.  
+- **Temerrüdeki ödeme süresi:** Genel olarak, kiracı kira bedelini ödemezse kiraya veren, kiracıya yazılı olarak en az on gün (konut ve çatılı işyeri kiralarında en az otuz gün) süre vererek, bu sürede ödeme yapmaması durumunda sözleşmeyi feshedeceğini bildirebilir.  
+- **Dava süresi:** Sözleşmenin sona erdirilmesi için dava, belirtilen süreler içinde açılmalıdır.  
+- **Tahliye:** Dava sonucunda mahkeme, kiracının taşınmazın tahliyesini emredebilir. Bu durumda, kiracı tahliye emrine uymazsa z",1_5_6098_MADDE_315,1_5_6098_MADDE_352; 1_5_6098_MADDE_316; 1_5_6361_MADDE_31; 1_5_6098_MADDE_314; 1_5_6098_MADDE_362; 1_5_6098_MADDE_315; 1_5_6098_MADDE_350; 1_3_2004_MADDE_272; 1_5_6098_MADDE_325; 1_5_6098_MADDE_346,"TÜRK BORÇLAR KANUNU m.352 | TÜRK BORÇLAR KANUNU m.316 | FİNANSAL KİRALAMA, FAKTORİNG, FİNANSMAN VE TASARRUF FİNANSMAN ŞİRKETLERİ KANUNU m.31 | TÜRK BORÇLAR KANUNU m.314 | TÜRK BORÇLAR KANUNU m.362 | TÜRK BORÇLAR KANUNU m.315 | TÜRK BORÇLAR KANUNU m.350 | İCRA VE İFLAS KANUNU m.272 | TÜRK BORÇLAR KANUNU m.325 | TÜRK BORÇLAR KANUNU m.346",0.2181818181818181,0.1545454545454545,1.0,0.0,0.0,0.0,missing_citation
+Q064,Borçlar Hukuku,medium,Temerrüt için ihtar hangi durumda aranmaz?,"İfa günü taraflarca birlikte belirlenmişse veya sözleşmede saklı tutulan bir hakka dayanılarak taraflardan biri usulüne uygun bildirimle ifa gününü belirlemişse, bu günün geçmesiyle borçlu ihtara gerek olmaksızın temerrüde düşer.","1. **Kısa cevap:**  
+Temerrüt için ihtar, borçlunun borcunu ifa edebilmesi için alacaklının ihtarı olmadan temerrüde düşmeyeceği durumlar dışında aranır. Ancak bazı özel hukuk alanlarında, özellikle ticaret ve ceza hukuku çerçevesinde, ihtar şartı aranmaz.
+
+2. **Şartlar / açıklama:**  
+Temerrüde düşmenin genel kuralı, Türk Borçlar Kanunu’nun 117. maddesine göre alacaklının ihtarıyla gerçekleşir. Ancak, bu genel kuralın dışına çıkan durumlar da vardır. Örneğin, Türk Ticaret Kanunu’nun 1293. maddesine göre çatma sonucu zararın tazmini için ihtar şartı aranmaz. Ayrıca, Asayişe Müessir Bazı Fiillerin Önlenmesi Kanunu’nun 2. maddesine göre, polis veya jandarma gibi kuvvetlere karşı silah kullanmaya teşebbüs eden kişilerde de ihtar şartı aranmaz.
+
+3. **Dayanak maddeler:**  
+- **Türk Borçlar Kanunu, Madde 117**  
+- **Türk Ticaret Kanunu, Madde 1293**  
+- **Asayişe Müessir Bazı Fiillerin Önlenmesi Kanunu, Madde 2**
+
+4. **Not / sınırlılık:**  
+Verilen mevzuat bağlamında, temerrüt için ihtar şartının aranmadığı durumlar sadece yukarıda belirtilen maddelerde yer alır. Diğer durumlarda genel kural olan ihtar şartı geçerlidir. Bağlamda yer almayan özel durumlar veya diğer hukuk alanları için mevzuat dışı yorum yapılmamıştır.",1_5_6098_MADDE_117,1_5_6098_MADDE_117; 1_5_6102_MADDE_1293; 1_5_1481_MADDE_2; 1_5_6100_MADDE_396; 1_5_6098_MADDE_106; 1_4_213_MADDE_142; 1_5_6098_MADDE_119; 1_3_4473_MADDE_7; 1_5_3713_MADDE_20; 1_5_6100_MADDE_389,"TÜRK BORÇLAR KANUNU m.117 | TÜRK TİCARET KANUNU m.1293 | ASAYİŞE MÜESSİR BAZI FİİLLERİN ÖNLENMESİ HAKKINDA KANUN m.2 | HUKUK MUHAKEMELERİ KANUNU m.396 | TÜRK BORÇLAR KANUNU m.106 | VERGİ USUL KANUNU m.142 | TÜRK BORÇLAR KANUNU m.119 | YANGIN, YERSARSINTISI, SEYLAP VEYA HEYELAN SEBEBİYLE MAHKEME VE ADLİYE DAİRELERİNDE ZİYAA UĞRAYAN DOSYALAR HAKKINDA YAPILACAK MUAMELELERE DAİR KANUN m.7 | TERÖRLE MÜCADELE KANUNU m.20 | HUKUK MUHAKEMELERİ KANUNU m.389",0.0416666666666666,0.0208333333333333,1.0,1.0,1.0,1.0,low_answer_overlap
+Q023,Ceza Hukuku,easy,"Ceza hukukunda ""yer yönünden uygulama""da ""mülkilik ilkesi""nin anlamı nedir?",Mülkilik ilkesi gereğince Türkiye’de işlenen suçlara Türk ceza kanunları uygulanır. Fiilin kısmen veya tamamen Türkiye’de işlenmesi ya da neticenin Türkiye’de gerçekleşmesi halinde suç Türkiye’de işlenmiş sayılır.,"**Cevap:**
+
+1. **Kısa cevap:**  
+Mülkilik ilkesi, ceza hukukunda ""yer yönünden uygulama"" bağlamında doğrudan bir yer belirleme kriteri olarak kullanılmamaktadır. Bu ilke, genellikle özel hukukta, özellikle mülkiyet ve aynî haklara ilişkin uygulamalarda geçerlidir. Ceza hukukunda yer yönünden uygulama, genellikle suçun işlendiği yer, sanığın yerleşim yeri veya malın bulunduğu yer gibi kriterlere dayanır.
+
+2. **Şartlar / açıklama:**  
+Ceza hukukunda yer yönünden uygulama, genellikle suçun işlendiği yer, sanığın yerleşim yeri veya malın bulunduğu yer gibi kriterlere dayanır. Mülkiyet ilkesi, özel hukukta malların bulunduğu yerin hukukunun uygulanmasını öngörürken, ceza hukukunda bu kavram doğrudan yer belirleme kriteri olarak kullanılmamaktadır. Ceza hukukunda yetki ve uygulanacak hukukun belirlenmesi, suçun işlendiği yer, sanığın yerleşim yeri veya malın bulunduğu yer gibi unsurlara göre yapılır.
+
+3. **Dayanak maddeler:**  
+- **CEZA MUHAKEMESİ KANUNU m.12**  
+- **CEZA MUHAKEMESİ KANUNU m.13**  
+- **CEZA MUHAKEMESİ KANUNU m.14**  
+- **CEZA MUHAKEMESİ KANUNU m.15**  
+- **TÜRK CEZA KANUNU m.8**  
+- **TÜRK CEZA KANUNU m.13**  
+- **TÜRK CEZA KANUNU m.19**
+
+4. **Not / sınırlılık:**  
+Mülkilik ilkesi, özel hukukta (örneğin, **MİLLETLERARASI ÖZEL HUKUK VE USUL HUKUKU HAKKINDA KANUN m.",1_5_5237_MADDE_8,1_5_5718_MADDE_21; 1_5_5271_MADDE_13; 1_5_5237_MADDE_8; 1_5_5271_MADDE_12; 1_5_5237_MADDE_19; 1_5_5237_MADDE_3; 1_5_6100_MADDE_12; 1_5_5271_MADDE_15; 1_5_5271_MADDE_14; 1_5_5237_MADDE_13,MİLLETLERARASI ÖZEL HUKUK VE USUL HUKUKU HAKKINDA KANUN m.21 | CEZA MUHAKEMESİ KANUNU m.13 | TÜRK CEZA KANUNU m.8 | CEZA MUHAKEMESİ KANUNU m.12 | TÜRK CEZA KANUNU m.19 | TÜRK CEZA KANUNU m.3 | HUKUK MUHAKEMELERİ KANUNU m.12 | CEZA MUHAKEMESİ KANUNU m.15 | CEZA MUHAKEMESİ KANUNU m.14 | TÜRK CEZA KANUNU m.13,0.05,0.04,1.0,1.0,1.0,1.0,low_answer_overlap
+Q121,Anayasa Hukuku,easy,Anayasa'ya göre egemenlik kime aittir?,Egemenlik kayıtsız şartsız Milletindir.,"1. **Kısa cevap:**  
+Anayasa'ya göre egemenlik kayıtsız ve şartsız Türk Milletine aittir.
+
+2. **Şartlar / açıklama:**  
+Egemenlik, Türk Milleti'ne aittir ve bu egemenlik, Anayasanın koyduğu esaslara göre yetkili devlet organları eliyle kullanılır. Egemenlik, belli bir kişiye, zümreye veya sınıfa bırakılamaz. Devlet yetkisi yalnızca Anayasadaki esaslara dayanarak kullanılabilir.
+
+3. **Dayanak maddeler:**  
+- **TÜRKİYE CUMHURİYETİ ANAYASASI m.6**  
+- **SİYASİ PARTİLER KANUNU m.78**
+
+4. **Not / sınırlılık:**  
+Bu cevap, verilen bağlamdaki mevzuat metinlerine dayanmaktadır. Bağlamda yer alan diğer maddeler (örneğin Anayasa m.5, m.7, m.103 vb.) egemenlikle dolaylı ilişkili olabilir, ancak egemenliğin doğrudan sahibi konusunda net ifade sadece Anayasa m.6 ve Siyasi Partiler Kanunu m.78'de yer alır.",1_5_2709_MADDE_6,1_5_2709_MADDE_6; 1_5_2820_MADDE_78; 1_5_2709_MADDE_103; 1_5_2709_MADDE_5; 1_5_2709_MADDE_104; 1_5_2709_MADDE_177; 1_5_2709_MADDE_7; 1_5_2709_MADDE_18; 1_5_2709_MADDE_11; 1_5_6216_MADDE_3,TÜRKİYE CUMHURİYETİ ANAYASASI m.6 | SİYASİ PARTİLER KANUNU m.78 | TÜRKİYE CUMHURİYETİ ANAYASASI m.103 | TÜRKİYE CUMHURİYETİ ANAYASASI m.5 | TÜRKİYE CUMHURİYETİ ANAYASASI m.104 | TÜRKİYE CUMHURİYETİ ANAYASASI m.177 | TÜRKİYE CUMHURİYETİ ANAYASASI m.7 | TÜRKİYE CUMHURİYETİ ANAYASASI m.18 | TÜRKİYE CUMHURİYETİ ANAYASASI m.11 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.3,0.0512820512820512,0.0512820512820512,1.0,1.0,1.0,1.0,low_answer_overlap
+Q167,Medeni Hukuk,easy,Aile konutu şerhinin temel amacı nedir?,Aile konutu üzerindeki tasarrufların diğer eşin rızası olmaksızın yapılmasını önleyerek aileyi korumaktır.,"1. **Kısa cevap**  
+Aile konutu şerhinin temel amacı, aile birliğini korumak ve konutun aile üyelerinin barınma ve geçim ihtiyaçlarını karşılayacak şekilde korunmasını sağlamaktır.
+
+2. **Şartlar / açıklama**  
+Aile konutu şerhi, bir taşınmaz malın aile yurdu olarak niteliğinin tanınmasını ve bu niteliğin korunmasını sağlar. Bu şerh, aile bireylerinden birinin konut üzerindeki haklarını sınırlamak ve diğer aile bireylerinin barınma hakkına sahip olmalarını güvence altına almak amacıyla düzenlenir. Özellikle eşlerden birinin, diğerinin rızasız eylemlerini engellemek ve aile konutunun devredilmesini veya kiralanmasını kısıtlamak amacı taşır.
+
+3. **Dayanak maddeler**  
+- **TÜRK MEDENİ KANUNU m.194**  
+- **TÜRK MEDENİ KANUNU m.390**  
+- **TÜRKİYE CUMHURİYETİ ANAYASASI m.41**
+
+4. **Not / sınırlılık**  
+Verilen mevzuat bağlamında, aile konutu şerhinin temel amacı doğrudan ifade edilmemiştir; ancak ilgili maddelerden çıkarımlar yapılarak aile birliğinin korunması ve aile konutunun barınma ihtiyacını karşılaması yönünde bir amaca ulaşılmıştır. Ayrıntılı bir tanım için ilgili kanun metinlerinin tamamı incelenmelidir.",1_5_4721_MADDE_194,1_5_2946_MADDE_1; 1_5_4721_MADDE_194; 1_5_4721_MADDE_387; 1_5_4787_MADDE_6; 1_5_2709_MADDE_41; 1_5_4721_MADDE_394; 1_5_4787_MADDE_7; 1_5_4787_MADDE_1; 1_5_4721_MADDE_372; 1_5_4721_MADDE_390,"KAMU KONUTLARI KANUNU m.1 | TÜRK MEDENİ KANUNU m.194 | TÜRK MEDENİ KANUNU m.387 | AİLE MAHKEMELERİNİN KURULUŞ, GÖREV VE YARGILAMA USULLERİNE DAİR KANUN m.6 | TÜRKİYE CUMHURİYETİ ANAYASASI m.41 | TÜRK MEDENİ KANUNU m.394 | AİLE MAHKEMELERİNİN KURULUŞ, GÖREV VE YARGILAMA USULLERİNE DAİR KANUN m.7 | AİLE MAHKEMELERİNİN KURULUŞ, GÖREV VE YARGILAMA USULLERİNE DAİR KANUN m.1 | TÜRK MEDENİ KANUNU m.372 | TÜRK MEDENİ KANUNU m.390",0.0522875816993464,0.0522875816993464,1.0,1.0,1.0,1.0,low_answer_overlap
+Q113,İş Hukuku,medium,Haftalık çalışma süresi kural olarak ne kadardır?,Genel bakımdan çalışma süresi haftada en çok kırk beş saattir.,"1. **Kısa cevap**  
+Haftalık çalışma süresi kural olarak genelde **40 saattir**.
+
+2. **Şartlar / açıklama**  
+Haftalık çalışma süresi, genel olarak 40 saattir ve bu süre genellikle Cumartesi ve Pazar günleri tatil olmak üzere düzenlenir. Ancak özel kanunlar, yönetmelikler veya kurumların özellikleri dikkate alınarak farklı çalışma süreleri belirlenebilir. Bazı özel sektörlerde (örneğin turizm, madencilik) farklı çalışma süreleri ve denkleştirme uygulamaları da mevcuttur.
+
+3. **Dayanak maddeler**  
+- DEVLET MEMURLARI KANUNU m.99  
+- İŞ KANUNU m.63  
+- TÜRK SİLÂHLI KUVVETLERİ PERSONEL KANUNU m.2  
+- ÇARŞI VE MAHALLE BEKÇİLERİ KANUNU m.12  
+- DENİZ İŞ KANUNU m.26  
+
+4. **Not / sınırlılık**  
+Haftalık çalışma süresi, işin niteliği, sektör özel durumları veya özel kanunlar çerçevesinde değişebilir. Örneğin iş kanununa göre genel çalışma süresi 45 saate kadar çıkabilir ve bu süreyi aşan çalışmalar fazla çalışma olarak değerlendirilir. Her durumda özel mevzuat ve yönetmelikler bu süreyi etkileyebilir.",1_5_4857_MADDE_63,1_5_657_MADDE_99; 1_5_4857_MADDE_63; 1_5_926_MADDE_2; 1_5_4857_MADDE_41; 1_5_7245_MADDE_12; 1_5_854_MADDE_26; 1_5_4857_MADDE_76; 1_5_6098_MADDE_421; 1_5_4857_MADDE_46; 1_3_5953_MADDE_1,DEVLET MEMURLARI KANUNU m.99 | İŞ KANUNU m.63 | TÜRK SİLÂHLI KUVVETLERİ PERSONEL KANUNU m.2 | İŞ KANUNU m.41 | ÇARŞI VE MAHALLE BEKÇİLERİ KANUNU m.12 | DENİZ İŞ KANUNU m.26 | İŞ KANUNU m.76 | TÜRK BORÇLAR KANUNU m.421 | İŞ KANUNU m.46 | BASIN MESLEĞİNDE ÇALIŞANLARLA ÇALIŞTIRANLAR ARASINDAKİ MÜNASEBETLERİN TANZİMİ HAKKINDA KANUN m.1,0.0526315789473684,0.0394736842105263,1.0,1.0,1.0,1.0,low_answer_overlap
+Q060,Anayasa Hukuku,easy,Anayasa'ya göre devletin şekli nedir?,Türkiye Devleti bir Cumhuriyettir.,"1. **Kısa cevap**  
+Türkiye Devleti, Anayasa'ya göre bir **Cumhuriyet** şekline sahiptir.
+
+2. **Şartlar / açıklama**  
+Anayasa, Türkiye Devletinin Cumhuriyet olduğunu açıkça belirtir. Bu, devletin egemenliğinin millete ait olduğunu ve bu egemenliğin, Anayasa ve kanunlar çerçevesinde, halkın seçtiği organlar aracılığıyla kullanılacağını ifade eder. Cumhuriyetin temel ilkeleri arasında demokrasi, laiklik ve sosyal hukuk devleti yer alır.
+
+3. **Dayanak maddeler**  
+- [2] **TÜRKİYE CUMHURİYETİ ANAYASASI m.1**: ""Türkiye Devleti bir Cumhuriyettir.""
+- [3] **TÜRKİYE CUMHURİYETİ ANAYASASI m.2**: Türkiye Cumhuriyeti’nin demokratik, laik ve sosyal bir hukuk devleti niteliği belirtilmiştir.
+- [8] **TÜRKİYE CUMHURİYETİ ANAYASASI m.103**: Cumhurbaşkanının andıçerinde de ""laik Cumhuriyet ilkesine bağlı kalacağı"" ifade edilmiştir.
+
+4. **Not / sınırlılık**  
+Anayasa, devletin şekli olarak sadece ""Cumhuriyet"" ifadesini kullanır. Devletin yönetim şekli (örneğin, cumhurbaşkanlığı sistemi gibi) Anayasa'nın diğer bölümlerinde ayrıntılı olarak düzenlenmiştir. Bu soruya doğrudan cevap veren temel dayanak, Anayasa'nın 1. maddesidir.",1_5_2709_MADDE_1,1_5_2820_MADDE_78; 1_5_2709_MADDE_1; 1_5_2709_MADDE_2; 1_5_2709_MADDE_3; 1_5_2709_MADDE_14; 1_5_2709_MADDE_5; 1_5_2709_MADDE_148; 1_5_2709_MADDE_103; 1_5_2709_MADDE_104; 1_5_2709_MADDE_13,SİYASİ PARTİLER KANUNU m.78 | TÜRKİYE CUMHURİYETİ ANAYASASI m.1 | TÜRKİYE CUMHURİYETİ ANAYASASI m.2 | TÜRKİYE CUMHURİYETİ ANAYASASI m.3 | TÜRKİYE CUMHURİYETİ ANAYASASI m.14 | TÜRKİYE CUMHURİYETİ ANAYASASI m.5 | TÜRKİYE CUMHURİYETİ ANAYASASI m.148 | TÜRKİYE CUMHURİYETİ ANAYASASI m.103 | TÜRKİYE CUMHURİYETİ ANAYASASI m.104 | TÜRKİYE CUMHURİYETİ ANAYASASI m.13,0.054421768707483,0.054421768707483,1.0,1.0,1.0,1.0,low_answer_overlap
+Q173,Ticaret Hukuku,medium,Ticari defter tutma yükümlülüğü kimler için doğar?,Her tacir ticari defterleri tutmak ve ticari işlemleriyle malvarlığı durumunu bu defterlerden izlenebilir kılmak zorundadır.,"**Cevap:**
+
+1. **Kısa cevap:**  
+Ticari defter tutma yükümlülüğü, ticaret ve sanat erbabı, ticaret şirketleri, iktisadi kamu müesseseleri, dernek ve vakıflara ait iktisadi işletmeler, serbest meslek erbabı ve çiftçiler için doğar.
+
+2. **Şartlar / açıklama:**  
+Ticari defter tutma yükümlülüğü, bu kişilerin ticari faaliyetlerinin niteliğine ve vergi mevzuatına göre belirlenen sınıflandırmalarına göre doğar. Ticaret ve serbest meslek erbabı, tüzel kişiler ve bazı özel sektör işletmeleri bu yükümlülüğe tabidir. Gelir vergisinden muaf esnaf ve bazı özel durumlarda bu yükümlülükten istisna olunabilir.
+
+3. **Dayanak maddeler:**  
+- **VERGİ USUL KANUNU m.172**  
+- **TÜRK TİCARET KANUNU m.64**
+
+4. **Not / sınırlılık:**  
+Bu yükümlülük, Vergi Usul Kanunu ve Türk Ticaret Kanunu kapsamında belirlenen kişiler için geçerlidir. Ticari defter tutma yükümlülüğü, bazı özel durumlarda (örneğin, gelir vergisinden muaf esnaf gibi) istisnalarla uygulanmaz.",1_5_6102_MADDE_64,1_4_213_MADDE_172; 1_5_6102_MADDE_82; 1_5_6102_MADDE_64; 1_4_213_MADDE_232; 1_4_213_MADDE_173; 1_5_6102_MADDE_87; 1_4_213_MADDE_137; 1_4_213_MADDE_208; 1_4_213_MADDE_176; 1_4_213_MADDE_175,VERGİ USUL KANUNU m.172 | TÜRK TİCARET KANUNU m.82 | TÜRK TİCARET KANUNU m.64 | VERGİ USUL KANUNU m.232 | VERGİ USUL KANUNU m.173 | TÜRK TİCARET KANUNU m.87 | VERGİ USUL KANUNU m.137 | VERGİ USUL KANUNU m.208 | VERGİ USUL KANUNU m.176 | VERGİ USUL KANUNU m.175,0.0579710144927536,0.0579710144927536,1.0,1.0,1.0,1.0,low_answer_overlap
+Q010,Borçlar Hukuku,hard,"Borçlar hukukunda ""temerrüt faizi"" başlangıcı için ihtar şartı hangi durumlarda aranmaz?",Borç muaccel olduğu halde ifa günü taraflarca birlikte belirlenmişse veya sözleşmede saklı tutulmuş bir bildirimle belirlenebiliyorsa ihtar gerekmeden temerrüt gerçekleşir. Borçlu ifayı açıkça reddetmişse de ihtar aranmaz.,"1. **Kısa cevap**  
+Ticari işletmeler arasında mal ve hizmet tedariki amacıyla yapılan işlemlerde, alacaklı kanundan veya sözleşmeden doğan tedarik borcunu yerine getirmişse ve borçlunun gecikmeden sorumlu tutulamayacağı hâller hariç, ihtar şartı aranmaz.
+
+2. **Şartlar / açıklama**  
+İhtar şartı aranmaz durumu, sadece ticari işletmeler arasında mal ve hizmet tedariki sözleşmeleri kapsamında, alacaklının tedarik borcunu yerine getirmiş olması ve borçlunun gecikmeden sorumlu tutulamayacağı hâller hariç olarak geçerlidir. Bu durumda, borçlunun temerrüde düşmesi için herhangi bir ihtar gerekmez.
+
+3. **Dayanak maddeler**  
+- **TÜRK TİCARET KANUNU m.1530/2**: ""Ticari işletmeler arasında mal ve hizmet tedariki amacıyla yapılan işlemlerde, alacaklı, kanundan veya sözleşmeden doğan tedarik borcunu yerine getirmiş olmasına rağmen, borçlunun gecikmeden sorumlu tutulamayacağı hâller hariç, sözleşmede öngörülmüş bulunan tarihte veya belirtilen ödeme süresinde borcunu ödemezse, ihtara gerek olmaksızın temerrüde düşer.""
+
+4. **Not / sınırlılık**  
+Bu madde sadece ticari işletmeler arasında yapılan tedarik sözleşmeleri kapsamında geçerlidir. Genel borçlar hukuku kapsamında, Türk Borçlar Kanunu'nda genellikle ihtar şartı aranır (bkz. TÜRK BORÇLAR KANUNU m.117). Bu nedenle, yukarıdaki durum sadece ticari işlemler kapsamında geçerlidir.",1_5_6098_MADDE_117,1_5_6102_MADDE_1530; 1_5_6098_MADDE_117; 1_5_6098_MADDE_124; 1_5_6098_MADDE_121; 1_5_6098_MADDE_123; 1_5_3095_MADDE_2; 1_5_6098_MADDE_125; 1_5_6098_MADDE_154; 1_5_6098_MADDE_120; 1_5_6098_MADDE_153,TÜRK TİCARET KANUNU m.1530 | TÜRK BORÇLAR KANUNU m.117 | TÜRK BORÇLAR KANUNU m.124 | TÜRK BORÇLAR KANUNU m.121 | TÜRK BORÇLAR KANUNU m.123 | KANUNİ FAİZ VE TEMERRÜT FAİZİNE İLİŞKİN KANUN m.2 | TÜRK BORÇLAR KANUNU m.125 | TÜRK BORÇLAR KANUNU m.154 | TÜRK BORÇLAR KANUNU m.120 | TÜRK BORÇLAR KANUNU m.153,0.0606060606060606,0.0404040404040404,1.0,1.0,1.0,1.0,low_answer_overlap
+Q177,Ticaret Hukuku,medium,Acentenin ücret hakkı hangi durumda doğar?,"Acente, aracılık ettiği veya yaptığı işlemler nedeniyle kanunda öngörülen şartlarla ücret isteyebilir.","**Cevap:**
+
+1. **Kısa cevap:**  
+Acentenin ücret hakkı, kurulan işlem yerine getirildiği anda ve ölçüde doğar.
+
+2. **Şartlar / açıklama:**  
+Acente, işlemi kurduğu anda ve işlem bu şekilde yerine getirildiği ölçüde ücret hakkı kazanır. Ancak acentelik sözleşmesiyle bu kural değiştirilebilir. Ayrıca, acentenin ücret hakkı, müvekkilin işlemi yerine getirmemesi veya üçüncü kişinin işlemi yerine getirmeyeceğini belirtmesi durumunda düşebilir. Acentelik ilişkisinin sona ermesinden sonra da belirli şartlarda ücret isteyebilir.
+
+3. **Dayanak maddeler:**  
+- **TÜRK TİCARET KANUNU m.114**  
+- **TÜRK TİCARET KANUNU m.113**  
+- **TÜRK BORÇLAR KANUNU m.404**
+
+4. **Not / sınırlılık:**  
+Ücretin miktarı ve ödeme zamanı sözleşmede belirtilmemişse, acentenin bulunduğu yerdeki ticari teamül veya mahkeme kararıyla belirlenir. Acentenin ücret hakkı, müvekkilin yüklenemeyen sebeplerle işlemi yerine getirmemesi durumunda düşebilir.",1_5_6102_MADDE_113,1_5_6102_MADDE_114; 1_5_6102_MADDE_113; 1_5_6102_MADDE_116; 1_5_6102_MADDE_112; 1_5_6102_MADDE_120; 1_5_6102_MADDE_119; 1_5_6098_MADDE_404; 1_5_6102_MADDE_117; 1_5_6102_MADDE_115; 1_5_6098_MADDE_521,TÜRK TİCARET KANUNU m.114 | TÜRK TİCARET KANUNU m.113 | TÜRK TİCARET KANUNU m.116 | TÜRK TİCARET KANUNU m.112 | TÜRK TİCARET KANUNU m.120 | TÜRK TİCARET KANUNU m.119 | TÜRK BORÇLAR KANUNU m.404 | TÜRK TİCARET KANUNU m.117 | TÜRK TİCARET KANUNU m.115 | TÜRK BORÇLAR KANUNU m.521,0.0629921259842519,0.0629921259842519,1.0,1.0,1.0,1.0,low_answer_overlap
+Q108,Ticaret Hukuku,hard,Çekte bulunması gereken zorunlu unsurlardan biri eksik olursa sonuç ne olur?,Kanunda zorunlu unsur olarak öngörülen kayıtları taşımayan senet çek sayılmaz; ancak kanundaki tamamlayıcı kurallar saklıdır.,"1. **Kısa cevap**  
+Çekte zorunlu unsurlardan biri eksik olursa, çek genellikle çek olarak kabul edilmez; ancak bazı özel hallerde geçerliliği etkilenmez.
+
+2. **Şartlar / açıklama**  
+Türk Ticaret Kanunu’nun 781. maddesine göre, çekte 780. maddede belirtilen zorunlu unsurlardan biri eksikse, çek genellikle çek olarak kabul edilmez. Ancak bu maddenin ikinci, üçüncü ve dördüncü fıkralarında belirtilen bazı durumlarda eksiklikler çekin geçerliliğini etkilemez. Örneğin ödeme yeri, düzenlenme yeri gibi bazı bilgilerin eksik olması durumunda, varsayılan kurallar uygulanır. Ayrıca, 783. maddede belirtildiği gibi, muhatapla bir anlaşmanın olması durumunda, çekin geçerliliği eksikliklere rağmen korunabilir.
+
+3. **Dayanak maddeler**  
+- TÜRK TİCARET KANUNU m.781  
+- TÜRK TİCARET KANUNU m.783  
+- TÜRK TİCARET KANUNU m.780  
+
+4. **Not / sınırlılık**  
+Bu cevap yalnızca verilen mevzuat bağlamına dayanmaktadır. Bağlamda yer alan diğer mevzuatlar (örneğin Sınav Mülkiyet Kanunu veya Çek Kanunu) bu sorunun doğrudan cevabını içermemektedir.",1_5_6102_MADDE_780,1_5_6102_MADDE_781; 1_5_6102_MADDE_783; 1_5_6769_MADDE_95; 1_5_6102_MADDE_780; 1_5_6102_MADDE_822; 1_5_5941_MADDE_7; 1_5_5941_MADDE_3; 1_5_5941_MADDE_2; 1_5_6100_MADDE_207; 1_5_6102_MADDE_819,TÜRK TİCARET KANUNU m.781 | TÜRK TİCARET KANUNU m.783 | SINAİ MÜLKİYET KANUNU m.95 | TÜRK TİCARET KANUNU m.780 | TÜRK TİCARET KANUNU m.822 | ÇEK KANUNU m.7 | ÇEK KANUNU m.3 | ÇEK KANUNU m.2 | HUKUK MUHAKEMELERİ KANUNU m.207 | TÜRK TİCARET KANUNU m.819,0.0657894736842105,0.0657894736842105,1.0,1.0,1.0,1.0,low_answer_overlap
+Q087,Ceza Muhakemesi Hukuku,medium,Mahkeme hangi durumda keşif kararı verir?,"Hakim veya mahkeme, olayın aydınlatılması için suç konusu veya delil üzerinde doğrudan gözlem yapılmasına ihtiyaç duyarsa keşif yapılmasına karar verebilir.","1. **Kısa cevap**  
+Mahkeme, uyuşmazlık konusunu bizzat incelemek amacıyla, taraflardan birinin talebi üzerine veya kendi kendine (resen) keşif kararı verebilir.
+
+2. **Şartlar / açıklama**  
+Keşif kararı, mahkemenin uyuşmazlık konusunu yerinde incelemesi gerektiğine kanaat getirdiğinde verilir. Bu karar, ya bir tarafın talebi üzerine alınır ya da mahkeme kendi incelemesi sonucu resen karar verir. Keşif, davaya bakan mahkemece yapılır ve gecikmesinde sakınca bulunan durumlarda Cumhuriyet savcısı da keşif yapabilir (ceza davaları bağlamında).
+
+3. **Dayanak maddeler**  
+- HUKUK MUHAKEMELERİ KANUNU m.288  
+- CEZA MUHAKEMESİ KANUNU m.83  
+- HUKUK MUHAKEMELERİ KANUNU m.290  
+- CEZA MUHAKEMESİ KANUNU m.281  
+- HUKUK MUHAKEMELERİ KANUNU m.400  
+
+4. **Not / sınırlılık**  
+Verilen bilgiler yalnızca bağlamda yer alan mevzuat metinlerine dayanmaktadır. Keşif kararının uygulanmasıyla ilgili diğer prosedürler (örneğin, tarafların hazır bulunması, tutanak düzenlenmesi gibi) bağlamda yer alan diğer maddelerde de yer alabilir.",1_5_5271_MADDE_83,1_5_6100_MADDE_288; 1_5_5271_MADDE_83; 1_5_6100_MADDE_290; 1_5_5271_MADDE_281; 1_5_6100_MADDE_291; 1_5_6100_MADDE_289; 1_5_5271_MADDE_84; 1_5_6100_MADDE_400; 1_5_6102_MADDE_440; 1_5_6100_MADDE_138,HUKUK MUHAKEMELERİ KANUNU m.288 | CEZA MUHAKEMESİ KANUNU m.83 | HUKUK MUHAKEMELERİ KANUNU m.290 | CEZA MUHAKEMESİ KANUNU m.281 | HUKUK MUHAKEMELERİ KANUNU m.291 | HUKUK MUHAKEMELERİ KANUNU m.289 | CEZA MUHAKEMESİ KANUNU m.84 | HUKUK MUHAKEMELERİ KANUNU m.400 | TÜRK TİCARET KANUNU m.440 | HUKUK MUHAKEMELERİ KANUNU m.138,0.0666666666666666,0.0533333333333333,1.0,1.0,1.0,1.0,low_answer_overlap
+Q063,Borçlar Hukuku,medium,Borçlunun temerrüde düşmesi için ihtar hangi durumda aranır?,"Borcun muaccel olması gerekir; ifa zamanı taraflarca belirlenmemişse veya belirlenebilir değilse, borçlu alacaklının ihtarıyla temerrüde düşer.","1. **Kısa cevap**  
+Borçlunun temerrüde düşmesi için ihtar, genel olarak alacaklının bildirimiyle aranır; ancak ticari sözleşmelerde belirli durumlarda ihtar gerekmez.
+
+2. **Şartlar / açıklama**  
+- Genel hukuk kurallarına göre (Türk Borçlar Kanunu), borçlu, alacaklının ihtarıyla temerrüde düşer. Ancak, borç ifasının belirli bir tarihte yapılması gerekiyorsa, bu tarihin geçmesiyle borçlu temerrüde düşer.  
+- Ticari sözleşmelerde (Türk Ticaret Kanunu), ticari işletmeler arasında yapılan sözleşmelerde, borçlunun belirlenen ödeme tarihinde ödeme yapmaması durumunda ihtar gerekmez ve borçlu doğrudan temerrüde sayılır.  
+- Ticari sözleşmelerde ödeme süresi belirtilmemişse veya belirtilen süre 5. fıkraya aykırıysa, borçlu faturanın veya eş değer ödeme talebinin alınmasından itibaren 30 gün içinde ödeme yapmazsa temerrüde düşer.
+
+3. **Dayanak maddeler**  
+- **Türk Borçlar Kanunu Madde 117**  
+- **Türk Ticaret Kanunu Madde 1530**
+
+4. **Not / sınırlılık**  
+- Genel hukukta ihtar genellikle temerrüde düşmeye gerekli olsa da, ticari sözleşmelerde bu şart bazen kaldırılmıştır.  
+- Temerrüde düşmenin şartları, sözleşmenin türüne ve tarafların statüsüne göre değişebilir.  
+- Bağlamda sadece ihtar şartı ile ilgili genel ve ticari hükümler yer aldığından, özel durumlar veya diğer kanunlardan gelen hükümler burada ele alınmamıştır.",1_5_6098_MADDE_117,1_5_6098_MADDE_117; 1_5_6102_MADDE_1530; 1_5_6098_MADDE_125; 1_5_6098_MADDE_106; 1_5_6102_MADDE_483; 1_5_6098_MADDE_124; 1_3_2004_MADDE_32; 1_5_6098_MADDE_111; 1_5_6098_MADDE_212; 1_5_6098_MADDE_123,TÜRK BORÇLAR KANUNU m.117 | TÜRK TİCARET KANUNU m.1530 | TÜRK BORÇLAR KANUNU m.125 | TÜRK BORÇLAR KANUNU m.106 | TÜRK TİCARET KANUNU m.483 | TÜRK BORÇLAR KANUNU m.124 | İCRA VE İFLAS KANUNU m.32 | TÜRK BORÇLAR KANUNU m.111 | TÜRK BORÇLAR KANUNU m.212 | TÜRK BORÇLAR KANUNU m.123,0.0670391061452514,0.0558659217877095,1.0,1.0,1.0,1.0,low_answer_overlap
+Q112,İş Hukuku,medium,Ev hizmetlerinde çalışanlar İş Kanunu kapsamında mıdır?,"Ev hizmetlerinde yapılan işler, kural olarak İş Kanunu kapsamı dışındadır.","1. **Kısa cevap:**  
+Ev hizmetlerinde çalışanlar genellikle İş Kanunu kapsamında değildir.
+
+2. **Şartlar / açıklama:**  
+Ev hizmetlerinde çalışanlar, 4857 sayılı İş Kanunu'nun 4. maddesine göre bu Kanun kapsamına alınmamıştır. Ancak, bu durum ev hizmetlerinde çalışanların tamamen hukuki korumadan mahrum olduğunu göstermez. Örneğin, sosyal sigorta kapsamında değerlendirilmeleri durumunda, 5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu'na tabi olabilirler. Ayrıca, ev hizmetlerinde çalışanlarla ilgili özel düzenlemeler veya mahkeme kararları da hukuki durumları etkileyebilir.
+
+3. **Dayanak maddeler:**  
+- **İŞ KANUNU m.4:** Ev hizmetlerinde çalışanlar bu Kanun kapsamında değildir.  
+- **İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU m.2:** Ev hizmetleri bu Kanun kapsamında değildir.  
+- **SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU m.6:** Ev hizmetlerinde çalışanlar, belirli şartlar çerçevesinde sosyal sigorta kapsamında değerlendirilebilir.
+
+4. **Not / sınırlılık:**  
+Ev hizmetlerinde çalışanlar genellikle İş Kanunu kapsamı dışında tutulsa da, sosyal sigorta, iş sağlığı ve güvenliği dışındaki hukuki düzenlemelerle ilgili özel hükümler veya mahkeme kararları da bu kişilerin hukuki durumunu etkileyebilir. Bu cevap yalnızca verilen mevzuat bağlamına dayanmaktadır.",1_5_4857_MADDE_4,1_5_4857_MADDE_4; 1_5_2828_MADDE_16; 1_5_4857_MADDE_2; 1_5_5510_MADDE_6; 1_5_6331_MADDE_2; 1_5_4857_MADDE_111; 1_5_7330_MADDE_7; 1_5_4857_MADDE_110; 1_3_6772_MADDE_1; 1_5_7036_MADDE_5,İŞ KANUNU m.4 | SOSYAL HİZMETLER KANUNU m.16 | İŞ KANUNU m.2 | SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU m.6 | İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU m.2 | İŞ KANUNU m.111 | MAKİNE VE KİMYA ENDÜSTRİSİ ANONİM ŞİRKETİ HAKKINDA KANUN m.7 | İŞ KANUNU m.110 | DEVLET VE ONA BAĞLI MÜESSESELERDE ÇALIŞAN İŞÇİLERE İLAVE TEDİYE YAPILMASI VE 6452 SAYILI KANUNLA 6212 SAYILI KANUNUN 2 NCİ MADDESİNİN KALDIRILMASI HAKKINDA KANUN m.1 | İŞ MAHKEMELERİ KANUNU m.5,0.0670391061452514,0.0670391061452514,1.0,1.0,1.0,1.0,low_answer_overlap
+Q163,Medeni Hukuk,easy,Erginlik hangi hâllerde kazanılır?,Erginlik on sekiz yaşın doldurulmasıyla başlar; evlenme de kişiyi ergin kılar.,"1. **Kısa cevap**  
+Erginlik, 18 yaşının doldurulmasıyla kazanılır. Ayrıca evlenme ile de erginlik kazanılır. 15 yaşını doldurmuş küçükler, kendi isteği ve velisinin rızasıyla mahkeme kararıyla da ergin kılınabilir.
+
+2. **Şartlar / açıklama**  
+- **18 yaşını doldurmak**, herkes için otomatik olarak erginlik anlamına gelir.  
+- **Evlenmek**, her yaşta kişiye erginlik statüsü verir.  
+- **15 yaşını doldurmuş küçükler**, kendi istekleriyle ve velisinin rızasıyla mahkeme kararıyla da ergin kılınabilir. Bu durumda erginlik mahkeme kararıyla kazanılır.
+
+3. **Dayanak maddeler**  
+- TÜRK MEDENİ KANUNU m.11  
+- TÜRK MEDENİ KANUNU m.12  
+- TÜRK MEDENİ KANUNU m.153  
+
+4. **Not / sınırlılık**  
+- Evlenme ile erginlik kazanılması, 18 yaşını doldurmamış kişiler için de geçerlidir.  
+- Mahkeme kararıyla ergin kılınma sadece 15 yaşını doldurmuş kişiler için mümkündür ve velinin rızası gerekir.  
+- Bağlamda sadece bu durumlar yer aldığı için, başka bir mevzuattan gelen ek durumlar değerlendirilmemiştir.",1_5_4721_MADDE_11,1_5_4721_MADDE_11; 1_5_4721_MADDE_12; 1_5_4721_MADDE_153; 1_5_5901_MADDE_20; 1_5_4721_MADDE_10; 1_5_4721_MADDE_313; 1_5_4721_MADDE_408; 1_5_4721_MADDE_470; 1_5_5510_MADDE_19; 1_5_5510_MADDE_17,TÜRK MEDENİ KANUNU m.11 | TÜRK MEDENİ KANUNU m.12 | TÜRK MEDENİ KANUNU m.153 | TÜRK VATANDAŞLIĞI KANUNU m.20 | TÜRK MEDENİ KANUNU m.10 | TÜRK MEDENİ KANUNU m.313 | TÜRK MEDENİ KANUNU m.408 | TÜRK MEDENİ KANUNU m.470 | SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU m.19 | SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU m.17,0.0714285714285714,0.0714285714285714,1.0,1.0,1.0,1.0,low_answer_overlap
+Q012,Borçlar Hukuku,easy,Cezai şartın fahiş (aşırı) olması durumunda hakimin müdahale yetkisi nedir?,"Cezai şart fahiş ise hâkim, istem üzerine veya şartları varsa kendiliğinden indirim yapabilir. İndirim, dürüstlük kuralı ve somut olayın özellikleri gözetilerek belirlenir.","1. **Kısa cevap:**  
+Hakim, cezai şartın aşırı (fahiş) olduğunu gördüğü durumlarda, bu şartı kendiliğinden indirme yetkisine sahiptir.
+
+2. **Şartlar / açıklama:**  
+Taraflar, sözleşmelerde ceza şartlarını serbestçe belirleyebilirler. Ancak, bu şartlar aşırı veya hakkaniyete aykırı bulunursa, hakim müdahale ederek cezayı indirgeyebilir. Bu durumda, ceza şartının aşırı olması hakimin kendiliğinden müdahalesini gerekli kılar.
+
+3. **Dayanak maddeler:**  
+- **TÜRK BORÇLAR KANUNU m.182**  
+- **TÜRK BORÇLAR KANUNU m.525**
+
+4. **Not / sınırlılık:**  
+Bu hükümler, genellikle tüzük hukuku ve sözleşmeler bağlamında geçerlidir. Cezai şartın aşırı olması durumunda hakimin müdahalesi, genellikle tüzük mahkemelerinde (borçlar, medeni hukuk) söz konusudur. Ceza hukuku mahkemelerinde bu tür bir müdahale yetkisi doğrudan bu bağlamda yer almamaktadır.",1_5_6098_MADDE_182,1_5_6098_MADDE_182; 1_5_6098_MADDE_525; 1_5_6102_MADDE_1301; 1_5_5271_MADDE_21; 1_5_4721_MADDE_200; 1_5_5271_MADDE_309; 1_5_5271_MADDE_30; 1_5_5237_MADDE_61; 1_5_5271_MADDE_203; 1_5_5271_MADDE_251,TÜRK BORÇLAR KANUNU m.182 | TÜRK BORÇLAR KANUNU m.525 | TÜRK TİCARET KANUNU m.1301 | CEZA MUHAKEMESİ KANUNU m.21 | TÜRK MEDENİ KANUNU m.200 | CEZA MUHAKEMESİ KANUNU m.309 | CEZA MUHAKEMESİ KANUNU m.30 | TÜRK CEZA KANUNU m.61 | CEZA MUHAKEMESİ KANUNU m.203 | CEZA MUHAKEMESİ KANUNU m.251,0.0787401574803149,0.0787401574803149,1.0,1.0,1.0,1.0,low_answer_overlap
+Q061,Borçlar Hukuku,medium,Sözleşmede hata nedeniyle iptal hakkının doğması için hangi şart gerekir?,Hatanın esaslı olması gerekir. Esaslı olmayan hata sözleşmenin iptalini sağlamaz.,"1. **Kısa cevap**  
+Sözleşmede hata nedeniyle iptal hakkının doğması için sözleşmenin esaslı bir yanılma sonucu kurulmuş olması gerekir.
+
+2. **Şartlar / açıklama**  
+Esaslı yanılma, taraflardan birinin kurulmasını istediği sözleşmeden başka bir sözleşme için iradesini açıklamış olması, ya da yanlış kişiyle veya yanlış konuyla sözleşme yapmış olması gibi durumları kapsar. Basit hesap hataları veya saikte yanılma, esaslı yanılma sayılmaz. Yanılma, taraflardan birinin bilinmeyen bir durumda veya yanlış yönlendirilerek sözleşmeye dahil olması halinde iptal hakkı doğurabilir. Ancak, yanılma tarafların bilinmesiyle veya onaylanmasıyla iptal hakkını kaybeder.
+
+3. **Dayanak maddeler**  
+- TÜRK BORÇLAR KANUNU m.30  
+- TÜRK BORÇLAR KANUNU m.31  
+- TÜRK BORÇLAR KANUNU m.32  
+- TÜRK BORÇLAR KANUNU m.33  
+- TÜRK BORÇLAR KANUNU m.39  
+
+4. **Not / sınırlılık**  
+Bağlamda yer alan mevzuat, iptal hakkının doğabilmesi için esaslı bir yanılmanın olması gerektiğini belirtir. Ancak, iptal hakkının zaman aşımına uğraması veya tarafların sözleşmeyi onamış sayılması durumlarında bu haklar sınırlanabilir.",1_5_6098_MADDE_30,1_5_6098_MADDE_617; 1_5_6098_MADDE_30; 1_5_6102_MADDE_1301; 1_5_6098_MADDE_31; 1_5_6098_MADDE_39; 1_5_6098_MADDE_33; 1_5_6098_MADDE_437; 1_5_6102_MADDE_1449; 1_5_6098_MADDE_435; 1_5_6098_MADDE_32,TÜRK BORÇLAR KANUNU m.617 | TÜRK BORÇLAR KANUNU m.30 | TÜRK TİCARET KANUNU m.1301 | TÜRK BORÇLAR KANUNU m.31 | TÜRK BORÇLAR KANUNU m.39 | TÜRK BORÇLAR KANUNU m.33 | TÜRK BORÇLAR KANUNU m.437 | TÜRK TİCARET KANUNU m.1449 | TÜRK BORÇLAR KANUNU m.435 | TÜRK BORÇLAR KANUNU m.32,0.0789473684210526,0.0526315789473684,1.0,1.0,1.0,1.0,low_answer_overlap
+Q133,Borçlar Hukuku,medium,Susma kural olarak kabul anlamına gelir mi?,Kural olarak susma kabul sayılmaz; ancak kanun veya işin niteliği yahut durumun özellikleri gerektiriyorsa sonuç farklı olabilir.,"1. **Kısa cevap:**  
+Susma, kural olarak kabul anlamına gelmez.
+
+2. **Şartlar / açıklama:**  
+Türk hukukunda, genel kural olarak bir tarafın susması veya sessiz kalmak suretiyle bir kabulde bulunduğu varsayılabilir; ancak bu durum, sözleşmelerin doğuşu ve hukuk muhakemeleri kanunları çerçevesinde belirli şartlara bağlıdır. Sözleşmelerde kabul, açık ve net bir şekilde ifade edilmelidir. Susma yalnızca özel durumlarda ve şartlara bağlı olarak kabul olarak değerlendirilebilir. Örneğin, bir önerinin reddedilmesi gerekirken reddedilmemesi durumunda, öneri kabul edilmiş sayılabilir. Ancak bu durumda da kanun, açık bir kabulün gerekli olduğu durumlarla birlikte, örtülü kabulün de mümkün olduğu durumları ayrı ayrı düzenlemiştir.
+
+3. **Dayanak maddeler:**  
+- **Türk Borçlar Kanunu Madde 5:** ""Kabul için süre belirlenmeksizin hazır olmayan bir kişiye yapılan öneri, zamanında ve usulüne uygun olarak gönderilmiş bir yanıtın ulaşmasının beklenebileceği ana kadar, önereni bağlar.""
+- **Türk Borçlar Kanunu Madde 6:** ""Öneren, kanun veya işin özelliği ya da durumun gereği açık bir kabulü beklemek zorunda değilse, öneri uygun bir sürede reddedilmediği takdirde, sözleşme kurulmuş sayılır.""
+- **Türk Borçlar Kanunu Madde 10:** ""Geri alma açıklaması, diğer tarafa öneriden önce veya aynı anda ulaşmış ya da daha sonra ulaşmakla birlikte diğer tarafça öneriden önce öğrenilmiş olursa, öneri yapılmamış sayılır. Bu kural, kabulün geri alınmasında da uygulanır.""
+- **Hukuk Muhakemeleri Kanunu Madde 308:** ""Kabul, davacının talep sonucuna, davalının kısmen veya tamamen muvafakat et",1_5_6098_MADDE_6,1_5_6098_MADDE_10; 1_5_6100_MADDE_308; 1_5_6098_MADDE_11; 1_5_6100_MADDE_309; 1_5_6098_MADDE_5; 1_5_6098_MADDE_6; 1_5_6102_MADDE_696; 1_5_5271_MADDE_289; 1_5_6102_MADDE_2; 1_5_4721_MADDE_1,TÜRK BORÇLAR KANUNU m.10 | HUKUK MUHAKEMELERİ KANUNU m.308 | TÜRK BORÇLAR KANUNU m.11 | HUKUK MUHAKEMELERİ KANUNU m.309 | TÜRK BORÇLAR KANUNU m.5 | TÜRK BORÇLAR KANUNU m.6 | TÜRK TİCARET KANUNU m.696 | CEZA MUHAKEMESİ KANUNU m.289 | TÜRK TİCARET KANUNU m.2 | TÜRK MEDENİ KANUNU m.1,0.0803571428571428,0.0803571428571428,1.0,1.0,1.0,1.0,low_answer_overlap
+Q150,Ceza Hukuku,medium,Dava zamanaşımı ceza hukukunda hangi sonucu doğurur?,Dava zamanaşımı süresinin dolması hâlinde artık kamu davası açılamaz veya açılmış dava düşer.,"1. **Kısa cevap:**  
+Dava zamanaşımı ceza hukukunda, kamu davasının düşmesine ve ceza sorumluluğunun sona ermesine neden olur.
+
+2. **Şartlar / açıklama:**  
+Dava zamanaşımı süresi dolarsa, suç işlendikten sonra belirlenen süre içinde kamu dava yetkisinin kullanılmaması durumunda, davaya son verilir ve ceza sorumluluğu ortadan kalkar. Bu durumda, sanık hakkında yeni bir dava açılamaz. Ancak, dava zamanaşımı süresi, kesme veya durdurma nedenleriyle uzayabilir veya yeniden başlayabilir.
+
+3. **Dayanak maddeler:**  
+- **TÜRK CEZA KANUNU m.66/1:** Kamu davasının zamanaşımı sürelerini ve bu sürenin dolmasının davayı düşürmesini düzenler.  
+- **TÜRKİYE CUMHURİYETİ ANAYASASI m.38:** Suç ve ceza zamanaşımı ile ilgili temel ilkeyi belirtir; zamanaşımının dolması durumunda kimse cezalandırılamaz.  
+- **TÜRK CEZA KANUNU m.67:** Zamanaşımının durması ve kesilmesi durumlarını düzenler.  
+- **KABAHATLER KANUNU m.20/5:** Kabahatlerde dava zamanaşımının ceza hukuku ile ilişkisini açıklar.
+
+4. **Not / sınırlılık:**  
+Dava zamanaşımı süresi, suçun ciddiyetine göre değişir ve bazı özel durumlarda (örneğin, tutuklama kararı verilmesi gibi) kesilerek yeniden başlayabilir. Ayrıca, yurt dışında işlenen bazı suçlar için zamanaşımı uygulanmaz.",1_5_5237_MADDE_66,1_5_5237_MADDE_67; 1_5_5237_MADDE_65; 1_5_5237_MADDE_66; 1_5_5237_MADDE_72; 1_3_2004_MADDE_7; 1_5_477_MADDE_43; 1_5_5252_MADDE_9; 1_5_2709_MADDE_38; 1_5_5326_MADDE_20; 1_5_5237_MADDE_69,"TÜRK CEZA KANUNU m.67 | TÜRK CEZA KANUNU m.65 | TÜRK CEZA KANUNU m.66 | TÜRK CEZA KANUNU m.72 | İCRA VE İFLAS KANUNU m.7 | DİSİPLİN MAHKEMELERİ KURULUŞU, YARGILAMA USULÜ VE DİSİPLİN SUÇ VE CEZALARI HAKKINDA KANUN m.43 | TÜRK CEZA KANUNUNUN YÜRÜRLÜK VE UYGULAMA ŞEKLİ HAKKINDA KANUN m.9 | TÜRKİYE CUMHURİYETİ ANAYASASI m.38 | KABAHATLER KANUNU m.20 | TÜRK CEZA KANUNU m.69",0.0809248554913294,0.0693641618497109,1.0,1.0,1.0,1.0,low_answer_overlap
+Q187,İş Hukuku,medium,Ücret alacaklarında zamanaşımı süresi ne kadardır?,Ücret alacaklarında zamanaşımı süresi beş yıldır.,"1. **Kısa cevap:**  
+Ücret alacaklarında zamanaşımı süresi **beş yıldır**.
+
+2. **Şartlar / açıklama:**  
+Ücret alacakları, Türk Borçlar Kanunu'nun genel 10 yıllık zamanaşımı süresinden (Madde 146) farklı olarak, İş Kanunu'nda özel olarak beş yıl olarak düzenlenmiştir. Bu süre, ücretin ödenmesi gereken tarihten itibaren başlar.
+
+3. **Dayanak maddeler:**  
+- **İŞ KANUNU m.32:** ""Ücret alacaklarında zamanaşımı süresi beş yıldır.""  
+- **TÜRK BORÇLAR KANUNU m.146:** ""Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.""  
+- **TÜRK BORÇLAR KANUNU m.147:** ""Kira bedelleri, anapara faizleri ve ücret gibi diğer dönemsel edimler için beş yıllık zamanaşımı uygulanır.""
+
+4. **Not / sınırlılık:**  
+İş Kanunu'nda ücret alacakları için beş yıllık zamanaşımı süresi özel olarak düzenlenmiştir. Bu süre, genel zamanaşımı sürelerinden (örneğin 10 yıl) farklı olarak geçerlidir. Ancak, ücretin doğuşuna ilişkin özel durumlar (örneğin iş sözleşmesinin sona ermesi gibi) zamanaşımının başlangıç tarihi üzerinde etkili olabilir.",1_5_4857_MADDE_32,1_5_6098_MADDE_147; 1_5_4857_MADDE_32; 1_5_6098_MADDE_146; 1_5_5510_MADDE_97; 1_5_5510_MADDE_93; 1_5_4857_MADDE_34; 1_3_6183_MADDE_102; 1_5_6102_MADDE_1270; 1_5_4857_MADDE_59; 1_5_6098_MADDE_150,TÜRK BORÇLAR KANUNU m.147 | İŞ KANUNU m.32 | TÜRK BORÇLAR KANUNU m.146 | SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU m.97 | SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU m.93 | İŞ KANUNU m.34 | AMME ALACAKLARININ TAHSİL USULÜ HAKKINDA KANUN m.102 | TÜRK TİCARET KANUNU m.1270 | İŞ KANUNU m.59 | TÜRK BORÇLAR KANUNU m.150,0.0816326530612244,0.0816326530612244,1.0,1.0,1.0,1.0,low_answer_overlap
+Q141,Ceza Hukuku,easy,Taksir neyi ifade eder?,"Taksir, dikkat ve özen yükümlülüğüne aykırılık dolayısıyla bir davranışın suçun kanuni tanımında belirtilen neticesi öngörülmeyerek gerçekleştirilmesidir.","1. **Kısa cevap**  
+Taksir, Türk Ceza Kanunu'na göre dikkat ve özen yükümlülüğüne aykırı hareket edilerek, istenen bir netice öngörülmemesine rağmen suç niteliği taşıyan bir fiilin işlenmesidir.
+
+2. **Şartlar / açıklama**  
+Taksirli suçlar, kanunun açıkça belirttiği hallerde cezalandırılır. Taksir, bilinçli veya bilinçsiz olabilir. Bilinçli taksirde, kişi neticeyi istemese de öngörmüşse, ceza artırılır. Taksirli suçlarda ceza failin kusuruna göre belirlenir ve birden fazla kişi suç işlediğinde herkes kendi kusurundan dolayı sorumlu olur. Ayrıca, taksirli hareket sonucu meydana gelen netice, failin kişisel durumu bakımından ceza verilmesini gereksiz kılacak kadar ağırsa ceza verilmeyebilir veya indirilebilir.
+
+3. **Dayanak maddeler**  
+- **TÜRK CEZA KANUNU m.22**
+
+4. **Not / sınırlılık**  
+Bu açıklama yalnızca Türk Ceza Kanunu'nun 22. maddesine dayanmaktadır. Bağlamda yer alan diğer mevzuatlar (Vergi Usul Kanunu, Devlet İhale Kanunu vb.) taksir kavramı ile ilgili değildir.",1_5_5237_MADDE_22,1_5_5237_MADDE_22; 1_5_5237_MADDE_89; 1_4_213_MADDE_309; 1_4_213_MADDE_267; 1_5_2886_MADDE_9; 1_4_213_MADDE_186; 1_4_213_MADDE_74; 1_4_213_MADDE_258; 1_4_213_MADDE_30; 1_5_5738_MADDE_6,TÜRK CEZA KANUNU m.22 | TÜRK CEZA KANUNU m.89 | VERGİ USUL KANUNU m.309 | VERGİ USUL KANUNU m.267 | DEVLET İHALE KANUNU m.9 | VERGİ USUL KANUNU m.186 | VERGİ USUL KANUNU m.74 | VERGİ USUL KANUNU m.258 | VERGİ USUL KANUNU m.30 | SPOR MÜSABAKALARINA DAYALI SABİT İHTİMALLİ VE MÜŞTEREK BAHİS OYUNLARININ ÖZEL HUKUK TÜZEL KİŞİLERİNE YAPTIRILMASI HAKKINDA KANUN m.6,0.0821917808219178,0.0821917808219178,1.0,1.0,1.0,1.0,low_answer_overlap
+Q136,Borçlar Hukuku,medium,Alacağın devri için geçerlilikte hangi şekil aranır?,Alacağın devrinin geçerliliği yazılı şekilde yapılmasına bağlıdır.,"1. **Kısa cevap**  
+Alacağın devrinin geçerliliği genel olarak yazılı şekilde yapılması şartına bağlıdır.
+
+2. **Şartlar / açıklama**  
+Türk Borçlar Kanunu’nun 184. maddesine göre, alacağın devrinin geçerli olması için yazılı şekilde yapılması gerekir. Ancak bu genel kural, bazı özel durumlarda farklı şekillere tabi olabilir. Örneğin, kanun veya mahkeme kararı ile gerçekleşen devirler özel bir şekle ihtiyaç duymaz (Türk Borçlar Kanunu m. 185). Ayrıca, ticari alacaklar söz konusu olduğunda, kıymetli evraklar veya senetler üzerinden devir yapılması durumunda özel şekiller aranabilir (Türk Ticaret Kanunu m. 647).
+
+3. **Dayanak maddeler**  
+- **Türk Borçlar Kanunu m. 184**  
+- **Türk Borçlar Kanunu m. 185**  
+- **Türk Ticaret Kanunu m. 647**
+
+4. **Not / sınırlılık**  
+Yukarıdaki cevap genel alacak devirlerine uygulanır. Ticari alacaklar, ipotekli alacaklar veya kıymetli evraklar söz konusu olduğunda, devirlerin geçerliliği için ek özel şekiller aranabilir. Bu durumlarda ilgili özel mevzuata (örneğin Türk Ticaret Kanunu) bakılması gerekir.",1_5_6098_MADDE_184,1_5_6098_MADDE_184; 1_5_4721_MADDE_917; 1_5_6098_MADDE_185; 1_5_6102_MADDE_1038; 1_5_4721_MADDE_891; 1_5_4721_MADDE_706; 1_5_6098_MADDE_191; 1_5_6098_MADDE_183; 1_5_6098_MADDE_205; 1_5_6102_MADDE_647,TÜRK BORÇLAR KANUNU m.184 | TÜRK MEDENİ KANUNU m.917 | TÜRK BORÇLAR KANUNU m.185 | TÜRK TİCARET KANUNU m.1038 | TÜRK MEDENİ KANUNU m.891 | TÜRK MEDENİ KANUNU m.706 | TÜRK BORÇLAR KANUNU m.191 | TÜRK BORÇLAR KANUNU m.183 | TÜRK BORÇLAR KANUNU m.205 | TÜRK TİCARET KANUNU m.647,0.0827586206896551,0.0827586206896551,1.0,1.0,1.0,1.0,low_answer_overlap
+Q138,Borçlar Hukuku,medium,Takas hangi şartlarda ileri sürülebilir?,"İki kişi karşılıklı olarak aynı cinsten muaccel alacaklara sahip ise, takas yasağı bulunmadıkça taraflardan her biri borcunu alacağıyla takas edebilir.","**Cevap:**
+
+1. **Kısa cevap:**  
+Takas, karşılıklı borçların muaccel olması, borçlunun takas iradesini alacaklıya bildirmesi ve bazı özel durumlarda alacaklının rızası gibi şartlara bağlı olarak ileri sürülebilir.
+
+2. **Şartlar / açıklama:**  
+- Takas, karşılıklı olarak bir miktar para veya özdeş diğer edimlerin birbirine borçlu olduğu durumlarda ileri sürülebilir.  
+- Her iki borç da muaccel (ödenebilir) olmalıdır.  
+- Alacaklardan biri çekişmeli olsa bile takas ileri sürülebilir.  
+- Takas edilecek alacak, zamanaşımına uğramamış olmalıdır.  
+- Takas, borçlunun takas iradesini alacaklıya bildirmesiyle gerçekleşir.  
+- Bazı özel alacaklar (tevdi edilmiş eşyanın geri verilmesi, haksız olarak alınan eşya, nafaka, işçi ücreti gibi) yalnızca alacaklının rızasıyla takas edilebilir.  
+- İflas durumlarında da takasın yapılamayacağı bazı özel haller mevcuttur.
+
+3. **Dayanak maddeler:**  
+- **TÜRK BORÇLAR KANUNU m.139**  
+- **TÜRK BORÇLAR KANUNU m.143**  
+- **TÜRK BORÇLAR KANUNU m.144**  
+- **İCRA VE İFLAS KANUNU m.200**
+
+4. **Not / sınırlılık:**  
+- Takas, karşılıklı borçların özdeş ve muaccel olması durumunda mümkündür.  
+- Özel niteliği olan alacaklar yalnızca alacaklının rızasıyla takas edilebilir.  
+- İflas durumlarında takasın yapılamayacağı bazı hukuki sınırlamalar vardır.  
+- Takas ileri sürülebilmesi için borçlunun alacaklıya takas iradesini bildirmesi gerekir.",1_5_6098_MADDE_139,1_5_6098_MADDE_139; 1_5_6098_MADDE_143; 1_5_6098_MADDE_144; 1_3_2004_MADDE_200; 1_5_6098_MADDE_140; 1_5_6098_MADDE_138; 1_5_6100_MADDE_115; 1_5_6098_MADDE_10; 1_5_6098_MADDE_252; 1_5_6098_MADDE_276,TÜRK BORÇLAR KANUNU m.139 | TÜRK BORÇLAR KANUNU m.143 | TÜRK BORÇLAR KANUNU m.144 | İCRA VE İFLAS KANUNU m.200 | TÜRK BORÇLAR KANUNU m.140 | TÜRK BORÇLAR KANUNU m.138 | HUKUK MUHAKEMELERİ KANUNU m.115 | TÜRK BORÇLAR KANUNU m.10 | TÜRK BORÇLAR KANUNU m.252 | TÜRK BORÇLAR KANUNU m.276,0.0837696335078534,0.06282722513089,1.0,1.0,1.0,1.0,low_answer_overlap
+Q094,Medeni Hukuk,medium,Evlilik birliğinin sarsılması sebebiyle boşanmaya karar verilebilmesi için hangi temel ölçüt aranır?,Ortak hayatın sürdürülmesi eşlerden beklenemeyecek derecede evlilik birliği temelinden sarsılmış olmalıdır.,"1. **Kısa cevap**  
+Evlilik birliğinin sarsılması sebebiyle boşanmaya karar verilebilmesi için temel ölçüt, **ortak hayatın devamında eşlerden biri için artık anlamlı bir yarar kalmamış olmasıdır**.
+
+2. **Şartlar / açıklama**  
+Evlilik birliğinin temelinden sarsılmış sayılması için aşağıdaki şartlar aranır:  
+- Ortak hayatın devamı, eşlerden biri için artık anlamlı bir yarar sağlamıyor.  
+- Eşlerin birlikte başvurması ya da bir eşin diğerinin davasını kabul etmesi hâlinde, evlilik birliği temelinden sarsılmış sayılır.  
+- Hâkim, tarafları bizzat dinleyerek iradelerinin serbestçe açıklandığına kanaat getirmeli ve boşanmanın malî sonuçları ile çocukların durumu hususunda taraflarca kabul edilecek bir düzenlemeyi uygun bulmalıdır.  
+- Hâkim, tarafların ve çocukların menfaatlerini göz önünde bulundurarak anlaşmada gerekli gördüğü değişiklikleri yapabilir.  
+- Bu değişikliklerin taraflarca da kabul edilmesi gerekir.
+
+3. **Dayanak maddeler**  
+- **TÜRK MEDENİ KANUNU m.166**
+
+4. **Not / sınırlılık**  
+Bu madde, evlilik birliğinin sarsılması sebebiyle boşanma davalarında temel dayanak maddedir. Diğer maddeler (örneğin, terk, akıl hastalığı, küçük düşürücü davranış vb.) farklı boşanma sebeplerini düzenler ve bu soruya doğrudan yanıt vermez.",1_5_4721_MADDE_166,1_5_4721_MADDE_166; 1_5_4721_MADDE_165; 1_5_4721_MADDE_164; 1_5_4721_MADDE_195; 1_5_4721_MADDE_163; 1_5_4721_MADDE_170; 1_5_4721_MADDE_197; 1_5_4721_MADDE_162; 1_5_4721_MADDE_188; 1_5_4721_MADDE_149,TÜRK MEDENİ KANUNU m.166 | TÜRK MEDENİ KANUNU m.165 | TÜRK MEDENİ KANUNU m.164 | TÜRK MEDENİ KANUNU m.195 | TÜRK MEDENİ KANUNU m.163 | TÜRK MEDENİ KANUNU m.170 | TÜRK MEDENİ KANUNU m.197 | TÜRK MEDENİ KANUNU m.162 | TÜRK MEDENİ KANUNU m.188 | TÜRK MEDENİ KANUNU m.149,0.0848484848484848,0.0848484848484848,1.0,1.0,1.0,1.0,low_answer_overlap
+Q159,Ceza Muhakemesi Hukuku,medium,Duruşmada tutanak tutulmasının amacı nedir?,Duruşmada yapılan işlemlerin ve açıklamaların usulüne uygun biçimde kayda geçirilmesi ve denetlenebilmesi için tutanak tutulur.,"1. **Kısa cevap:**  
+Duruşmada tutanak tutulmasının amacı, duruşmada yapılan işlemleri, sözlü açıklamaları ve kararları yazılı olarak belgelemek ve yargılamanın usul kurallarına uygun yapıldığını ispat etmektir.
+
+2. **Şartlar / açıklama:**  
+Tutanak, duruşmada yer alan tüm önemli bilgileri içermeli ve yargılama sürecinin şeffaflığı ve hukuki güvencesini sağlamalıdır. Tutanak, mahkeme başkanı veya hâkim ile zabıt kâtibi tarafından imzalanır. Ayrıca, teknik araçlarla yapılan kayıtlar da yazılı tutanağa dönüştürülmelidir. Tutanak, yargılama sürecinin usul kurallarına uygun yapıldığını ve işlem hatası olup olmadığını değerlendirmede temel bir ispat aracıdır.
+
+3. **Dayanak maddeler:**  
+- CEZA MUHAKEMESİ KANUNU m.219  
+- CEZA MUHAKEMESİ KANUNU m.222  
+- HUKUK MUHAKEMELERİ KANUNU m.154  
+
+4. **Not / sınırlılık:**  
+Verilen mevzuat bağlamı sadece duruşma tutanaklarının genel amacını ve usulünü açıklamaktadır. Tutanak tutmanın hukuki sonuçları ve özel durumlar bağlamda yer almamaktadır.",1_5_5271_MADDE_219,1_5_5271_MADDE_219; 1_5_6100_MADDE_154; 1_5_1512_MADDE_136; 1_5_1136_MADDE_148; 1_5_5271_MADDE_221; 1_5_5271_MADDE_169; 1_5_5271_MADDE_209; 1_5_5271_MADDE_222; 1_5_5271_MADDE_213; 1_5_6100_MADDE_174,CEZA MUHAKEMESİ KANUNU m.219 | HUKUK MUHAKEMELERİ KANUNU m.154 | NOTERLİK KANUNU m.136 | AVUKATLIK KANUNU m.148 | CEZA MUHAKEMESİ KANUNU m.221 | CEZA MUHAKEMESİ KANUNU m.169 | CEZA MUHAKEMESİ KANUNU m.209 | CEZA MUHAKEMESİ KANUNU m.222 | CEZA MUHAKEMESİ KANUNU m.213 | HUKUK MUHAKEMELERİ KANUNU m.174,0.0863309352517985,0.0863309352517985,1.0,1.0,1.0,1.0,low_answer_overlap
+Q184,İş Hukuku,medium,Çağrı üzerine çalışmada çalışma süresi kararlaştırılmamışsa haftalık süre bakımından ne kabul edilir?,Taraflar çalışma süresini kararlaştırmamışsa haftalık çalışma süresi yirmi saat kararlaştırılmış sayılır.,"1. **Kısa cevap:**  
+Çağrı üzerine çalışmada, haftalık çalışma süresi taraflarca belirlenmemişse **20 saat** kabul edilir.
+
+2. **Şartlar / açıklama:**  
+Çağrı üzerine çalışma sözleşmesinde haftalık çalışma süresi taraflarca belirlenmemişse, **İş Kanunu’nun 14. maddesine** göre bu süre **20 saat** olarak kabul edilir. Bu süre, işçinin işverenden çağrıldığı zamanlarda çalışacağı toplam süreyi ifade eder. Ayrıca, bu süre içinde işçinin günde en az dört saat üst üste çalıştırılması gerekir.
+
+3. **Dayanak maddeler:**  
+- **İş Kanunu m.14**
+
+4. **Not / sınırlılık:**  
+Bu hüküm yalnızca **çağrı üzerine çalışma** sözleşmeleri için geçerlidir. Diğer çalışma türleri (örneğin tam zamanlı, kısmi süreli, uzaktan çalışma) için farklı süreler söz konusu olabilir.",1_5_4857_MADDE_14,1_5_4857_MADDE_14; 1_5_4857_MADDE_63; 1_5_4857_MADDE_13; 1_5_657_MADDE_99; 1_5_4857_MADDE_41; 1_5_4857_MADDE_76; 1_5_854_MADDE_26; 1_5_6098_MADDE_468; 1_5_4857_MADDE_46; 1_5_4857_MADDE_68,İŞ KANUNU m.14 | İŞ KANUNU m.63 | İŞ KANUNU m.13 | DEVLET MEMURLARI KANUNU m.99 | İŞ KANUNU m.41 | İŞ KANUNU m.76 | DENİZ İŞ KANUNU m.26 | TÜRK BORÇLAR KANUNU m.468 | İŞ KANUNU m.46 | İŞ KANUNU m.68,0.0884955752212389,0.0884955752212389,1.0,1.0,1.0,1.0,low_answer_overlap
+Q098,Medeni Hukuk,hard,Elbirliği mülkiyetinin paylı mülkiyete dönüştürülmesi hangi durumda istenebilir?,"Kanunda veya sözleşmede elbirliği mülkiyetinin devamı zorunlu değilse, ortaklardan her biri paylı mülkiyete çevrilmesini isteyebilir.","**Cevap:**
+
+1. **Kısa cevap:**  
+Elbirliği mülkiyetinin paylı mülkiyete dönüştürülmesi, bir mirasçının istemi üzerine ve diğer mirasçıların itirazı bulunmadığı durumlarda istenebilir.
+
+2. **Şartlar / açıklama:**  
+Bir mirasçı, terekeye dahil malların tamamı veya bir kısmı üzerindeki elbirliği mülkiyetinin paylı mülkiyete dönüştürülmesini isteyebilir. Sulh hâkimi, diğer mirasçılara itiraz bildirmeleri için belirli bir süre verir. Bu süre içinde elbirliği mülkiyetinin devamını haklı kılacak bir itiraz ileri sürülmüşse veya bir mirasçı paylaşma davası açmamışsa, istem reddedilir. Aksiyse, elbirliği mülkiyeti paylı mülkiyete dönüştürülür.
+
+3. **Dayanak maddeler:**  
+- TÜRK MEDENİ KANUNU m.644
+
+4. **Not / sınırlılık:**  
+Bu düzenleme özellikle mirasçılara uygulanır. Genel bir elbirliği mülkiyeti durumunda (örneğin ortak girişimlerde), bu madde doğrudan uygulanamaz. Paylı mülkiyete geçiş için özel hukuki düzenlemeler veya paydaşlar arasında anlaşmaya varılması gerekebilir.",1_5_4721_MADDE_644,1_5_4721_MADDE_644; 1_5_4721_MADDE_703; 1_5_4721_MADDE_698; 1_5_4721_MADDE_700; 1_5_4721_MADDE_699; 1_5_4721_MADDE_701; 1_5_4721_MADDE_697; 1_5_634_MADDE_7; 1_5_634_MADDE_51; 1_5_4721_MADDE_692,TÜRK MEDENİ KANUNU m.644 | TÜRK MEDENİ KANUNU m.703 | TÜRK MEDENİ KANUNU m.698 | TÜRK MEDENİ KANUNU m.700 | TÜRK MEDENİ KANUNU m.699 | TÜRK MEDENİ KANUNU m.701 | TÜRK MEDENİ KANUNU m.697 | KAT MÜLKİYETİ KANUNU m.7 | KAT MÜLKİYETİ KANUNU m.51 | TÜRK MEDENİ KANUNU m.692,0.0902255639097744,0.0902255639097744,1.0,1.0,1.0,1.0,low_answer_overlap
+Q169,Medeni Hukuk,medium,Mirasçılıktan yoksunluk hangi hâllerde doğar?,Mirasbırakana veya yakınlarına karşı ağır suç işleyen ya da mirasbırakanın son arzularını engelleyen kişiler kanunda sayılan hâllerde mirasçılıktan yoksun olur.,"1. **Kısa cevap**  
+Mirasçılıktan yoksunluk, mirasbırakanı kasten ve hukuka aykırı olarak öldüren veya öldürmeye teşebbüs eden kişilerde doğar.
+
+2. **Şartlar / açıklama**  
+Mirasçılıktan yoksunluk, aşağıdaki hâllerde doğar:  
+- Mirasbırakanı kasten ve hukuka aykırı olarak öldürenler,  
+- Mirasbırakanı kasten ve hukuka aykırı olarak öldürmeye teşebbüs edenler,  
+- Mirasbırakanın ölüme bağlı bir tasarruf yapmasını veya böyle bir tasarruftan dönmesini aldatma, zorlama veya korkutma yoluyla sağlayanlar,  
+- Mirasbırakanın artık yeniden yapamayacağı bir durumda ve zamanda ölüme bağlı bir tasarrufu kasten ve hukuka aykırı olarak ortadan kaldıranlar veya bozanlar.  
+
+Bu kişiler, mirasçı olamaz ve ölüme bağlı tasarrufla herhangi bir hak da edinemezler. Ancak, mirastan yoksunluk, mirasbırakanın affıyla ortadan kalkabilir.
+
+3. **Dayanak maddeler**  
+- TÜRK MEDENİ KANUNU m.578
+
+4. **Not / sınırlılık**  
+Bağlamda sadece mirasçılıktan yoksunluk sebepleriyle ilgili bilgi verilmiştir. Mirasçılıktan çıkarılma veya saklı pay ile ilgili diğer durumlar bu cevap kapsamında değildir.",1_5_4721_MADDE_578,1_5_4721_MADDE_579; 1_5_4721_MADDE_578; 1_5_4721_MADDE_510; 1_5_4721_MADDE_525; 1_5_4721_MADDE_513; 1_5_4721_MADDE_577; 1_5_4721_MADDE_511; 1_5_4721_MADDE_586; 1_5_4721_MADDE_562; 1_5_4721_MADDE_311,TÜRK MEDENİ KANUNU m.579 | TÜRK MEDENİ KANUNU m.578 | TÜRK MEDENİ KANUNU m.510 | TÜRK MEDENİ KANUNU m.525 | TÜRK MEDENİ KANUNU m.513 | TÜRK MEDENİ KANUNU m.577 | TÜRK MEDENİ KANUNU m.511 | TÜRK MEDENİ KANUNU m.586 | TÜRK MEDENİ KANUNU m.562 | TÜRK MEDENİ KANUNU m.311,0.0909090909090909,0.0519480519480519,1.0,1.0,1.0,1.0,low_answer_overlap
+Q101,Ticaret Hukuku,medium,Tacir olmanın temel sonuçlarından biri olan basiretli iş adamı gibi davranma yükümlülüğü neyi ifade eder?,"Tacir, ticari faaliyetlerinde sıradan bir kişiden daha yüksek özen göstermeli ve öngörülebilir ticari riskleri dikkate almalıdır.","1. **Kısa cevap**  
+Tacir olmanın temel sonuçlarından biri olan ""basiretli iş adamı gibi davranma yükümlülüğü"", tacirin ticari faaliyetlerinde dikkatli, özenli ve ticari usullere uygun hareket etmesi gerektiğini ifade eder.
+
+2. **Şartlar / açıklama**  
+Bu yükümlülük, tacirin ticarette profesyonel bir davranış sergilemesini ve ticari kararlarında dikkatli, bilinçli ve hesaplı hareket etmesini zorunlu kılar. Bu, tacirin ticari işlemlerde dürüstlük, özen ve dikkat göstermesi anlamına gelir. Bu yükümlülük, tacirin ticari faaliyetlerinin genelinde geçerlidir ve ticari işlemlerdeki davranışları için bir standart oluşturur.
+
+3. **Dayanak maddeler**  
+- **TÜRK TİCARET KANUNU m.18/2**: ""Her tacirin, ticaretine ait bütün faaliyetlerinde basiretli bir iş adamı gibi hareket etmesi gerekir.""
+
+4. **Not / sınırlılık**  
+Bu yükümlülük, tacir sıfatına sahip olanlar arasında geçerlidir ve yalnızca ticari faaliyetler kapsamında uygulanır. Basiretli iş adamı gibi davranma yükümlülüğü, genel bir davranış kuralı niteliğindedir ve özel durumlarda yasal sorumluluk doğurabilir.",1_5_6102_MADDE_18,1_5_6102_MADDE_18; 1_5_6102_MADDE_12; 1_5_5237_MADDE_162; 1_5_6102_MADDE_14; 1_5_6102_MADDE_369; 1_5_6098_MADDE_529; 1_5_6098_MADDE_396; 1_5_6102_MADDE_626; 1_5_6098_MADDE_526; 1_5_6102_MADDE_13,TÜRK TİCARET KANUNU m.18 | TÜRK TİCARET KANUNU m.12 | TÜRK CEZA KANUNU m.162 | TÜRK TİCARET KANUNU m.14 | TÜRK TİCARET KANUNU m.369 | TÜRK BORÇLAR KANUNU m.529 | TÜRK BORÇLAR KANUNU m.396 | TÜRK TİCARET KANUNU m.626 | TÜRK BORÇLAR KANUNU m.526 | TÜRK TİCARET KANUNU m.13,0.0927152317880794,0.0927152317880794,1.0,1.0,1.0,1.0,low_answer_overlap
+Q164,Medeni Hukuk,medium,Yerleşim yeri neye göre belirlenir?,Bir kimsenin sürekli kalma niyetiyle oturduğu yer onun yerleşim yeridir.,"1. **Kısa cevap**  
+Yerleşim yeri, bir kişinin sürekli kalma niyetiyle oturduğu yerdir.
+
+2. **Şartlar / açıklama**  
+Yerleşim yeri, kişinin sürekli kalma niyetiyle oturduğu yer olarak belirlenir. Bu tanıma göre, bir kişi aynı anda birden fazla yerleşim yeri sahibi olamaz. Ancak ticari ve sanayi kuruluşlar bu kuraldan muaftır. Ayrıca, yerleşim yerinin değiştirilmesi veya yeni bir yerleşim yerinin edinilmesi durumlarında, eski yerleşim yeri iptal edilir veya yeni yerleşim yeri edinilir. Yabancı ülkedeki yerleşim yerini bırakan ancak Türkiye'de henüz yerleşim yeri edinmemiş olan kişiler için, hâlen oturdukları yer yerleşim yeri sayılır.
+
+3. **Dayanak maddeler**  
+- **TÜRK MEDENİ KANUNU m.19**  
+- **TÜRK MEDENİ KANUNU m.20**  
+- **HUKUK MUHAKEMELERİ KANUNU m.6**
+
+4. **Not / sınırlılık**  
+Yukarıdaki açıklama yalnızca verilen mevzuat bağlamına dayanmaktadır. Ticari ve sanayi kuruluşlar için farklı uygulamalar söz konusu olabilir. Yerleşim yeri kavramı, hukuki süreçlerde (örneğin yetkili mahkeme belirlemede) önemli bir rol oynar.",1_5_4721_MADDE_19,1_5_4721_MADDE_19; 1_5_6100_MADDE_6; 1_5_4721_MADDE_21; 1_5_4721_MADDE_51; 1_5_4721_MADDE_20; 1_5_5718_MADDE_3; 1_5_5543_MADDE_16; 1_5_4721_MADDE_433; 1_5_5543_MADDE_3; 1_5_3083_MADDE_14,TÜRK MEDENİ KANUNU m.19 | HUKUK MUHAKEMELERİ KANUNU m.6 | TÜRK MEDENİ KANUNU m.21 | TÜRK MEDENİ KANUNU m.51 | TÜRK MEDENİ KANUNU m.20 | MİLLETLERARASI ÖZEL HUKUK VE USUL HUKUKU HAKKINDA KANUN m.3 | İSKÂN KANUNU m.16 | TÜRK MEDENİ KANUNU m.433 | İSKÂN KANUNU m.3 | SULAMA ALANLARINDA ARAZİ DÜZENLENMESİNE DAİR TARIM REFORMU KANUNU m.14,0.0933333333333333,0.0933333333333333,1.0,1.0,1.0,1.0,low_answer_overlap
+Q186,İş Hukuku,medium,İşverenin ücret ödeme borcunun temel içeriği nedir?,"İşveren, işçiye yaptığı iş karşılığında sözleşme veya kanun hükümlerine uygun ücret ödemekle yükümlüdür.","**Cevap:**
+
+1. **Kısa cevap:**  
+İşverenin ücret ödeme borcu, işçiye sözleşmede veya toplu iş sözleşmesinde belirlenen ücreti ödemekten, sözleşmede hüküm bulunmayan hallerde ise asgari ücretten az olmamak üzere emsal ücreti ödemekten ibarettir.
+
+2. **Şartlar / açıklama:**  
+İşverenin ücret ödeme borcu, işçinin iş sözleşmesi çerçevesinde yerine getirdiği iş karşılığı doğar. Bu borcun temel içeriği, işçinin çalıştığı süre ve niteliğe uygun olarak belirlenen ücretin ödenmesidir. Sözleşme veya toplu iş sözleşmesinde ücret belirlenmemişse, işveren emsal ücreti ödemekle yükümlüdür ve bu ücret asgari ücretten az olamaz. Ayrıca, ücretin ödeme zamanı genellikle her ayın sonunda olmakla birlikte, bu süre daha kısa yapılabilir.
+
+3. **Dayanak maddeler:**  
+- **TÜRK BORÇLAR KANUNU m.401:** İşveren, işçiye sözleşmede veya toplu iş sözleşmesinde belirlenen ücreti ödemekle yükümlüdür. Sözleşmede hüküm bulunmayan hâllerde ise, asgari ücretten az olmamak üzere emsal ücreti ödemekle yükümlüdür.  
+- **TÜRK BORÇLAR KANUNU m.406:** Aksine âdet olmadıkça, işçiye ücreti her ayın sonunda ödenir.  
+- **İŞ KANUNU m.32:** Ücret, işçinin çalıştığı iş karşılığı işveren tarafından ödenen paradır ve genellikle ayda bir ödenir.
+
+4. **Not / sınırlılık:**  
+Bu cevap, verilen mevzuat bağlamına dayanmaktadır. Bağlamda yer alan diğer maddeler, ücretin ödeme şekli, banka hesabına yatırılması gibi konuları da kapsasa da, soruya doğrudan cevap veren temel dayanak",1_5_4857_MADDE_32,1_5_6098_MADDE_401; 1_5_6098_MADDE_400; 1_5_6098_MADDE_412; 1_5_6098_MADDE_467; 1_5_6098_MADDE_407; 1_5_6098_MADDE_454; 1_5_6098_MADDE_408; 1_5_6098_MADDE_411; 1_5_4857_MADDE_32; 1_5_6098_MADDE_406,TÜRK BORÇLAR KANUNU m.401 | TÜRK BORÇLAR KANUNU m.400 | TÜRK BORÇLAR KANUNU m.412 | TÜRK BORÇLAR KANUNU m.467 | TÜRK BORÇLAR KANUNU m.407 | TÜRK BORÇLAR KANUNU m.454 | TÜRK BORÇLAR KANUNU m.408 | TÜRK BORÇLAR KANUNU m.411 | İŞ KANUNU m.32 | TÜRK BORÇLAR KANUNU m.406,0.0952380952380952,0.0761904761904761,1.0,1.0,1.0,1.0,low_answer_overlap
+Q124,Anayasa Hukuku,easy,Yargı yetkisi Anayasa'ya göre kim tarafından kullanılır?,Yargı yetkisi Türk Milleti adına bağımsız ve tarafsız mahkemelerce kullanılır.,"1. **Kısa cevap**  
+Yargı yetkisi, Türk Milleti adına bağımsız ve tarafsız mahkemelerce kullanılır.
+
+2. **Şartlar / açıklama**  
+Anayasa'ya göre, yargı yetkisi doğrudan Türk Milleti'ne aittir; ancak bu yetki, bağımsız ve tarafsız mahkemeler aracılığıyla kullanılır. Bu mahkemeler, herhangi bir siyasi, idari veya yasama organu tarafından etkilenmeden hukuka ve Anayasa'ya göre karar verir.
+
+3. **Dayanak maddeler**  
+- **TÜRKİYE CUMHURİYETİ ANAYASASI m.9**  
+  *Metin:* ""Yargı yetkisi, Türk Milleti adına bağımsız ve tarafsız mahkemelerce kullanılır.""
+
+4. **Not / sınırlılık**  
+Bu cevap yalnızca verilen bağlamdaki mevzuat metninden çıkarılmıştır. Bağlamda yargı yetkisinin doğrudan Türk Milleti'ne ait olduğu, ancak bu yetkinin mahkemeler aracılığıyla kullanıldığı ifade edilmiştir. Anayasa Mahkemesi gibi özel mahkemelerin görevleri bağlamda da yer almakla birlikte, bu sorunun genel yargı yetkisi açısından cevabı yukarıdaki maddeye dayanmaktadır.",1_5_2709_MADDE_9,1_5_2709_MADDE_9; 1_5_2709_MADDE_8; 1_5_2709_MADDE_138; 1_5_2802_MADDE_4; 1_5_6216_MADDE_3; 1_5_2709_MADDE_6; 1_5_2709_MADDE_37; 1_5_2709_MADDE_148; 1_5_6216_MADDE_45; 1_5_6216_MADDE_2,TÜRKİYE CUMHURİYETİ ANAYASASI m.9 | TÜRKİYE CUMHURİYETİ ANAYASASI m.8 | TÜRKİYE CUMHURİYETİ ANAYASASI m.138 | HAKİMLER VE SAVCILAR KANUNU m.4 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.3 | TÜRKİYE CUMHURİYETİ ANAYASASI m.6 | TÜRKİYE CUMHURİYETİ ANAYASASI m.37 | TÜRKİYE CUMHURİYETİ ANAYASASI m.148 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.45 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.2,0.150375939849624,0.150375939849624,1.0,1.0,1.0,1.0,acceptable_automatic
+Q162,Medeni Hukuk,easy,Hak ehliyeti neyi ifade eder?,Her insanın hak ehliyeti vardır; buna göre bütün insanlar hukuk düzeninin sınırları içinde haklara ve borçlara ehil olmada eşittir.,"1. **Kısa cevap**  
+Hak ehliyeti, bir kişinin hukuk düzeni çerçevesinde haklara sahip olup, bu haklardan yararlanabilmesini ve borçlara ehil olabilmesini sağlayan hukuki durumdur.
+
+2. **Şartlar / açıklama**  
+Her insan doğuştan hak ehliyetine sahiptir. Bu ehliyet, hukuk düzeninin sınırları içinde, kişilerin haklara ve borçlara sahip olmalarını ve bu hak ve borçlardan yararlanmalarını sağlar. Hak ehliyeti, fiil ehliyetinden farklıdır; fiil ehliyeti, bir kişinin kendi adı ve kendi fiilleriyle hukuki sonuçlar doğurabilmesini sağlar. Hak ehliyeti doğuştan başlar ve ölümle sona erer.
+
+3. **Dayanak maddeler**  
+- **TÜRK MEDENİ KANUNU m.8**  
+- **TÜRK MEDENİ KANUNU m.28**  
+- **TÜRK MEDENİ KANUNU m.47**  
+
+4. **Not / sınırlılık**  
+Hak ehliyeti, tüzel kişiler için de geçerlidir; ancak bu kişiler, insanlara özgü niteliklere (örneğin cinsiyet, yaş) bağlı olan haklardan yararlanamazlar. Tüzel kişilerin hak ehliyeti, kanunlarda özel hükümlerle belirlenir.",1_5_4721_MADDE_8,1_5_4721_MADDE_8; 1_5_4721_MADDE_7; 1_5_4721_MADDE_28; 1_5_4721_MADDE_47; 1_5_4721_MADDE_48; 1_5_5718_MADDE_9; 1_5_6100_MADDE_51; 1_5_6100_MADDE_50; 1_5_4721_MADDE_9; 1_5_4721_MADDE_13,TÜRK MEDENİ KANUNU m.8 | TÜRK MEDENİ KANUNU m.7 | TÜRK MEDENİ KANUNU m.28 | TÜRK MEDENİ KANUNU m.47 | TÜRK MEDENİ KANUNU m.48 | MİLLETLERARASI ÖZEL HUKUK VE USUL HUKUKU HAKKINDA KANUN m.9 | HUKUK MUHAKEMELERİ KANUNU m.51 | HUKUK MUHAKEMELERİ KANUNU m.50 | TÜRK MEDENİ KANUNU m.9 | TÜRK MEDENİ KANUNU m.13,0.1517241379310344,0.1241379310344827,1.0,1.0,1.0,1.0,acceptable_automatic
+Q082,Ceza Muhakemesi Hukuku,medium,Tutuklama nedeni sayılabilecek hâller nelerdir?,"Şüpheli veya sanığın kaçması, saklanması ya da kaçacağı şüphesini uyandıran somut olgular ile delilleri yok etme, gizleme veya tanık ve mağdur üzerinde baskı girişiminde bulunma ihtimali tutuklama nedeni sayılabilir.","1. **Kısa cevap:**  
+Tutuklama nedeni sayılabilecek hâller arasında şüphelinin kaçma, delilleri yok etme, tanıklara baskı yapma gibi davranışlarda bulunma ihtimali veya belirli ciddi suçlarda kuvvetli şüphe bulunması yer alır.
+
+2. **Şartlar / açıklama:**  
+Tutuklama kararı, kuvvetli suç şüphesinin varlığını gösteren somut delillerin ve bir tutuklama nedeninin bulunması halinde verilebilir. Tutuklama nedeni, şüphelinin kaçma ihtimali, delilleri yok etme, tanıklara baskı yapma gibi davranışlarda bulunma ihtimali veya belirli ciddi suçlarda kuvvetli şüphe bulunması durumunda var sayılabilir. Bu suçlar arasında soykırım, insan ticareti, kasten öldürme, işkence, cinsel saldırı, uyuşturucu ticareti gibi ciddi suçlar yer alır.
+
+3. **Dayanak maddeler:**  
+- CEZA MUHAKEMESİ KANUNU m.100  
+- TÜRKİYE CUMHURİYETİ ANAYASASI m.19  
+
+4. **Not / sınırlılık:**  
+Tutuklama kararı, işin önemi ve ceza ölçüsüyle orantılı olmaması durumunda verilemez. Ayrıca, adli para cezasını gerektiren suçlarda veya hapis cezasının üst sınırı iki yıldan fazla olmayan suçlarda tutuklama kararı verilemez.",1_5_5271_MADDE_100,1_5_5271_MADDE_100; 1_5_5271_MADDE_141; 1_5_2709_MADDE_19; 1_5_5271_MADDE_90; 1_3_1632_MADDE_13; 1_5_4721_MADDE_432; 1_5_5275_MADDE_111; 1_5_5271_MADDE_101; 1_5_5271_MADDE_109; 1_5_5271_MADDE_91,CEZA MUHAKEMESİ KANUNU m.100 | CEZA MUHAKEMESİ KANUNU m.141 | TÜRKİYE CUMHURİYETİ ANAYASASI m.19 | CEZA MUHAKEMESİ KANUNU m.90 | ASKERİ CEZA KANUNU m.13 | TÜRK MEDENİ KANUNU m.432 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.111 | CEZA MUHAKEMESİ KANUNU m.101 | CEZA MUHAKEMESİ KANUNU m.109 | CEZA MUHAKEMESİ KANUNU m.91,0.1538461538461538,0.1065088757396449,1.0,1.0,1.0,1.0,acceptable_automatic
+Q185,İş Hukuku,medium,Deneme süresi en çok ne kadar olabilir?,Taraflar deneme süresini en çok iki ay olarak kararlaştırabilir; toplu iş sözleşmeleriyle bu süre dört aya kadar uzatılabilir.,"1. **Kısa cevap**  
+Deneme süresi genel olarak en çok **iki aydır**. Ancak bazı özel durumlarda bu süre farklı olabilir.
+
+2. **Şartlar / açıklama**  
+Deneme süresi genel olarak iş sözleşmeleri ve hizmet sözleşmeleri kapsamında en fazla iki ay olabilir. Ancak deniz iş sözleşmeleri özel bir durum teşkil eder ve burada deneme süresi en fazla bir aydır. Ayrıca, toplu iş sözleşmeleri ile deneme süresi dört aya kadar uzatılabilmektedir.
+
+3. **Dayanak maddeler**  
+- **İŞ KANUNU m.15**: Taraflarca iş sözleşmesine bir deneme kaydı konulduğunda, bunun süresi en çok iki ay olabilir. Ancak deneme süresi toplu iş sözleşmeleriyle dört aya kadar uzatılabilir.  
+- **TÜRK BORÇLAR KANUNU m.454**: Deneme süresi için ödenecek ücret, serbestçe kararlaştırılabilir. Ancak, deneme süresi iki ayı geçemez.  
+- **TÜRK BORÇLAR KANUNU m.433**: Taraflar, hizmet sözleşmesine iki ayı aşmamak koşuluyla deneme süresi koyabilirler.  
+- **DENİZ İŞ KANUNU m.10**: Süresi belirsiz olmayan hizmet akitlerinde deneme süresi en çok bir aydır.
+
+4. **Not / sınırlılık**  
+Deneme süresinin uzunluğu iş sözleşmesinin türüne ve uygulanan mevzuata bağlıdır. Deniz iş sözleşmeleri özel bir hukuk düzenine tabidir ve burada deneme süresi diğer iş sözleşmelerinden farklıdır. Toplu iş sözleşmeleri ile deneme süresi uzatılabileceği için bu durum özel olarak belirtilmiştir.",1_5_4857_MADDE_15,1_5_854_MADDE_10; 1_5_4857_MADDE_15; 1_5_6098_MADDE_454; 1_5_3308_MADDE_14; 1_5_6098_MADDE_433; 1_5_6098_MADDE_432; 1_5_6356_MADDE_35; 1_5_6098_MADDE_468; 1_5_2886_MADDE_64; 1_5_4458_MADDE_130,DENİZ İŞ KANUNU m.10 | İŞ KANUNU m.15 | TÜRK BORÇLAR KANUNU m.454 | MESLEKİ EĞİTİM KANUNU m.14 | TÜRK BORÇLAR KANUNU m.433 | TÜRK BORÇLAR KANUNU m.432 | SENDİKALAR VE TOPLU İŞ SÖZLEŞMESİ KANUNU m.35 | TÜRK BORÇLAR KANUNU m.468 | DEVLET İHALE KANUNU m.64 | GÜMRÜK KANUNU m.130,0.1538461538461538,0.1153846153846153,1.0,1.0,1.0,1.0,acceptable_automatic
+Q031,Ceza Muhakemesi Hukuku,medium,"Soruşturma aşamasında ""gizlilik kararı"" (kısıtlama) hangi belgeleri kapsayamaz?","Soruşturma evresinde kısıtlama kararı verilse bile müdafi; şüphelinin ifadesine, bilirkişi raporlarına ve hazır bulunmaya yetkili olduğu diğer adli işlemlere ilişkin tutanaklara erişebilir. Bu belgeler kısıtlama kararının kapsamı dışında kalır.","1. **Kısa cevap:**  
+Soruşturma aşamasında ""gizlilik kararı"", şüphelinin veya sanığın ifadesini içeren tutanaklar, bilirkişi raporları ve adı geçenlerin hazır bulunmaya yetkili oldukları diğer adli işlemlere ilişkin tutanakları kapsayamaz.
+
+2. **Şartlar / açıklama:**  
+Ceza Muhakemesi Kanunu’nun 153. maddesine göre, gizlilik kararı, soruşturmanın amacını tehlikeye düşürebilecek durumlarda savcının istemiyle hâkim kararıyla uygulanabilir. Ancak bu karar, şüphelinin veya sanığın ifadesini içeren tutanaklar, bilirkişi raporları ve adı geçenlerin hazır bulunmaya yetkili oldukları diğer adli işlemlere ilişkin tutanaklar için uygulanamaz. Bu belgeler her zaman incelemeye açık tutulur.
+
+3. **Dayanak maddeler:**  
+- CEZA MUHAKEMESİ KANUNU m.153 (3)  
+  > ""Yakalanan kişinin veya şüphelinin ifadesini içeren tutanak ile bilirkişi raporları ve adı geçenlerin hazır bulunmaya yetkili oldukları diğer adli işlemlere ilişkin tutanaklar hakkında, ikinci fıkra hükmü uygulanmaz.""
+
+4. **Not / sınırlılık:**  
+Bu hükmün uygulama alanı yalnızca ceza muhakemesi sürecine ve ilgili maddelerde belirtilen belgelerin kapsamına sınırlıdır. Hukuk muhakemeleri veya diğer özel hukuk alanlarında farklı gizlilik kuralları geçerli olabilir.",1_5_5271_MADDE_153,1_5_5271_MADDE_153; 1_5_5271_MADDE_126; 1_5_5271_MADDE_125; 1_5_6458_MADDE_94; 1_5_5271_MADDE_209; 1_5_4982_MADDE_20; 1_5_6100_MADDE_158; 1_5_6100_MADDE_161; 1_5_5271_MADDE_157; 1_5_6100_MADDE_28,CEZA MUHAKEMESİ KANUNU m.153 | CEZA MUHAKEMESİ KANUNU m.126 | CEZA MUHAKEMESİ KANUNU m.125 | YABANCILAR VE ULUSLARARASI KORUMA KANUNU m.94 | CEZA MUHAKEMESİ KANUNU m.209 | BİLGİ EDİNME HAKKI KANUNU m.20 | HUKUK MUHAKEMELERİ KANUNU m.158 | HUKUK MUHAKEMELERİ KANUNU m.161 | CEZA MUHAKEMESİ KANUNU m.157 | HUKUK MUHAKEMELERİ KANUNU m.28,0.1573033707865168,0.1573033707865168,1.0,1.0,1.0,1.0,acceptable_automatic
+Q050,İş Hukuku,medium,Ev hizmetlerinde çalışanlar İş Kanunu kapsamında mıdır? İstisnaları nelerdir?,Ev hizmetlerinde çalışanlar kural olarak İş Kanunu kapsamı dışındadır. Bu nedenle genel olarak 4857 sayılı Kanunun iş güvencesi ve çalışma süresi gibi hükümleri uygulanmaz; uygulanacak rejim somut olaya göre diğer özel ve genel hükümlere dayanır.,"1. **Kısa cevap**  
+Ev hizmetlerinde çalışanlar genelde İş Kanunu kapsamına dahil değildir; ancak bazı istisnalar mevcuttur.
+
+2. **Şartlar / açıklama**  
+Ev hizmetlerinde çalışanlar, 4857 sayılı İş Kanunu'nun 4. maddesine göre genelde bu Kanun kapsamına alınmaz. Ancak, bu kişilerin ücretli olarak aynı kişi yanında ay içinde 10 gün ve daha fazla süreyle çalışması durumunda, 5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu kapsamında sigortalı sayılır. Ayrıca, 6331 sayılı İş Sağlığı ve Güvenliği Kanunu'nun 2. maddesine göre ev hizmetleri bu Kanun kapsamına alınmaz.
+
+3. **Dayanak maddeler**  
+- **İŞ KANUNU m.4**  
+- **SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU m.6**  
+- **İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU m.2**
+
+4. **Not / sınırlılık**  
+Ev hizmetlerinde çalışanlar genelde İş Kanunu kapsamına alınmaz; ancak sosyal sigorta kapsamında değerlendirilmeleri için belirli süre ve ücret kriterlerine uygun olmaları gerekir. Bu durum, çalışanın sosyal güvenlikle ilgili hak ve sorumluluklara sahip olup olmadığını etkiler.",1_5_4857_MADDE_4,1_5_4857_MADDE_4; 1_5_2828_MADDE_16; 1_5_854_MADDE_27; 1_5_5510_MADDE_6; 1_5_6331_MADDE_2; 1_5_4857_MADDE_2; 1_5_4857_MADDE_111; 1_3_5953_MADDE_2; 1_5_7330_MADDE_7; 1_5_4857_MADDE_110,İŞ KANUNU m.4 | SOSYAL HİZMETLER KANUNU m.16 | DENİZ İŞ KANUNU m.27 | SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU m.6 | İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU m.2 | İŞ KANUNU m.2 | İŞ KANUNU m.111 | BASIN MESLEĞİNDE ÇALIŞANLARLA ÇALIŞTIRANLAR ARASINDAKİ MÜNASEBETLERİN TANZİMİ HAKKINDA KANUN m.2 | MAKİNE VE KİMYA ENDÜSTRİSİ ANONİM ŞİRKETİ HAKKINDA KANUN m.7 | İŞ KANUNU m.110,0.1587301587301587,0.1375661375661376,1.0,1.0,1.0,1.0,acceptable_automatic
+Q069,Borçlar Hukuku,medium,Taraflarca belirlenmemişse para borcunun ifa yeri neresidir?,"Aksine anlaşma veya teamül yoksa para borçları, alacaklının ödeme zamanındaki yerleşim yerinde ifa edilir.","1. **Kısa cevap**  
+Taraflarca belirlenmemişse para borcunun ifa yeri alacaklının ödeme zamanındaki yerleşim yeridir.
+
+2. **Şartlar / açıklama**  
+Borç tarafları tarafından ifa yeri konusunda açık veya örtülü bir anlaşmaya varmamışsa, Türk Borçlar Kanunu’nun ilgili maddesi uyarınca para borcunun ifa yeri alacaklının ödeme zamanındaki yerleşim yeridir. Bu kural, taraflar arasında özel bir anlaşmanın bulunmadığı durumlarda geçerlidir.
+
+3. **Dayanak maddeler**  
+- Kaynak: TÜRK BORÇLAR KANUNU m.89  
+  Metin: Borcun ifa yeri, tarafların açık veya örtülü iradelerine göre belirlenir. Aksine bir anlaşma yoksa, aşağıdaki hükümler uygulanır; 1. Para borçları, alacaklının ödeme zamanındaki yerleşim yerinde, ...
+
+4. **Not / sınırlılık**  
+Bu kural özel hukuk ilişkileri için geçerlidir. Kamu alacakları veya ticari senetler gibi özel durumlar farklı mevzuat hükümlerine tabi olabilir. Soruda belirtilen bağlamda ticari senetlerle ilgili maddeler de yer almakla birlikte, genel para borcu kuralı doğrudan Türk Borçlar Kanunu m.89'da yer almaktadır.",1_5_6098_MADDE_89,1_5_6098_MADDE_89; 1_5_4721_MADDE_821; 1_5_4721_MADDE_916; 1_5_6098_MADDE_99; 1_5_6098_MADDE_88; 1_3_6183_MADDE_39; 1_5_6098_MADDE_91; 1_5_6102_MADDE_820; 1_5_6098_MADDE_83; 1_5_6102_MADDE_777,TÜRK BORÇLAR KANUNU m.89 | TÜRK MEDENİ KANUNU m.821 | TÜRK MEDENİ KANUNU m.916 | TÜRK BORÇLAR KANUNU m.99 | TÜRK BORÇLAR KANUNU m.88 | AMME ALACAKLARININ TAHSİL USULÜ HAKKINDA KANUN m.39 | TÜRK BORÇLAR KANUNU m.91 | TÜRK TİCARET KANUNU m.820 | TÜRK BORÇLAR KANUNU m.83 | TÜRK TİCARET KANUNU m.777,0.1589403973509933,0.1324503311258278,1.0,1.0,1.0,1.0,acceptable_automatic
+Q153,Ceza Muhakemesi Hukuku,medium,Şüphelinin konutunda arama kural olarak kim tarafından yapılır?,"Konut, işyeri ve kamuya açık olmayan kapalı alanlarda arama kural olarak hakim kararıyla; gecikmesinde sakınca bulunan hâllerde Cumhuriyet savcısının yazılı emriyle yapılır.","1. **Kısa cevap:**  
+Şüphelinin konutunda arama kural olarak **hâkim kararı** ile veya **Cumhuriyet savcısının yazılı emri** ile yapılır.
+
+2. **Şartlar / açıklama:**  
+Konutlarda arama, genel kural olarak hâkim kararı ile yapılır. Ancak, gecikmesinde sakınca bulunan hallerde Cumhuriyet savcısının yazılı emri ile de arama yapılabilir. Kolluk amirinin yazılı emri ile yapılan aramalar ise yalnızca Cumhuriyet savcısına ulaşılamadığı durumlarda ve sadece geçici olarak yapılabilir. Bu tür aramaların sonuçları Cumhuriyet Başsavcılığına derhal bildirilmelidir.
+
+3. **Dayanak maddeler:**  
+- CEZA MUHAKEMESİ KANUNU m.119  
+- CEZA MUHAKEMESİ KANUNU m.118  
+- TÜRKİYE CUMHURİYETİ ANAYASASI m.21  
+
+4. **Not / sınırlılık:**  
+Gece vaktinde konutlarda arama yapılamaz, ancak suçüstü durumu veya gecikmesinde sakınca bulunan hallerde bu kural uygulanmaz. Ayrıca, konutlarda arama yapılırken yer sahibi veya temsilcisi, komşusu veya ayırt etme gücüne sahip bir kişi hazır bulundurulmalıdır.",1_5_5271_MADDE_119,1_5_5271_MADDE_119; 1_5_5271_MADDE_116; 1_5_5271_MADDE_117; 1_5_1136_MADDE_58; 1_5_2709_MADDE_21; 1_5_5271_MADDE_118; 1_5_5271_MADDE_120; 1_3_2559_MADDE_9; 1_3_3780_MADDE_65; 1_3_6831_MADDE_88,CEZA MUHAKEMESİ KANUNU m.119 | CEZA MUHAKEMESİ KANUNU m.116 | CEZA MUHAKEMESİ KANUNU m.117 | AVUKATLIK KANUNU m.58 | TÜRKİYE CUMHURİYETİ ANAYASASI m.21 | CEZA MUHAKEMESİ KANUNU m.118 | CEZA MUHAKEMESİ KANUNU m.120 | POLİS VAZİFE VE SALȂHİYET KANUNU m.9 | MİLLİ KORUNMA KANUNU m.65 | ORMAN KANUNU m.88,0.1589403973509933,0.119205298013245,1.0,1.0,1.0,1.0,acceptable_automatic
+Q118,İş Hukuku,medium,Fazla çalışma ücreti saatlik ücret üzerinden nasıl hesaplanır?,"Fazla çalışma için verilecek ücret, normal çalışma ücretinin saat başına düşen miktarının yüzde elli yükseltilmesi suretiyle ödenir.","1. **Kısa cevap:**  
+Fazla çalışma ücreti, normal çalışma ücretinin saat başına düşen miktarının %50 artırılmasıyla ödenir.
+
+2. **Şartlar / açıklama:**  
+Fazla çalışma, haftalık 45 saati aşan çalışmalardır ve bu çalışmaların yapılabilmesi için işçinin onayı gerekir. Her bir saat fazla çalışma karşılığı, işçinin normal çalışma ücretinin saat başına düşen miktarının %50 artırılmış hali ödenir. Bu oran, bazı özel sektör ve kamu sektörü dışındaki mevzuatlarda farklılık gösterebilir.
+
+3. **Dayanak maddeler:**  
+- **İŞ KANUNU m.41**  
+- **TÜRK BORÇLAR KANUNU m.402**
+
+4. **Not / sınırlılık:**  
+Belirli sektörlerde (örneğin deniz işçileri, basın sektörü, vergi denetim personeli gibi) fazla çalışma ücreti oranları farklı olabilir. Bu durumlar yukarıdaki genel oranın dışında değerlendirilmelidir. Soruda sadece genel hukuki kural istendiğinden, İş Kanunu ve Türk Borçlar Kanunu’na dayalı cevap verilmiştir.",1_5_4857_MADDE_41,1_5_4857_MADDE_41; 1_5_854_MADDE_28; 1_5_3787_GEÇİCİ_MADDE_1; 1_3_5953_MADDE_1; 1_4_213_MADDE_13; 1_5_2954_MADDE_52; 1_5_6098_MADDE_402; 1_5_657_MADDE_178; 1_5_2935_MADDE_29; 1_5_4857_MADDE_50,İŞ KANUNU m.41 | DENİZ İŞ KANUNU m.28 | BAZI KAMU ALACAKLARININ TAHSİLATININ HIZLANDIRILMASI VE MATRAH ARTIRIMI HAKKINDA KANUN geçici m.1 | BASIN MESLEĞİNDE ÇALIŞANLARLA ÇALIŞTIRANLAR ARASINDAKİ MÜNASEBETLERİN TANZİMİ HAKKINDA KANUN m.1 | VERGİ USUL KANUNU m.13 | TÜRKİYE RADYO VE TELEVİZYON KANUNU m.52 | TÜRK BORÇLAR KANUNU m.402 | DEVLET MEMURLARI KANUNU m.178 | OLAĞANÜSTÜ HAL KANUNU m.29 | İŞ KANUNU m.50,0.1594202898550724,0.1594202898550724,1.0,1.0,1.0,1.0,acceptable_automatic
+Q039,Medeni Hukuk,medium,Elbirliği mülkiyetinin paylı mülkiyete dönüştürülmesi usulü nasıl işler?,"Elbirliği mülkiyetinin paylı mülkiyete dönüştürülmesi, miras ortaklığında paydaşlardan birinin istemi üzerine ve haklı bir itiraz bulunmaması halinde hâkim kararıyla mümkündür. Hâkim, terekenin tamamı veya belirli mallar üzerinde paylı mülkiyete geçilmesine karar verebilir.","**Cevap:**
+
+1. **Kısa cevap:**  
+Elbirliği mülkiyetinin paylı mülkiyete dönüştürülmesi, bir mirasçının istemi üzerine sulh hâkimi tarafından başlatılan bir usul ile yapılır. Diğer mirasçılar belirlenen süre içinde itiraz etmezse veya paylaşma davası açmazsa, elbirliği mülkiyeti paylı mülkiyete dönüştürülür.
+
+2. **Şartlar / açıklama:**  
+- Elbirliği mülkiyetinin paylı mülkiyete dönüştürülmesi istemi, bir mirasçının dile getirmesiyle başlar.  
+- Sulh hâkimi, diğer mirasçılara itiraz süresi verir.  
+- Herhangi bir itiraz gelmediğinde veya itirazın hukuka aykırı olduğu belirlendiğinde, elbirliği mülkiyeti paylı mülkiyete dönüştürülür.  
+- Bu dönüştürme, terekeye dahil diğer hakların ve alacakların da pay oranında bölünmesini kapsar.  
+- Paylı mülkiyette, paylar eşit sayılır; aksi belirtilmediği sürece her bir paydaş eşit paya sahiptir.
+
+3. **Dayanak maddeler:**  
+- [1] TÜRK MEDENİ KANUNU m.644  
+- [2] TÜRK MEDENİ KANUNU m.703  
+- [6] TÜRK MEDENİ KANUNU m.688  
+
+4. **Not / sınırlılık:**  
+- Bu usul, genellikle mirasçılık bağlamında uygulanır.  
+- Elbirliği mülkiyeti, paylı mülkiyete geçmeden önce hukuki itirazlara açık olabilir.  
+- Paylı mülkiyete geçişten sonra, mal paylaşımı paylı mülkiyet hükümlerine göre yapılır.",1_5_4721_MADDE_644,1_5_4721_MADDE_644; 1_5_4721_MADDE_703; 1_5_4721_MADDE_699; 1_5_4721_MADDE_701; 1_5_4721_MADDE_700; 1_5_4721_MADDE_688; 1_5_634_MADDE_51; 1_5_3402_MADDE_44; 1_5_4721_MADDE_692; 1_5_4721_MADDE_698,TÜRK MEDENİ KANUNU m.644 | TÜRK MEDENİ KANUNU m.703 | TÜRK MEDENİ KANUNU m.699 | TÜRK MEDENİ KANUNU m.701 | TÜRK MEDENİ KANUNU m.700 | TÜRK MEDENİ KANUNU m.688 | KAT MÜLKİYETİ KANUNU m.51 | KADASTRO KANUNU m.44 | TÜRK MEDENİ KANUNU m.692 | TÜRK MEDENİ KANUNU m.698,0.160427807486631,0.1390374331550802,1.0,1.0,1.0,1.0,acceptable_automatic
+Q083,Ceza Muhakemesi Hukuku,medium,Müdafiin dosya inceleme yetkisi hangi durumda kısıtlanabilir?,Soruşturmanın amacını tehlikeye düşürebilecekse hâkim kararıyla müdafiin dosya içeriğini inceleme ve belgelerden örnek alma yetkisi kısıtlanabilir.,"**Cevap:**
+
+1. **Kısa cevap:**  
+Müdafiin dosya inceleme yetkisi, soruşturmanın amacını tehlikeye düşürebilecek durumlarda ve belirli suçlara ilişkin soruşturmalarda Cumhuriyet savcısının istemi üzerine hâkim kararıyla kısıtlanabilir.
+
+2. **Şartlar / açıklama:**  
+Müdafiin dosya inceleme yetkisi, aşağıdaki şartlar altında kısıtlanabilir:  
+- Soruşturmanın amacını tehlikeye düşürebilecek durumlar söz konusu ise,  
+- Cumhuriyet savcısı bu durumu istemde bulunmuşsa,  
+- Hâkim bu istem üzerine bir kısıtlama kararı vermişse,  
+- Kısıtlama kararı yalnızca belirli suçlara ilişkin soruşturmalarda verilebilir. Bu suçlar arasında kasten öldürme, cinsel saldırı, çocuk istismarı, uyuşturucu ticareti, devletin güvenliğine karşı suçlar, anayasal düzene karşı suçlar ve devlet sırlarına karşı suçlar gibi ciddi suçlar yer alır.
+
+3. **Dayanak maddeler:**  
+- CEZA MUHAKEMESİ KANUNU m.153
+
+4. **Not / sınırlılık:**  
+Bu kısıtlama yalnızca soruşturma evresinde geçerlidir. İddianame kabul edildikten sonra müdafî, dosya içeriğini ve delilleri inceleme yetkisine sahiptir. Ayrıca, yakalanan kişinin veya şüphelinin ifadesini içeren tutanaklar ve bilirkişi raporları gibi belgelerin incelemesi ikinci fıkranın uygulanmasıyla kısıtlanmaz.",1_5_5271_MADDE_153,1_5_5271_MADDE_153; 1_5_5271_MADDE_152; 1_5_5271_MADDE_154; 1_5_6100_MADDE_161; 1_5_5271_MADDE_122; 1_3_3894_MADDE_121; 1_5_657_MADDE_129; 1_5_5271_MADDE_80; 1_5_6100_MADDE_355; 1_5_1136_MADDE_46,CEZA MUHAKEMESİ KANUNU m.153 | CEZA MUHAKEMESİ KANUNU m.152 | CEZA MUHAKEMESİ KANUNU m.154 | HUKUK MUHAKEMELERİ KANUNU m.161 | CEZA MUHAKEMESİ KANUNU m.122 | DENİZDE ZABT VE MÜSADERE KANUNU m.121 | DEVLET MEMURLARI KANUNU m.129 | CEZA MUHAKEMESİ KANUNU m.80 | HUKUK MUHAKEMELERİ KANUNU m.355 | AVUKATLIK KANUNU m.46,0.1604938271604938,0.1358024691358024,1.0,1.0,1.0,1.0,acceptable_automatic
+Q134,Borçlar Hukuku,easy,Borcun imkânsızlaşması neyi ifade eder?,Borçlunun sorumlu tutulamayacağı sebeplerle borcun ifasının imkânsız hâle gelmesi durumunda borç sona erer.,"1. **Kısa cevap**  
+Borcun imkânsızlaşması, borçlunun sorumlu tutulamayacağı sebeplerle borç ifasının artık mümkün olmaması durumunu ifade eder. Bu durumda borç doğrudan sona erer.
+
+2. **Şartlar / açıklama**  
+Borcun ifasının imkânsızlaşması, borçlunun kusuruna bağlı olmayan nedenlerle gerçekleştiğinde, borçlu bu borçtan kurtulur. Ancak karşılıklı borç yükleyen sözleşmelerde, borçlu karşı taraftan almış olduğu edimi sebepsiz zenginleşme hükümleri uyarınca geri vermekle yükümlüdür. Ayrıca, borçlunun ifanın imkânsızlaştığını alacaklıya gecikmeksizin bildirmemesi durumunda doğan zararlar için sorumludur.
+
+3. **Dayanak maddeler**  
+- TÜRK BORÇLAR KANUNU m.136  
+- TÜRK BORÇLAR KANUNU m.137  
+- TÜRK BORÇLAR KANUNU m.135  
+
+4. **Not / sınırlılık**  
+İmkânsızlık, borçlunun kusuruna bağlı ise bu durum imkânsızlık olarak kabul edilmez. Ayrıca, kısmi ifa imkânsızlığı durumlarında da tarafların sözleşmenin yapılıp yapılmaması konusundaki niyeti dikkate alınır.",1_5_6098_MADDE_136,1_5_6098_MADDE_136; 1_5_6098_MADDE_137; 1_5_6098_MADDE_182; 1_5_6098_MADDE_485; 1_5_6098_MADDE_98; 1_5_6098_MADDE_124; 1_5_6098_MADDE_135; 1_5_6098_MADDE_111; 1_5_6098_MADDE_617; 1_5_6098_MADDE_132,TÜRK BORÇLAR KANUNU m.136 | TÜRK BORÇLAR KANUNU m.137 | TÜRK BORÇLAR KANUNU m.182 | TÜRK BORÇLAR KANUNU m.485 | TÜRK BORÇLAR KANUNU m.98 | TÜRK BORÇLAR KANUNU m.124 | TÜRK BORÇLAR KANUNU m.135 | TÜRK BORÇLAR KANUNU m.111 | TÜRK BORÇLAR KANUNU m.617 | TÜRK BORÇLAR KANUNU m.132,0.1605839416058394,0.1167883211678832,1.0,1.0,1.0,1.0,acceptable_automatic
+Q119,İş Hukuku,hard,İşverenin eşit davranma borcuna aykırılık hâlinde işçi hangi talepte bulunabilir?,"İşçi, dört aya kadar ücreti tutarında uygun bir tazminat ile yoksun bırakıldığı haklarını talep edebilir.","1. **Kısa cevap:**  
+İşverenin eşit davranma borcuna aykırılık hâlinde işçi, yoksun bırakıldığı haklarını talep edebilir ve dört aya kadar ücreti tutarındaki uygun bir tazminat talep edebilir.
+
+2. **Şartlar / açıklama:**  
+İşveren, iş ilişkisinde cinsiyet, ırk, din, siyasal düşünce gibi sebeplere dayalı ayrım yapamaz. İşverenin bu ilkeye aykırı davranması durumunda işçi, yoksun bırakıldığı hakları ve dört aya kadar ücreti tutarındaki uygun bir tazminatı talep edebilir. Bu talebin geçerli olması için işverenin eşitlik ilkesine aykırı davrandığının ispat edilmesi gerekir. Ancak, işçi bir ihlalin varlığı ihtimalini güçlü bir biçimde gösterdiğinde, ispat yükümlülüğü işverene geçer.
+
+3. **Dayanak maddeler:**  
+- **İŞ KANUNU m.5**  
+- **SENDİKALAR VE TOPLU İŞ SÖZLEŞMESİ KANUNU m.25**  
+- **TÜRKİYE İNSAN HAKLARI VE EŞİTLİK KURUMU KANUNU m.6**
+
+4. **Not / sınırlılık:**  
+İşçi, eşitlik ilkesine aykırı davranışın varlığını ispat etmekle yükümlüdür. Ancak, güçlü bir ihtimal sunulduğunda ispat yükümlülüğü işverene geçer. Talep, iş sözleşmesinin sona ermesiyle birlikte veya ayrımcılığın olduğu sürece geçerlidir.",1_5_4857_MADDE_5,1_5_4857_MADDE_5; 1_5_4857_MADDE_99; 1_5_6356_MADDE_25; 1_5_6098_MADDE_446; 1_5_6701_MADDE_6; 1_5_6098_MADDE_417; 1_5_6098_MADDE_439; 1_5_4857_MADDE_24; 1_5_6701_MADDE_17; 1_5_4857_MADDE_26,İŞ KANUNU m.5 | İŞ KANUNU m.99 | SENDİKALAR VE TOPLU İŞ SÖZLEŞMESİ KANUNU m.25 | TÜRK BORÇLAR KANUNU m.446 | TÜRKİYE İNSAN HAKLARI VE EŞİTLİK KURUMU KANUNU m.6 | TÜRK BORÇLAR KANUNU m.417 | TÜRK BORÇLAR KANUNU m.439 | İŞ KANUNU m.24 | TÜRKİYE İNSAN HAKLARI VE EŞİTLİK KURUMU KANUNU m.17 | İŞ KANUNU m.26,0.160919540229885,0.1379310344827586,1.0,1.0,1.0,1.0,acceptable_automatic
+Q183,İş Hukuku,medium,Belirli süreli ve belirsiz süreli iş sözleşmesi arasındaki temel fark nedir?,Belirli süreli iş sözleşmesi objektif koşullara bağlı olarak belirli bir süre veya iş için kurulur; belirsiz süreli iş sözleşmesinde ise iş ilişkisinin sona ereceği tarih baştan belirlenmez.,"**Cevap:**
+
+1. **Kısa cevap**  
+Belirsiz süreli iş sözleşmesi, bir süreye bağlı olmayan ve süresi belirtilmeyen iş sözleşmesidir; belirli süreli iş sözleşmesi ise yazılı olarak belirlenen bir süre veya objektif bir koşula bağlı olarak yapılan iş sözleşmesidir.
+
+2. **Şartlar / açıklama**  
+Belirsiz süreli iş sözleşmeleri, genellikle süresi belirtilmeden yapılır ve işveren ile işçi arasında yazılı şekilde belirli bir süre veya koşul konulmaz. Belirli süreli iş sözleşmeleri ise yazılı olarak belirlenen bir süre veya belli bir işin tamamlanması gibi objektif bir koşula dayanır. Belirli süreli iş sözleşmeleri, esaslı bir neden olmadıkça birden fazla üst üste (zincirleme) yapılamaz; aksi takdirde belirsiz süreli kabul edilir. Ayrıca, belirli süreli iş sözleşmeleri, süresi bittiğinde kendiliğinden sona erer; ancak süresi bittiğinde örtülü olarak devam ederse belirsiz süreli sözleşmeye dönüşür.
+
+3. **Dayanak maddeler**  
+- **İŞ KANUNU m.11**  
+- **İŞ KANUNU m.12**  
+- **İŞ KANUNU m.10**  
+- **İŞ KANUNU m.9**  
+- **TÜRK BORÇLAR KANUNU m.430**  
+- **TÜRK BORÇLAR KANUNU m.468**
+
+4. **Not / sınırlılık**  
+Belirli süreli iş sözleşmeleri, işçiye yönelik bazı hukuki avantajları sınırlayabilir; ancak bu sözleşmelerle çalışan işçiler, salt süreli olmasından dolayı emsal işçiye göre ayrımcılıkla muamele edilemez. Ayrıca, belirli süreli iş sözleşmeleri, esaslı bir neden olmadıkça zincirleme yapılamaz.",1_5_4857_MADDE_11,1_5_4857_MADDE_11; 1_5_4857_MADDE_12; 1_5_6098_MADDE_430; 1_5_4857_MADDE_10; 1_5_6098_MADDE_468; 1_5_4857_MADDE_9; 1_5_6098_MADDE_438; 1_5_4857_MADDE_13; 1_5_657_MADDE_4; 1_5_6098_MADDE_393,İŞ KANUNU m.11 | İŞ KANUNU m.12 | TÜRK BORÇLAR KANUNU m.430 | İŞ KANUNU m.10 | TÜRK BORÇLAR KANUNU m.468 | İŞ KANUNU m.9 | TÜRK BORÇLAR KANUNU m.438 | İŞ KANUNU m.13 | DEVLET MEMURLARI KANUNU m.4 | TÜRK BORÇLAR KANUNU m.393,0.1636363636363636,0.1454545454545454,1.0,1.0,1.0,1.0,acceptable_automatic
+Q161,Medeni Hukuk,easy,Kişilik ne zaman başlar?,"Kişilik, çocuğun sağ olarak tamamıyla doğduğu anda başlar.","1. **Kısa cevap**  
+Kişilik, çocuğun sağ olarak tamamıyla doğduğu anda başlar.
+
+2. **Şartlar / açıklama**  
+Kişilik, Türk Medeni Kanunu'na göre, çocuğun sağ olarak tamamıyla doğduğu andan itibaren başlar. Bu doğuş anı, çocuğun hukuki olarak bir birey olarak tanınmaya başladığı andır. Ayrıca, çocuk ana rahmine düştüğü andan itibaren hak ehliyetini elde etmiş sayılır, ancak kişiliğin başlangıcı doğuş anıdır.
+
+3. **Dayanak maddeler**  
+- TÜRK MEDENİ KANUNU m.28
+
+4. **Not / sınırlılık**  
+Bu bilgi sadece doğan bir çocuğun kişiliğinin başlangıcıyla ilgilidir. Diğer hukuki kişilik türleri (örneğin tüzel kişiler) farklı mevzuatlara ve maddelere dayanır.",1_5_4721_MADDE_28,1_5_4721_MADDE_28; 1_5_4721_MADDE_27; 1_5_4721_MADDE_11; 1_5_4721_MADDE_59; 1_5_4721_MADDE_24; 1_5_2820_GEÇİCİ_MADDE_8; 1_5_4721_MADDE_47; 1_5_4721_MADDE_51; 1_5_1163_MADDE_7; 1_5_6098_MADDE_58,TÜRK MEDENİ KANUNU m.28 | TÜRK MEDENİ KANUNU m.27 | TÜRK MEDENİ KANUNU m.11 | TÜRK MEDENİ KANUNU m.59 | TÜRK MEDENİ KANUNU m.24 | SİYASİ PARTİLER KANUNU geçici m.8 | TÜRK MEDENİ KANUNU m.47 | TÜRK MEDENİ KANUNU m.51 | KOOPERATİFLER KANUNU m.7 | TÜRK BORÇLAR KANUNU m.58,0.1649484536082474,0.1649484536082474,1.0,1.0,1.0,1.0,acceptable_automatic
+Q130,Anayasa Hukuku,hard,Cumhurbaşkanının cezai sorumluluğuna ilişkin soruşturma açılması için TBMM'de hangi çoğunluk gerekir?,"Cumhurbaşkanı hakkında bir suç işlediği iddiasıyla soruşturma açılması, TBMM üye tamsayısının beşte üçünün gizli oyuyla vereceği karara bağlıdır.","1. **Kısa cevap:**  
+TBMM üye tamsayısının **salt çoğunluğu** ile bir önerge verilerek Cumhurbaşkanı hakkında soruşturma açılması istenebilir. Ancak, soruşturma açılmasına karar verilmesi için **üye tamsayısının beşte üçü** gerekir.
+
+2. **Şartlar / açıklama:**  
+- Soruşturma isteğinin gündeme getirilmesi için TBMM üye tamsayısının **salt çoğunluğu** yeterlidir.  
+- Ancak, soruşturma açılmasına karar verilmesi için **TBMM üye tamsayısının beşte üçü** gerekir.  
+- Bu karar gizli oyla alınır.  
+- Bu süreç, Cumhurbaşkanı hakkında bir suç işlediği iddiasıyla başlatılır.  
+- Soruşturma, onbeş kişilik bir komisyon tarafından yapılır ve bu komisyon, Meclis'teki siyasi partilerin güçleri oranında gösterdiği adaylar arasından ad çekme yöntemiyle seçilir.
+
+3. **Dayanak maddeler:**  
+- **TÜRKİYE CUMHURİYETİ ANAYASASI m.105**  
+  > ""Cumhurbaşkanı hakkında, bir suç işlediği iddiasıyla Türkiye Büyük Millet Meclisi üye tamsayısının salt çoğunluğunun vereceği önergeyle soruşturma açılması istenebilir. Meclis, önergeyi en geç bir ay içinde görüşür ve üye tamsayısının beşte üçünün gizli oyuyla soruşturma açılmasına karar verebilir.""
+
+4. **Not / sınırlılık:**  
+- Bu süreç, yalnızca Cumhurbaşkanı hakkında bir suç iddiası bulunduğu durumda başlatılabilir.  
+- Soruşturma kararı, TBMM'nin salt çoğunluğuyla değil, **beşte üç çoğunluğuyla** alınır.  
+- Bağlamda başka bir mevzuat, bu konuda farklı bir çoğunluk oranı belirtmemektedir.",1_5_2709_MADDE_105,1_5_2709_MADDE_105; 1_5_2709_MADDE_106; 1_5_6216_MADDE_16; 1_5_6216_MADDE_35; 1_5_6216_MADDE_38; 1_5_2709_MADDE_175; 1_5_2797_MADDE_43; 1_5_2709_MADDE_150; 1_5_2709_MADDE_101; 1_5_2709_MADDE_98,TÜRKİYE CUMHURİYETİ ANAYASASI m.105 | TÜRKİYE CUMHURİYETİ ANAYASASI m.106 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.16 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.35 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.38 | TÜRKİYE CUMHURİYETİ ANAYASASI m.175 | YARGITAY KANUNU m.43 | TÜRKİYE CUMHURİYETİ ANAYASASI m.150 | TÜRKİYE CUMHURİYETİ ANAYASASI m.101 | TÜRKİYE CUMHURİYETİ ANAYASASI m.98,0.1658031088082901,0.1450777202072539,1.0,1.0,1.0,1.0,acceptable_automatic
+Q007,Anayasa Hukuku,medium,"Anayasa Mahkemesi'ne ""itiraz yolu"" (somut norm denetimi) ile başvurabilmek için alt mahkemenin uyması gereken şartlar nelerdir?","Somut norm denetimi için görülmekte olan bir dava bulunmalı, uygulanacak kuralın anayasaya aykırılığı iddia edilmeli veya mahkeme bunu ciddi bulmalıdır. Mahkeme, itirazı ciddi bulursa Anayasa Mahkemesine başvurur ve davayı geri bırakır.","**Cevap:**
+
+1. **Kısa cevap:**  
+Alt mahkemenin Anayasa Mahkemesi'ne itiraz yolu (somut norm denetimi) ile başvurabilmek için, ilgili kanun veya Cumhurbaşkanlığı kararnamesinin Anayasaya aykırılığını ciddi şekilde değerlendirmesi ve buna dayalı bir başvuru kararı vermesi gerekir.
+
+2. **Şartlar / açıklama:**  
+- Alt mahkemenin, davada uygulanmakta olan bir kanun veya Cumhurbaşkanlığı kararnamesinin Anayasaya aykırı olduğunu düşünmesi veya taraflardan birinin ileri sürdüğü aykırılık iddiasının ciddi olduğunu değerlendirmesi gerekir.  
+- Bu durumda, alt mahkeme, başvuruya konu normların Anayasanın hangi maddelerine aykırı olduğunu açıklayan bir başvuru kararı vermelidir.  
+- Bu başvuru kararı ile birlikte, dava dilekçesi, iddianame veya davayı açan belgelerin ve dosyanın ilgili bölümlerinin onaylı örnekleri Anayasa Mahkemesine gönderilir.  
+- Taraflarca ileri sürülen aykırılık iddiası ciddi görülmezse, bu talep reddedilir ve temyiz yoluyla ele alınabilir.
+
+3. **Dayanak maddeler:**  
+- ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.40  
+- TÜRKİYE CUMHURİYETİ ANAYASASI m.152  
+
+4. **Not / sınırlılık:**  
+- Alt mahkemenin başvurusu, başvurulan normun Anayasaya aykırılığına dair ciddi bir kanıya dayanmazsa reddedilebilir.  
+- Anayasa Mahkemesi, başvurunun yöntemine uygun olup olmadığını 10 gün içinde incelemektedir.  
+- Anayasa Mahkemesi karar veremeden önce, alt mahkeme davayı yürürlükteki",1_5_2709_MADDE_152,1_5_6216_MADDE_40; 1_5_6216_MADDE_48; 1_5_6216_MADDE_41; 1_5_2709_MADDE_148; 1_5_6216_MADDE_45; 1_5_6216_MADDE_39; 1_5_6216_MADDE_47; 1_5_6216_MADDE_43; 1_5_2709_MADDE_152; 1_5_6216_MADDE_36,ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.40 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.48 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.41 | TÜRKİYE CUMHURİYETİ ANAYASASI m.148 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.45 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.39 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.47 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.43 | TÜRKİYE CUMHURİYETİ ANAYASASI m.152 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.36,0.1658536585365853,0.1365853658536585,1.0,1.0,1.0,1.0,acceptable_automatic
+Q081,Ceza Muhakemesi Hukuku,hard,Tutuklama kararı verilebilmesi için hangi temel şartlar gerekir?,Kuvvetli suç şüphesini gösteren somut delillerin bulunması ve bir tutuklama nedeninin varlığı gerekir; ayrıca tutuklama ölçülü olmalıdır.,"**1. Kısa cevap**  
+Tutuklama kararı verilebilmesi için kuvvetli suç şüphesinin varlığı, somut delillerin bulunması ve tutuklama nedeninin mevcut olması gerekir.
+
+**2. Şartlar / açıklama**  
+- **Kuvvetli suç şüphesi**: Suçun işlendiğine dair somut delillerin bulunması gerekir.  
+- **Somut deliller**: Delillerin somut ve güvenilir olması, tutuklamanın gerekçelendirilmesinde önemli bir rol oynar.  
+- **Tutuklama nedeni**: Şüphelinin kaçma ihtimali, delillerin yok edilmesi veya değiştirilmesi gibi nedenlerle tutuklamanın gerekli olduğu değerlendirilmelidir.  
+- **Ölçülülük**: Tutuklama tedbirinin ölçülü olması gerekir; yani işin önemi ve ceza ölçüsü dikkate alınarak gerekliliği değerlendirilmelidir.  
+- **Adli kontrol yetersizliği**: Adli kontrol tedbirinin yetersiz kalacağı değerlendirilmelidir.
+
+**3. Dayanak maddeler**  
+- CEZA MUHAKEMESİ KANUNU m.100  
+- CEZA MUHAKEMESİ KANUNU m.101  
+- TÜRKİYE CUMHURİYETİ ANAYASASI m.19  
+
+**4. Not / sınırlılık**  
+- Tutuklama kararı, yalnızca hakim veya mahkeme tarafından verilebilir.  
+- Hapis cezasının üst sınırı iki yıldan fazla olmayan suçlarda tutuklama kararı verilemez.  
+- Tutuklama kararı verilmezse, kişi derhal serbest bırakılır.",1_5_5271_MADDE_100,1_5_5271_MADDE_100; 1_5_5271_MADDE_101; 1_5_5271_MADDE_112; 1_5_5275_MADDE_112; 1_5_2709_MADDE_19; 1_5_5271_MADDE_146; 1_5_5271_MADDE_90; 1_5_5271_MADDE_91; 1_5_5271_MADDE_109; 1_5_5271_MADDE_141,CEZA MUHAKEMESİ KANUNU m.100 | CEZA MUHAKEMESİ KANUNU m.101 | CEZA MUHAKEMESİ KANUNU m.112 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.112 | TÜRKİYE CUMHURİYETİ ANAYASASI m.19 | CEZA MUHAKEMESİ KANUNU m.146 | CEZA MUHAKEMESİ KANUNU m.90 | CEZA MUHAKEMESİ KANUNU m.91 | CEZA MUHAKEMESİ KANUNU m.109 | CEZA MUHAKEMESİ KANUNU m.141,0.1688311688311688,0.1428571428571428,1.0,1.0,1.0,1.0,acceptable_automatic
+Q114,İş Hukuku,medium,Haftalık çalışma süresi haftanın günlerine nasıl dağıtılabilir?,"Tarafların anlaşmasıyla haftalık normal çalışma süresi, işyerlerinde haftanın çalışılan günlerine günde on bir saati aşmamak koşuluyla farklı şekilde dağıtılabilir.","**Cevap:**
+
+1. **Kısa cevap:**  
+Haftalık çalışma süresi, genel olarak haftanın çalışılan günlerine eşit ölçüde bölünerek uygulanır. Ancak, tarafların anlaşmasıyla bu süre günde 11 saati aşmamak koşuluyla farklı şekilde dağıtılabilir.
+
+2. **Şartlar / açıklama:**  
+- Genel olarak haftalık çalışma süresi haftanın çalışılan günlerine eşit şekilde bölünür.  
+- Tarafların anlaşmasıyla bu süre, günde 11 saati aşmamak koşuluyla farklı şekilde dağıtılabilir.  
+- Bu dağılım sonucunda işçinin iki aylık süre içinde haftalık ortalama çalışma süresi, normal haftalık çalışma süresini aşamaz.  
+- Toplu iş sözleşmeleri ile denkleştirme süresi dört aya kadar uzatılabilir.  
+- Turizm sektöründe bu süre dört aylık değil, dört yerine altı aya kadar uzatılabilir.
+
+3. **Dayanak maddeler:**  
+- **İŞ KANUNU m.63**  
+  > ""Tarafların anlaşması ile haftalık normal çalışma süresi, işyerlerinde haftanın çalışılan günlerine, günde onbir saati aşmamak koşulu ile farklı şekilde dağıtılabilir. Bu halde, iki aylık süre içinde işçinin haftalık ortalama çalışma süresi, normal haftalık çalışma süresini aşamaz. Denkleştirme süresi toplu iş sözleşmeleri ile dört aya kadar artırılabilir.""
+
+4. **Not / sınırlılık:**  
+- Bu düzenleme sadece İş Kanunu kapsamında çalışanlara uygulanır.  
+- Diğer mevzuatlarda (örneğin Devlet Memurları Kanunu, Deniz İş Kanunu vb.) farklı çalışma süresi ve dağılımı düzenlemeleri yer alabilir.  
+- Çalışma sürelerinin uygulama şekilleri, Çalışma ve Sosyal Güvenlik Bakanlığı tarafından hazırlanacak bir yönetmelikle düzenlenir.",1_5_4857_MADDE_63,1_5_4857_MADDE_63; 1_5_657_MADDE_99; 1_5_854_MADDE_26; 1_5_926_MADDE_2; 1_5_7245_MADDE_12; 1_5_4857_MADDE_46; 1_5_854_MADDE_41; 1_5_4857_MADDE_41; 1_5_4857_MADDE_76; 1_5_2802_MADDE_54,İŞ KANUNU m.63 | DEVLET MEMURLARI KANUNU m.99 | DENİZ İŞ KANUNU m.26 | TÜRK SİLÂHLI KUVVETLERİ PERSONEL KANUNU m.2 | ÇARŞI VE MAHALLE BEKÇİLERİ KANUNU m.12 | İŞ KANUNU m.46 | DENİZ İŞ KANUNU m.41 | İŞ KANUNU m.41 | İŞ KANUNU m.76 | HAKİMLER VE SAVCILAR KANUNU m.54,0.1690140845070422,0.1502347417840375,1.0,1.0,1.0,1.0,acceptable_automatic
+Q009,Borçlar Hukuku,medium,Sözleşmelerde hata (yanılma) nedeniyle iptal hakkının kullanılma süresi nedir?,"Hata sebebiyle sözleşmeyi iptal hakkı, hatanın öğrenildiği tarihten başlayarak bir yıl içinde kullanılmalıdır. Bu süre hak düşürücü süredir.","1. **Kısa cevap**  
+Sözleşmelerde hata (yanılma) nedeniyle iptal hakkının kullanılma süresi, **yanılmayı öğrenildiği tarihten itibaren bir yıldır**.
+
+2. **Şartlar / açıklama**  
+Yanılma nedeniyle sözleşmenin iptal edilmesi hakkı, yanılmanın öğrenildiği tarihten itibaren bir yıl içinde kullanılmalıdır. Bu süre, zarar gören tarafın sözleşmeden kopma hakkını kullanmaması durumunda, sözleşmenin onaylanmış sayılması anlamına gelir. Ayrıca, bu süre zarfında iptal davası açılmazsa, iptal hakkı zaman aşımına uğrar.
+
+3. **Dayanak maddeler**  
+- **TÜRK BORÇLAR KANUNU m.39**  
+  ""Yanılma veya aldatma sebebiyle ya da korkutulma sonucunda sözleşme yapan taraf, yanılma veya aldatmayı öğrendiği ya da korkutmanın etkisinin ortadan kalktığı andan başlayarak bir yıl içinde sözleşme ile bağlı olmadığını bildirmez veya verdiği şeyi geri istemezse, sözleşmeyi onamış sayılır.""
+
+4. **Not / sınırlılık**  
+Bu süre, genel bir iptal süresi olarak geçerlidir. Ancak özel hukuk düzenlemelerinde (örneğin İş Kanunu veya Türk Ticaret Kanunu) farklı süreler öngörülmüş olabilir. Soruda belirtilen bağlamda bu tür özel süreler yer almamaktadır.",1_5_6098_MADDE_39,1_5_6098_MADDE_39; 1_5_6102_MADDE_1449; 1_5_4721_MADDE_152; 1_5_6098_MADDE_28; 1_5_6098_MADDE_281; 1_5_6098_MADDE_30; 1_5_6098_MADDE_33; 1_5_4857_MADDE_26; 1_5_6102_MADDE_1439; 1_5_4721_MADDE_559,TÜRK BORÇLAR KANUNU m.39 | TÜRK TİCARET KANUNU m.1449 | TÜRK MEDENİ KANUNU m.152 | TÜRK BORÇLAR KANUNU m.28 | TÜRK BORÇLAR KANUNU m.281 | TÜRK BORÇLAR KANUNU m.30 | TÜRK BORÇLAR KANUNU m.33 | İŞ KANUNU m.26 | TÜRK TİCARET KANUNU m.1439 | TÜRK MEDENİ KANUNU m.559,0.1728395061728395,0.1358024691358025,1.0,1.0,1.0,1.0,acceptable_automatic
+Q093,Medeni Hukuk,medium,Altsoy bulunmayan durumda sağ kalan eşin miras payı ne kadardır?,"Mirasbırakanın altsoyu yoksa ve ana-baba zümresi mirasçı oluyorsa, sağ kalan eş mirasın yarısını alır.","1. **Kısa cevap:**  
+Altsoy bulunmayan durumda sağ kalan eşin miras payı, mirasbırakanın ana ve babası ile birlikte mirasçı olması durumunda mirasın yarısıdır.
+
+2. **Şartlar / açıklama:**  
+Eğer mirasbırakanın altsoyu yoksa ve aynı zamanda ana ve babası da varsa, sağ kalan eş bu ana ve babanın yanı sıra mirasçı olur. Bu durumda sağ kalan eşin miras payı mirasın yarısıdır. Ancak, eğer ana ve baba da yoksa, sağ kalan eşin miras payı mirasın tamamı olur.
+
+3. **Dayanak maddeler:**  
+- TÜRK MEDENİ KANUNU m.499
+
+4. **Not / sınırlılık:**  
+Bu oranlar, mirasbırakanın altsoyu bulunmaması ve ana-baba ile birlikte mirasçı olma durumu çerçevesindedir. Miras paylaşımında diğer durumlar (örneğin, büyük ana ve baba gibi) farklı oranlar gösterebilir.",1_5_4721_MADDE_499,1_5_4721_MADDE_613; 1_5_4721_MADDE_499; 1_5_4721_MADDE_506; 1_5_4721_MADDE_497; 1_5_4721_MADDE_505; 1_5_4721_MADDE_496; 1_5_4721_MADDE_579; 1_5_4721_MADDE_276; 1_5_4721_MADDE_278; 1_5_4721_MADDE_255,TÜRK MEDENİ KANUNU m.613 | TÜRK MEDENİ KANUNU m.499 | TÜRK MEDENİ KANUNU m.506 | TÜRK MEDENİ KANUNU m.497 | TÜRK MEDENİ KANUNU m.505 | TÜRK MEDENİ KANUNU m.496 | TÜRK MEDENİ KANUNU m.579 | TÜRK MEDENİ KANUNU m.276 | TÜRK MEDENİ KANUNU m.278 | TÜRK MEDENİ KANUNU m.255,0.176,0.144,1.0,1.0,1.0,1.0,acceptable_automatic
+Q144,Ceza Hukuku,medium,Akıl hastalığı ceza sorumluluğunu hangi durumda kaldırır?,İşlediği fiilin hukuki anlam ve sonuçlarını algılayamayan veya davranışlarını yönlendirme yeteneği önemli derecede azalmış olan akıl hastasına ceza verilmez.,"1. **Kısa cevap:**  
+Akıl hastalığı, fiili işlediği sırada kişinin işlediği fiilin hukuki anlam ve sonuçlarını algılayamaması durumunda ceza sorumluluğunu kaldırır.
+
+2. **Şartlar / açıklama:**  
+Akıl hastalığı, kişinin fiili işlediği an itibarıyla fiilin hukuki anlam ve sonuçlarını algılayamaması veya bu fiille ilgili davranışlarını yönlendirme yeteneğinin önemli derecede azalmış olması durumunda ceza sorumluluğunu kaldırır. Bu durumda kişiye ceza verilmez, ancak güvenlik tedbiri uygulanır. Ayrıca, davranışlarını yönlendirme yeteneğinin kısmen azalmış olması durumunda da ceza indirimi veya güvenlik tedbiri uygulanabilir.
+
+3. **Dayanak maddeler:**  
+- **TÜRK CEZA KANUNU m.32**  
+- **TÜRK CEZA KANUNU m.57**
+
+4. **Not / sınırlılık:**  
+Akıl hastalığından dolayı ceza sorumluluğunun kaldırılması, fiilin işlendiği andaki duruma göre değerlendirilir. Hastalığın geçici veya kalıcı olması, kişinin genel durumu ve fiilin niteliği gibi unsurlar da dikkate alınır. Ayrıca, bu durum sadece Türk Ceza Kanunu kapsamında değerlendirilir; idari cezalarda farklı hükümler geçerlidir (bkz. Kabahatler Kanunu m.11).",1_5_5237_MADDE_32,1_5_5237_MADDE_32; 1_5_5237_MADDE_31; 1_5_5326_MADDE_11; 1_5_5237_MADDE_57; 1_5_5275_MADDE_16; 1_5_4721_MADDE_474; 1_5_4721_MADDE_405; 1_5_4721_MADDE_409; 1_5_5275_MADDE_18; 1_5_4721_MADDE_15,TÜRK CEZA KANUNU m.32 | TÜRK CEZA KANUNU m.31 | KABAHATLER KANUNU m.11 | TÜRK CEZA KANUNU m.57 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.16 | TÜRK MEDENİ KANUNU m.474 | TÜRK MEDENİ KANUNU m.405 | TÜRK MEDENİ KANUNU m.409 | CEZA VE GÜVENLİK TEDBİRLERİNİN İNFAZI HAKKINDA KANUN m.18 | TÜRK MEDENİ KANUNU m.15,0.1772151898734177,0.1645569620253164,1.0,1.0,1.0,1.0,acceptable_automatic
+Q045,İş Hukuku,easy,Haftalık çalışma süresi üst sınırı nedir ve bu süre nasıl bölüştürülür?,Haftalık normal çalışma süresi kural olarak en çok kırk beş saattir. Tarafların anlaşmasıyla bu süre işyerinde haftanın çalışılan günlerine farklı biçimde dağıtılabilir; ancak günlük çalışma süresi kanuni üst sınırları aşamaz.,"**Cevap:**
+
+1. **Kısa cevap:**  
+Haftalık çalışma süresi genel olarak **45 saattir** ve bu süre, işyerlerinde haftanın çalışılan günlerine eşit ölçüde bölünerek uygulanır. Ancak özel durumlarda bu süre farklı şekilde bölüştürülebilir.
+
+2. **Şartlar / açıklama:**  
+- Haftalık çalışma süresi genel olarak **45 saattir**.
+- Bu süre, işyerlerinde haftanın çalışılan günlerine eşit ölçüde bölünerek uygulanır.
+- Tarafların anlaşması ile haftalık normal çalışma süresi, işyerlerinde haftanın çalışılan günlerine, **günde 11 saati aşmamak koşuluyla** farklı şekilde dağıtılabilir.
+- Bu dağıtım durumunda, **iki aylık süre içinde işçinin haftalık ortalama çalışma süresi**, normal haftalık çalışma süresini aşamaz.
+- **Toplu iş sözleşmeleri** ile denkleştirme süresi **dört aya kadar** artırılabilir.
+- **Turizm sektöründe**, denkleştirme süresi **altı aya kadar** artırılabilir.
+- **Yer altı maden işlerinde**, haftalık çalışma süresi **en çok 37,5 saattir** ve günde en çok **7,5 saat** çalışılır.
+- **Deniz işlerinde**, haftalık çalışma süresi genel olarak **48 saattir** ve bu süre haftanın iş günlerine eşit olarak bölünür.
+
+3. **Dayanak maddeler:**  
+- **İŞ KANUNU m.63**  
+- **DENİZ İŞ KANUNU m.26**
+
+4. **Not / sınırlılık:**  
+- Bu süreler özel sektörde geçerlidir. Devlet memurlarında haftalık çalışma süresi **40 saattir** ve bu süre **Cumartesi ve Pazar günleri tatil olmak üzere** düzenlenir (Devlet Memurları Kanunu m.99).
+- Sektöre özel düzenlemeler (örneğin turizm, madencilik",1_5_4857_MADDE_63,1_5_4857_MADDE_63; 1_5_657_MADDE_99; 1_5_854_MADDE_26; 1_5_926_MADDE_2; 1_5_4857_MADDE_41; 1_5_4857_MADDE_76; 1_5_854_MADDE_41; 1_5_4857_MADDE_69; 1_5_4857_MADDE_46; 1_5_4857_MADDE_68,İŞ KANUNU m.63 | DEVLET MEMURLARI KANUNU m.99 | DENİZ İŞ KANUNU m.26 | TÜRK SİLÂHLI KUVVETLERİ PERSONEL KANUNU m.2 | İŞ KANUNU m.41 | İŞ KANUNU m.76 | DENİZ İŞ KANUNU m.41 | İŞ KANUNU m.69 | İŞ KANUNU m.46 | İŞ KANUNU m.68,0.1785714285714285,0.1339285714285714,1.0,1.0,1.0,1.0,acceptable_automatic
+Q085,Ceza Muhakemesi Hukuku,medium,İfade alma sırasında şüpheliye hangi haklar bildirilmelidir?,"Şüpheliye yüklenen suç anlatılmalı; müdafi seçme hakkı, susma hakkı, lehine delil toplanmasını isteme hakkı ve kişisel-ekonomik durumuna göre baro tarafından müdafi görevlendirilmesini isteyebileceği bildirilmelidir.","1. **Kısa cevap**  
+İfade alma sırasında şüpheliye, suçun anlatılması, müdafi seçme hakkı, ifade vermemek hakkı, delil toplamak istemesi, kişisel ve ekonomik durumu hakkında bilgi alınması, işlemlerin kaydedilmesi ve tutanağın okunması gibi haklar bildirilmelidir.
+
+2. **Şartlar / açıklama**  
+Şüphelinin ifadesi alınırken, aşağıdaki hususlar dikkate alınmalıdır:  
+- Şüphelinin kimliği saptanmalı ve kimlikle ilgili sorulara doğru cevap vermesi istenmelidir.  
+- Yüklenen suç anlatılmalı.  
+- Müdafi seçme hakkı ve hukuki yardım alma imkânı bildirilmelidir.  
+- Şüphelinin ifade vermemek hakkına sahip olduğu söylenmelidir.  
+- Şüphelinin, somut delillerin toplanmasını isteyebileceği ve aleyhindeki şüpheleri ortadan kaldırabileceği hatırlatılmalıdır.  
+- Şüphelinin kişisel ve ekonomik durumu hakkında bilgi alınmalıdır.  
+- İfade alma ve sorgu işlemleri kaydedilmeli ve tutanakta işlemle ilgili tüm bilgiler yer almalıdır.  
+- Tutanak, ifade veren ve hazır bulunan müdafi tarafından okunmalı ve imzalanmalıdır.
+
+3. **Dayanak maddeler**  
+- CEZA MUHAKEMESİ KANUNU m.147  
+- CEZA MUHAKEMESİ KANUNU m.148  
+- CEZA MUHAKEMESİ KANUNU m.149  
+- CEZA MUHAKEMESİ KANUNU m.169  
+- CEZA MUHAKEMESİ KANUNU m.191  
+
+4. **Not / sınırlılık**  
+Yukarıdaki haklar, ifade alma ve sorgu sırasında uygulanması gereken temel usullerdir. Bu işlemler, şüphelinin hukuki korunma hakkı çerçevesinde yürütülmelidir. Maddi ve yasal usullerin ihlali durum",1_5_5271_MADDE_147,1_5_5271_MADDE_147; 1_5_5271_MADDE_149; 1_5_5271_MADDE_145; 1_5_5271_MADDE_148; 1_5_5271_MADDE_154; 1_5_5271_MADDE_191; 1_5_5271_MADDE_2; 1_5_5271_MADDE_169; 1_5_5271_MADDE_90; 1_5_5271_MADDE_106,CEZA MUHAKEMESİ KANUNU m.147 | CEZA MUHAKEMESİ KANUNU m.149 | CEZA MUHAKEMESİ KANUNU m.145 | CEZA MUHAKEMESİ KANUNU m.148 | CEZA MUHAKEMESİ KANUNU m.154 | CEZA MUHAKEMESİ KANUNU m.191 | CEZA MUHAKEMESİ KANUNU m.2 | CEZA MUHAKEMESİ KANUNU m.169 | CEZA MUHAKEMESİ KANUNU m.90 | CEZA MUHAKEMESİ KANUNU m.106,0.1791044776119403,0.1194029850746268,1.0,1.0,1.0,1.0,acceptable_automatic
+Q002,Anayasa Hukuku,medium,Milletlerarası antlaşmaların Anayasa'ya aykırılığı iddiasıyla iptal davası açılabilir mi? İstisnaları nelerdir?,Milletlerarası antlaşmaların Anayasa’ya aykırılığı iddiasıyla Anayasa Mahkemesinde iptal davası açılamaz. Usulüne göre yürürlüğe konulmuş temel hak ve özgürlüklere ilişkin antlaşmalarla kanunların çatışması halinde antlaşma hükümleri esas alınır.,"1. **Kısa cevap**  
+Milletlerarası antlaşmaların Anayasa'ya aykırılığı iddiasıyla Anayasa Mahkemesine iptal davası açılamaz. Ancak, bu kural bazı istisnalar hariçtir.
+
+2. **Şartlar / açıklama**  
+Usulüne göre yürürlüğe konulmuş milletlerarası antlaşmalar, Anayasaya aykırılık iddiasıyla Anayasa Mahkemesine karşı iptal davası açılamaz. Bu kural, antlaşmaların kanun hükmünde bulunduğu ve bu tür davaların Anayasa Mahkemesi yetkisi dışında olduğu için geçerlidir. Ancak, bu kural bazı özel mevzuatlar için geçerli değildir. Bu mevzuatlar, 1982 Anayasası'ndan önce kabul edilmiş ve temel reformları içeren bazı kanunlardır. Bu kanunların Anayasaya aykırılığı iddiası da reddedilmiştir.
+
+3. **Dayanak maddeler**  
+- **ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.42**  
+  (1) Usulüne göre yürürlüğe konulmuş milletlerarası andlaşmalar aleyhine şekil ve esas bakımından iptal davası açılamaz ve mahkemeler tarafından Anayasaya aykırılık iddiası ileri sürülemez.  
+- **TÜRKİYE CUMHURİYETİ ANAYASASI m.90**  
+  Usulüne göre yürürlüğe konulmuş Milletlerarası andlaşmalar kanun hükmündedir. Bunlar hakkında Anayasaya aykırılık iddiası ile Anayasa Mahkemesine başvurulamaz.
+
+4. **Not / sınırlılık**  
+Bu kural, sadece usulüne göre yürürlüğe konulmuş milletlerarası antlaşmalar için geçerlidir. Ayrıca, 1982 Anayasası'ndan önce kabul edilmiş bazı reform kanunları için",1_5_2709_MADDE_90,1_5_6216_MADDE_42; 1_5_2709_MADDE_90; 1_5_2709_MADDE_148; 1_5_2709_MADDE_150; 1_5_6216_MADDE_38; 1_5_6216_MADDE_43; 1_5_6216_MADDE_37; 1_5_6216_MADDE_35; 1_5_6216_MADDE_40; 1_5_2709_MADDE_152,ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.42 | TÜRKİYE CUMHURİYETİ ANAYASASI m.90 | TÜRKİYE CUMHURİYETİ ANAYASASI m.148 | TÜRKİYE CUMHURİYETİ ANAYASASI m.150 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.38 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.43 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.37 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.35 | ANAYASA MAHKEMESİNİN KURULUŞU VE YARGILAMA USULLERİ HAKKINDA KANUN m.40 | TÜRKİYE CUMHURİYETİ ANAYASASI m.152,0.18,0.1699999999999999,1.0,1.0,1.0,1.0,acceptable_automatic
+Q015,Borçlar Hukuku,medium,"Genel vekaletname ile ""taşınmaz devri"" veya ""bağışlama"" yapılabilir mi?","Genel vekâletname, taşınmaz devri veya bağışlama gibi olağanüstü işlemler için yeterli değildir. Bu işlemlerin yapılabilmesi için vekile açık ve özel yetki verilmiş olması gerekir.","**Cevap:**
+
+1. **Kısa cevap:**  
+Genel vekaletname ile ""taşınmaz devri"" veya ""bağışlama"" yapılamaz.
+
+2. **Şartlar / açıklama:**  
+Genel vekaletname, vekilin genel olarak görülecek işin niteliğine göre yetki sahibi olmasına rağmen, vekil özel olarak yetkili kılınmadıkça taşınmaz devri veya bağışlama gibi işlemler yapamaz. Bu işlemler, kanunca özel yetki gerektiren hukuki işlemlerdir ve genel vekalet yetkisi bu tür işlemleri kapsamaz.
+
+3. **Dayanak maddeler:**  
+- **TÜRK BORÇLAR KANUNU m.504:** Vekil, özel olarak yetkili kılınmadıkça taşınmazı devredemez ve bağışlama yapamaz.  
+- **TÜRK MEDENİ KANUNU m.462:** Taşınmaz devri gibi işlemler vesayet makamının izniyle yapılır.  
+- **TÜRK BORÇLAR KANUNU m.288:** Bağışlama sözleşmeleri yazılı ve resmî şekilde yapılması gerekir; vekilin yetkisi bu işlemi kapsamaz.
+
+4. **Not / sınırlılık:**  
+Bu cevap, sadece verilen mevzuat bağlamına dayanmaktadır. Genel vekaletname ile taşınmaz devri veya bağışlama yapılabilmesi için özel yetki verilmesi gerekir.",1_5_6098_MADDE_504,1_5_6098_MADDE_504; 1_5_4721_MADDE_429; 1_5_4721_MADDE_706; 1_5_4721_MADDE_462; 1_5_6098_MADDE_286; 1_5_1512_MADDE_89; 1_5_6098_MADDE_288; 1_5_6098_MADDE_548; 1_5_4721_MADDE_444; 1_5_3402_MADDE_35,TÜRK BORÇLAR KANUNU m.504 | TÜRK MEDENİ KANUNU m.429 | TÜRK MEDENİ KANUNU m.706 | TÜRK MEDENİ KANUNU m.462 | TÜRK BORÇLAR KANUNU m.286 | NOTERLİK KANUNU m.89 | TÜRK BORÇLAR KANUNU m.288 | TÜRK BORÇLAR KANUNU m.548 | TÜRK MEDENİ KANUNU m.444 | KADASTRO KANUNU m.35,0.1830065359477124,0.1699346405228758,1.0,1.0,1.0,1.0,acceptable_automatic
+Q013,Borçlar Hukuku,hard,"Aşırı ifa güçlüğü (uyarlama) talebi için gereken ""öngörülemezlik"" kriterinin unsurları nelerdir?","Aşırı ifa güçlüğünde olay, sözleşme kurulduktan sonra ortaya çıkan ve borçludan kaynaklanmayan olağanüstü bir durum olmalıdır. Bu durum taraflarca öngörülmemiş veya öngörülmesi beklenemeyecek nitelikte olmalı ve edimler arasındaki dengeyi borçlu aleyhine dürüstlük kuralına aykırı düşecek ölçüde bozmalıdır.","**Cevap:**
+
+1. **Kısa cevap:**  
+Aşırı ifa güçlüğü (uyarlama) talebi için gereken ""öngörülemezlik"" kriterinin unsurları, olayın sözleşmenin yapıldığı sırada taraflarca öngörülmemiş ve öngörülmesi de beklenmeyen olmasıdır.
+
+2. **Şartlar / açıklama:**  
+""Öngörülemezlik"" kriteri, sözleşmenin yapıldığı sırada taraflarca öngörülmeyen ve öngörülmesi de beklenmeyen bir olayın söz konusu olması anlamına gelir. Bu olay, borçlunun sorumlu tutulamayacak bir sebepten kaynaklanmalı ve sözleşmenin ifasını borçlunun aleyhine dürüstlük kurallarına aykırı bir şekilde zorlamalıdır. Bu durumda borçlu, sözleşmenin yeni koşullara uyarlanmasını talep edebilir.
+
+3. **Dayanak maddeler:**  
+- **TÜRK BORÇLAR KANUNU m.138**  
+- **TÜRK BORÇLAR KANUNU m.480**
+
+4. **Not / sınırlılık:**  
+Verilen bağlamda, ""öngörülemezlik"" kriteri sadece sözleşmenin yapıldığı sırada taraflarca öngörülmemiş ve öngörülmesi beklenmeyen olaylara dayanmaktadır. Bu kavramın daha detaylı unsurları bağlamda yer almamaktadır.",1_5_6098_MADDE_138,1_5_6098_MADDE_138; 1_5_6098_MADDE_480; 1_5_4735_MADDE_24; 1_5_6098_MADDE_137; 1_5_4734_MADDE_21; 1_5_6100_MADDE_305; 1_5_4721_MADDE_408; 1_5_6100_MADDE_389; 1_5_6098_MADDE_28; 1_5_6100_MADDE_193,TÜRK BORÇLAR KANUNU m.138 | TÜRK BORÇLAR KANUNU m.480 | KAMU İHALE SÖZLEŞMELERİ KANUNU m.24 | TÜRK BORÇLAR KANUNU m.137 | KAMU İHALE KANUNU m.21 | HUKUK MUHAKEMELERİ KANUNU m.305 | TÜRK MEDENİ KANUNU m.408 | HUKUK MUHAKEMELERİ KANUNU m.389 | TÜRK BORÇLAR KANUNU m.28 | HUKUK MUHAKEMELERİ KANUNU m.193,0.1866666666666666,0.1199999999999999,1.0,1.0,1.0,1.0,acceptable_automatic
+Q125,Anayasa Hukuku,easy,Kanun önünde eşitlik ilkesi neyi ifade eder?,"Herkes, dil, ırk, renk, cinsiyet, siyasi düşünce, felsefi inanç, din, mezhep ve benzeri sebeplerle ayırım gözetilmeksizin kanun önünde eşittir.","**Cevap:**
+
+1. **Kısa cevap:**  
+Kanun önünde eşitlik ilkesi, bireylerin kanunun uygulanmasında, cinsiyet, ırk, din, siyasi düşünce gibi kişisel özelliklerine bakılmaksızın eşit muamele görmesini ifade eder.
+
+2. **Şartlar / açıklama:**  
+Bu ilke, herkesin hukuki hak ve sorumluluklarda eşitlikle yer almasını, devletin bireyler arasında ayrımcılık yapmamasını ve adaletin herkes için aynı şekilde sağlanmasını temin eder. Ayrıca, bu eşitlik ilkesi, özel gruplara yönelik tedbirlerin (örneğin çocuklar, yaşlılar, engelliler) eşitlik ilkesine aykırı sayılması dışında, herkes için geçerlidir.
+
+3. **Dayanak maddeler:**  
+- **TÜRKİYE CUMHURİYETİ ANAYASASI m.10:** Herkes, dil, ırk, renk, cinsiyet, siyasi düşünce, felsefi inanç, din, mezhep ve benzeri sebeplerle ayırım gözetilmeksizin kanun önünde eşittir.  
+- **TÜRKİYE İNSAN HAKLARI VE EŞİTLİK KURUMU KANUNU m.3:** Herkes, hukuken tanınmış hak ve hürriyetlerden yararlanmada eşittir.  
+- **TÜRKİYE CUMHURİYETİ ANAYASASI m.9:** Yargı yetkisinin bağımsız ve tarafsız mahkemelerce kullanılmasıyla kanun önünde eşitlik ilkesi temin edilir.  
+- **SİYASİ PARTİLER KANUNU m.83:** Siyasi partilerin, herkesin kanun önünde eşit olduğu prensibine aykırı faaliyet gösteremeyeceği belirtilmiştir.  
+- **TÜRK MEDENİ KANUNU m.8:** Her insanın hak ehliyeti olduğu ve hukuk düzeninin sınırları içinde haklara ve borçlara ehil olmada eşit olduğu if",1_5_2709_MADDE_10,1_5_2709_MADDE_10; 1_5_5237_MADDE_2; 1_5_6701_MADDE_2; 1_5_4982_MADDE_1; 1_5_6701_MADDE_1; 1_5_6701_MADDE_3; 1_5_2820_MADDE_83; 1_5_2709_MADDE_9; 1_5_4721_MADDE_8; 1_5_5237_MADDE_3,TÜRKİYE CUMHURİYETİ ANAYASASI m.10 | TÜRK CEZA KANUNU m.2 | TÜRKİYE İNSAN HAKLARI VE EŞİTLİK KURUMU KANUNU m.2 | BİLGİ EDİNME HAKKI KANUNU m.1 | TÜRKİYE İNSAN HAKLARI VE EŞİTLİK KURUMU KANUNU m.1 | TÜRKİYE İNSAN HAKLARI VE EŞİTLİK KURUMU KANUNU m.3 | SİYASİ PARTİLER KANUNU m.83 | TÜRKİYE CUMHURİYETİ ANAYASASI m.9 | TÜRK MEDENİ KANUNU m.8 | TÜRK CEZA KANUNU m.3,0.187192118226601,0.187192118226601,1.0,1.0,1.0,1.0,acceptable_automatic
+Q017,Ceza Hukuku,medium,Meşru müdafaa ile zaruret hali (zorda kalma) arasındaki farklar nelerdir?,"Meşru müdafaa, kişinin kendisine veya başkasına yönelen haksız saldırıyı defetmesi halidir ve hukuka uygunluk sebebidir. Zaruret hali ise ağır ve muhakkak bir tehlikeden başka türlü kurtulma imkânı bulunmaması nedeniyle işlenen fiildir; saldırı şartı aranmaz.","**Cevap:**
+
+1. **Kısa cevap:**  
+Meşru müdafaa, bir haksız saldırıyı o andaki koşullara göre orantılı biçimde defetmek için yapılan fiilin cezai sorumluluktan mazur sayılmasıdır. Zaruret hali (zorda kalma), ise bir kişiye ağır ve muhakkak bir tehlikeden kurtulmak veya başkasını kurtarmak zorunluluğu ile, tehlikenin ağırlığı ile orantılı biçimde işlenen fiilin cezai sorumluluktan mazur sayılmasıdır. Yani meşru müdafaa bir saldırıya karşı direniş, zaruret hali ise bir tehlikeden kurtulma zorunluluğudur.
+
+2. **Şartlar / açıklama:**  
+- **Meşru müdafaa**, bir haksız saldırının o andaki koşullara göre orantılı biçimde defedilmesi durumunda geçerlidir. Saldırı gerçekleşmiş veya gerçekleşmesi muhakkak olmalıdır.  
+- **Zaruret hali**, bir kişiye yönelen ağır ve muhakkak bir tehlikeden kurtulmak veya başkasını kurtarmak zorunluluğu ile, başka bir yolla kurtulmanın mümkün olmaması durumunda geçerlidir.  
+- Her iki durumda da fiil, saldırıya veya tehlikede bulunmaya karşı orantılı ve zorunlu olmalıdır.  
+- Meşru müdafaa genellikle bir saldırıya karşı direniş içermektedir, zaruret hali ise bir tehlikeden kaçınma içermektedir.
+
+3. **Dayanak maddeler:**  
+- **TÜRK CEZA KANUNU m.25**  
+  - (1) Gerek kendisine ve gerek başkasına ait bir hakka yönelmiş, gerçekleşen, gerçekleşmesi veya tekrarı muhakkak olan haksız bir saldırıyı o anda hal ve koşullara göre saldırı ile orantılı biçimde defetmek zorunluluğu ile işlenen fiillerden dolayı faile ceza verilmez.  
+  - (2",1_5_5237_MADDE_25,1_5_2709_MADDE_17; 1_5_5237_MADDE_25; 1_3_3634_MADDE_5; 1_5_5237_MADDE_24; 1_5_6098_MADDE_64; 1_5_6098_MADDE_63; 1_5_5237_MADDE_27; 1_3_1632_MADDE_119; 1_3_6831_MADDE_78; 1_4_211_MADDE_90,TÜRKİYE CUMHURİYETİ ANAYASASI m.17 | TÜRK CEZA KANUNU m.25 | MİLLİ MÜDAFAA MÜKELLEFİYETİ KANUNU m.5 | TÜRK CEZA KANUNU m.24 | TÜRK BORÇLAR KANUNU m.64 | TÜRK BORÇLAR KANUNU m.63 | TÜRK CEZA KANUNU m.27 | ASKERİ CEZA KANUNU m.119 | ORMAN KANUNU m.78 | TÜRK SİLAHLI KUVVETLERİ İÇ HİZMET KANUNU m.90,0.1875,0.1339285714285714,1.0,1.0,1.0,1.0,acceptable_automatic
+Q088,Ceza Muhakemesi Hukuku,medium,Gözaltı süresi bireysel suçlarda azami ne kadardır?,"Gözaltı süresi yakalama yerine en yakın hakim veya mahkemeye gönderilme için zorunlu süre hariç, yakalama anından itibaren yirmidört saati geçemez.","1. **Kısa cevap:**  
+Bireysel suçlarda gözaltı süresi, yakalama yerine en yakın hâkim veya mahkemeye gönderilmesi için zorunlu süre hariç, **en fazla 24 saattir**.
+
+2. **Şartlar / açıklama:**  
+Bu süre, bireysel suçlarda ve toplu suçlara dahil olmayan durumlarda geçerlidir. Gözaltı süresi, yakalama anından itibaren hesaplanır. Ancak, yakalanan kişi en geç 48 saat içinde hâkim önüne çıkarılır. Toplumsal olaylar sırasında veya toplu suçlarda bu süre 48 saate kadar uzatılabilir. Ayrıca, delillerin toplanmasındaki güçlük veya şüpheli sayısının çokluğu nedeniyle Cumhuriyet savcısı tarafından gözaltı süresi, her defasında bir günü geçmemek üzere üç gün kadar uzatılabilir.
+
+3. **Dayanak maddeler:**  
+- CEZA MUHAKEMESİ KANUNU m.91  
+- TERÖRLE MÜCADELE KANUNU geçici m.19  
+
+4. **Not / sınırlılık:**  
+Bu süreler, bireysel suçlara uygulanır. Terörle mücadele, toplumsal olaylar veya toplu suçlar kapsamında farklı süreler geçerlidir. Ayrıca, gözaltı süresinin uzatılması için Cumhuriyet savcısının yazılı emri ve hâkimin onayı gereklidir.",1_5_5271_MADDE_91,1_5_5271_MADDE_91; 1_5_3713_GEÇİCİ_MADDE_19; 1_5_5271_MADDE_102; 1_5_477_MADDE_41; 1_5_5237_MADDE_66; 1_5_5237_MADDE_294; 1_5_5237_MADDE_68; 1_5_5237_MADDE_49; 1_5_5237_MADDE_61; 1_5_5271_MADDE_251,"CEZA MUHAKEMESİ KANUNU m.91 | TERÖRLE MÜCADELE KANUNU geçici m.19 | CEZA MUHAKEMESİ KANUNU m.102 | DİSİPLİN MAHKEMELERİ KURULUŞU, YARGILAMA USULÜ VE DİSİPLİN SUÇ VE CEZALARI HAKKINDA KANUN m.41 | TÜRK CEZA KANUNU m.66 | TÜRK CEZA KANUNU m.294 | TÜRK CEZA KANUNU m.68 | TÜRK CEZA KANUNU m.49 | TÜRK CEZA KANUNU m.61 | CEZA MUHAKEMESİ KANUNU m.251",0.1886792452830188,0.1886792452830188,1.0,1.0,1.0,1.0,acceptable_automatic

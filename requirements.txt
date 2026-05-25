@@ -1,0 +1,17 @@
+pandas>=2.0.0
+numpy>=1.24.0
+tqdm>=4.66.0
+scikit-learn>=1.3.0
+rank-bm25>=0.2.2
+sentence-transformers>=5.1.0
+faiss-cpu>=1.7.4
+torch>=2.1.0
+transformers>=4.51.0
+accelerate>=0.30.0
+peft>=0.11.0
+bitsandbytes>=0.43.0
+safetensors>=0.4.3
+evaluate>=0.4.2
+rouge-score>=0.1.2
+nltk>=3.8.1
+gradio>=4.0.0

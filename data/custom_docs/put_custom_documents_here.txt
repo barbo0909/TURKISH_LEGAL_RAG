@@ -1,0 +1,1 @@
+Put instructor-provided custom documents in this folder for the later custom ingestion pipeline.

@@ -1,0 +1,26 @@
+{
+  "qa_auxiliary_csv": "/content/drive/MyDrive/rag/data/processed/legal_qa_auxiliary_v3.csv",
+  "benchmark_csv": "/content/drive/MyDrive/rag/data/benchmark/gold_benchmark_v1.csv",
+  "raw_qa_rows": 4997,
+  "kept_records": 4996,
+  "train_records": 4497,
+  "val_records": 499,
+  "removed_records": 1,
+  "similarity_threshold": 0.88,
+  "val_ratio": 0.1,
+  "seed": 42,
+  "max_samples": null,
+  "removed_reason_counts": {
+    "near_duplicate_benchmark_question": 1
+  },
+  "removed_examples": [
+    {
+      "question": "Anayasa madde 6'ya göre, egemenlik kime aittir",
+      "reason": "near_duplicate_benchmark_question",
+      "similarity": 0.9024390243902439,
+      "matched_benchmark_question": "Anayasa'ya göre egemenlik kime aittir?"
+    }
+  ],
+  "output_train_jsonl": "/content/drive/MyDrive/rag/data/processed/finetune_train.jsonl",
+  "output_val_jsonl": "/content/drive/MyDrive/rag/data/processed/finetune_val.jsonl"
+}

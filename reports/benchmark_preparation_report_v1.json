@@ -1,0 +1,22 @@
+{
+  "input_rows": 190,
+  "output_rows": 190,
+  "matched_rows": 190,
+  "unmatched_rows": 0,
+  "duplicate_question_ids": 0,
+  "topic_counts": {
+    "Anayasa Hukuku": 28,
+    "Borçlar Hukuku": 28,
+    "Ceza Hukuku": 28,
+    "Ceza Muhakemesi Hukuku": 28,
+    "Medeni Hukuk": 27,
+    "İş Hukuku": 26,
+    "Ticaret Hukuku": 25
+  },
+  "difficulty_counts": {
+    "medium": 134,
+    "easy": 40,
+    "hard": 16
+  },
+  "output_csv": "data\\benchmark\\gold_benchmark_v1.csv"
+}

@@ -1,0 +1,28 @@
+# Large generated artifacts
+models/
+indexes/
+outputs/
+
+# Large or private datasets
+data/raw/
+data/processed/
+data/external/
+data/benchmark/
+
+# Keep instructor input placeholders, but do not commit uploaded custom files
+data/custom_docs/*
+!data/custom_docs/put_custom_documents_here.txt
+data/custom_benchmark/*
+!data/custom_benchmark/put_custom_benchmark_here.txt
+
+# Python cache and local environment
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/

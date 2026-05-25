@@ -1,0 +1,26 @@
+{
+  "raw_rows": 39223,
+  "law_rows": 34226,
+  "qa_rows": 4997,
+  "valid_law_rows": 24473,
+  "rejected_rows": 9753,
+  "suspicious_rows": 9753,
+  "missing_source_url": 0,
+  "missing_article_no": 1,
+  "missing_article_body": 3,
+  "duplicate_groups": 3886,
+  "canonical_source_missing": 0,
+  "category_missing": 28571,
+  "quality_flag_counts": {
+    "duplicate_conflict": 6474,
+    "amendment_fragment": 2334,
+    "duplicate_candidate": 939,
+    "table_fragment": 3,
+    "metadata_only": 2,
+    "empty_or_too_short": 1
+  },
+  "main_quality_flag_counts": {
+    "valid_article": 24136,
+    "short_but_valid": 337
+  }
+}

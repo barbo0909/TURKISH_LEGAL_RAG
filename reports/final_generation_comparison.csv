@@ -1,0 +1,5 @@
+﻿experiment,exact_match,token_f1,rouge_l,retrieval_gold_available,citation_present,citation_gold_match,grounded_citation_score,unsupported_or_missing_citation
+Gemma-2-2B Base RAG,,,,,,,,
+Gemma-2-2B LoRA RAG,,,,,,,,
+Qwen3-32B Base RAG + best retrieval,0.0,0.1449248257408589,0.12327402366055978,0.8736842105263158,0.9842105263157894,0.8210526315789474,0.8052631578947368,0.14210526315789473
+Qwen3-32B QLoRA RAG + best retrieval,0.0,0.1914392689736146,0.16738300677058476,0.8736842105263158,0.9315789473684211,0.7421052631578947,0.7210526315789474,0.19473684210526315
