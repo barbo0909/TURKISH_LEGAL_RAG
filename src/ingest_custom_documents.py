@@ -14,6 +14,17 @@ PLACEHOLDER_FILENAMES = {
     "put_custom_documents_here.txt",
     "put_custom_benchmark_here.txt",
 }
+NORMALIZED_REQUIRED_COLUMNS = {
+    "record_id",
+    "doc_key",
+    "article_key",
+    "law_name_norm",
+    "article_no_norm",
+    "retrieval_text",
+    "generation_text",
+    "citation_label",
+    "source_url",
+}
 TEXT_COLUMN_CANDIDATES = [
     "text",
     "chunk_text",
@@ -137,6 +148,8 @@ def source_rows_from_jsonl(path: Path, text_column: str | None = None) -> list[d
     if not raw_rows:
         return []
     df = pd.DataFrame(raw_rows).fillna("")
+    if NORMALIZED_REQUIRED_COLUMNS.issubset(set(df.columns)):
+        return [{"pre_normalized_record": dict(row)} for row in raw_rows]
     text_col = choose_text_column(df, explicit=text_column)
     title_col = choose_column(list(df.columns), TITLE_COLUMN_CANDIDATES)
     section_col = choose_column(list(df.columns), SECTION_COLUMN_CANDIDATES)
@@ -197,6 +210,19 @@ def ingest_custom_documents(
         doc_slug = slugify(path.stem)
         source_rows = read_source_rows(path, text_column=text_column)
         for row_idx, row in enumerate(source_rows, start=1):
+            if "pre_normalized_record" in row:
+                record = dict(row["pre_normalized_record"])
+                record.setdefault("record_id", f"CUSTOM_{len(records) + 1:06d}")
+                record.setdefault("source_type", "custom_document")
+                record.setdefault("authority_level", "custom_instructor_document")
+                record.setdefault("official_source", False)
+                record.setdefault("dataset_name", "custom_instructor_documents")
+                record.setdefault("source_path", str(path))
+                record.setdefault("quality_flag", "custom_normalized_record")
+                record.setdefault("body_length", len(str(record.get("retrieval_text", ""))))
+                records.append(record)
+                continue
+
             doc_title = clean_text(row.get("doc_title", "")) or path.stem
             section_title = clean_text(row.get("section_title", "")) or f"section_{row_idx}"
             text = clean_text(row.get("text", ""))
