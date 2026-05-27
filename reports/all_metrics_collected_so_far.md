@@ -1130,3 +1130,56 @@ Qwen/Qwen3-Embedding-8B base
 ```
 
 This is still a valid ablation result: the tuned components were built, leakage-checked, evaluated, and rejected because the measured benchmark performance was lower than the zero-shot Qwen3 retrieval stack.
+
+### 24.6 Base vs Fine-Tuned RAG Semantic Similarity
+
+In addition to exact match, token F1, and ROUGE-L, answer-level semantic similarity was computed between each generated answer and the corresponding gold answer. The metric was computed with `Qwen/Qwen3-Embedding-8B` by embedding `generated_answer` and `gold_answer`, then taking cosine similarity.
+
+| System | mean semantic similarity | median semantic similarity | std |
+| --- | ---: | ---: | ---: |
+| Base RAG | 0.7890 | 0.8064 | 0.0835 |
+| Fine-tuned RAG | 0.7908 | 0.8072 | 0.0911 |
+
+Interpretation:
+
+- Fine-tuned RAG achieved a small positive gain in answer-level semantic similarity.
+- The improvement is modest, but it is directionally consistent with the larger gains observed in token F1 and ROUGE-L.
+- This indicates that fine-tuning made the generated answers slightly closer to the gold answers at the meaning level, not only at the lexical-overlap level.
+
+Psychological and user-safety interpretation:
+
+- Higher semantic similarity can improve perceived answer relevance because the response is closer to the expected legal explanation.
+- However, in legal QA, a more fluent or semantically similar answer may also create stronger user trust. Therefore, semantic similarity must be interpreted together with citation and grounding metrics.
+- Since the fine-tuned RAG improved answer overlap but reduced citation-grounding scores, the final system should not be selected only by answer similarity. The safer user-facing system is the one that balances relevance with reliable legal grounding and avoids unsupported confidence.
+
+### 24.7 Leakage-Safe External-Mapped Retrieval Tuning Result
+
+After the initial external-data tuning experiments, a safer external-mapped tuning pipeline was prepared. In this version, the locked final benchmark is not used for tuning. External training examples are mapped to the official-law schema only when their law/article identifiers can be matched to the normalized official corpus.
+
+New embedding adapter:
+
+- `models/embedding_tuned/qwen3_embedding_8b_external_mapped_lora_v1`
+
+New reranker adapter:
+
+- `models/reranker_tuned/qwen3_reranker_8b_external_mapped_lora_v1`
+
+New tuned embedding index:
+
+- `indexes/official_law_v3_qwen3_embedding_8b_external_mapped_lora_v1`
+
+External-mapped retrieval ablation result:
+
+| Experiment | article_hit@5 | article_hit@10 | article_recall@5 | article_recall@10 | article_mrr | article_ndcg@5 | article_ndcg@10 | doc_hit@10 | doc_mrr |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| external_mapped_tuned_embedding_dense_only | 0.7421 | 0.7789 | 0.7421 | 0.7789 | 0.5859 | 0.6211 | 0.6336 | 0.9368 | 0.7578 |
+| external_mapped_tuned_embedding_base_reranker | 0.1368 | 0.2737 | 0.1368 | 0.2737 | 0.0838 | 0.0830 | 0.1274 | 0.8316 | 0.5024 |
+| external_mapped_tuned_embedding_tuned_reranker | 0.3474 | 0.5053 | 0.3474 | 0.5053 | 0.2102 | 0.2272 | 0.2793 | 0.8579 | 0.4609 |
+
+Interpretation:
+
+- The leakage-safe external-mapped embedding and reranker tuning runs completed successfully.
+- Dense-only tuned embedding did not improve over the zero-shot Qwen3-Embedding-8B dense baseline.
+- Pairing the tuned embedding with the base reranker caused a large ranking drop, suggesting distribution mismatch between the tuned embedding candidate pool and the base reranker.
+- The tuned reranker partially recovered this drop, but the fully tuned external-mapped retrieval stack still remained far below the zero-shot Qwen3 embedding + Qwen3 reranker system.
+Earlier tuning runs achieved stronger numbers than the stricter external-mapped tuning setup, likely because they used more training examples. However, the mapped setup is methodologically cleaner because it only keeps examples that can be aligned to the official-law article schema and avoids using the locked benchmark for training. Under this stricter setting, fine-tuning did not outperform the zero-shot Qwen3 retrieval stack.

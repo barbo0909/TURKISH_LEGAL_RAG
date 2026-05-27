@@ -1,0 +1,837 @@
+
+
+
+TURKISH LEGAL RAG
+CENG 493 TERM PROJECT
+
+BARBAROS MURAT DÖNMEZ 202011019
+ÖMER FARUK ŞAHİN 202111073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Development and Evaluation of a Retrieval-Augmented Generation System in the Turkish Legal Domain
+
+General Summary
+In this project, a Retrieval-Augmented Generation system operating in the Turkish legal domain was developed and the different stages of the system were compared on the same benchmark. The main focus of the study is not only to build a model that produces answers, but to create a legal RAG architecture that can find the correct legal document and article, ground its answer in a source, generate citations, and measure hallucination risk.
+The project started with an old Kaggle-only baseline and was later improved through data cleaning, corpus normalization, dense retrieval, sparse retrieval, hybrid retrieval, reranker, embedding tuning, reranker tuning, and LLM fine-tuning stages. In the final system selection, not only answer-overlap metrics such as token F1 or ROUGE-L were considered, but also citation accuracy, grounded citation score, and hallucination risk.
+Github: https://github.com/barbo0909/TURKISH_LEGAL_RAG
+
+Short Results Summary
+Stage
+Best / important result
+Old baseline
+article_hit@5 = 0.0526
+First strong retrieval after normalized corpus
+BGE-M3 dense baseline
+Best retrieval system
+Qwen3-Embedding-8B + Qwen3-Reranker-8B
+Final article_hit@5
+0.837
+Safest generator
+Qwen3-32B Base
+Effect of the fine-tuned generator
+QLoRA increased token_f1 and rouge_l values; however, it remained riskier than the base model in terms of citation-grounding
+Final system
+Qwen3-Embedding-8B + Qwen3-Reranker-8B + Qwen3-32B Base
+
+This summary table shows that the largest gain in the system was obtained on the retrieval side. In the old baseline, the rate of finding the correct article within the first 5 results was 0.0526, while this value increased to 0.837 with the final retrieval stack. This improvement enabled the system not only to generate better answers, but also to ground the answer in the correct legal article.
+Experimental Environment and Models Used
+Different retrieval and generation components were compared in the experiments. On the retrieval side, dense, sparse, hybrid, and reranker-based approaches were tested. On the generation side, base and fine-tuned LLM systems were compared.
+
+The main systems and models used are as follows:
+Component
+Method / model used
+Sparse retrieval
+BM25
+Dense retrieval baseline
+BGE-M3
+Strong dense retriever
+Qwen3-Embedding-8B
+First reranker experiment
+MiniLM reranker
+Final reranker
+Qwen3-Reranker-8B
+Embedding tuning
+Qwen3-Embedding-8B LoRA tuned dense
+Reranker tuning
+Tuned Qwen3 reranker
+First generation model
+Gemma-2-2B Base RAG
+First LLM fine-tuning experiment
+Gemma-2-2B LoRA RAG
+Final strong base generator
+Qwen3-32B Base
+Strong fine-tuned generator
+Qwen3-32B QLoRA
+
+All systems were evaluated on the same 190-question benchmark. Thus, the comparisons made between systems were based on the same test conditions.
+The benchmark set was kept separate from the model tuning and retrieval tuning processes. The final evaluation was performed on the same test set for all systems. This separation allows the results to be interpreted more reliably.
+Dataset and Data Source
+The main legal data used in the project was muhammetakkurt/mevzuat-gov-dataset. This dataset consists of legal texts extracted from mevzuat.gov.tr, the official legislation portal of the Turkish state. The dataset includes laws, regulations, and amendment texts; each record contains not only text content, but also metadata information belonging to the legal document. The dataset page states that the data was extracted from the mevzuat.gov.tr source and that the legal texts are provided together with detailed article structures. (huggingface.co)
+According to the dataset information on Hugging Face, the data is in JSON format, is presented as a text modality, is shared with the legal tag, and appears under the MIT license. The dataset page shows that the default split consists of 907 rows and that the total file size is approximately 37.3 MB. (huggingface.co)
+Basic Features of the Dataset
+Feature
+Description
+Dataset name
+muhammetakkurt/mevzuat-gov-dataset
+Source
+mevzuat.gov.tr
+Format
+JSON
+Domain
+Turkish law / legislation
+Number of Hugging Face rows
+907 top-level records
+File size
+Approximately 37.3 MB
+Language
+Turkish
+License
+MIT
+Content type
+Laws, regulations, amendment texts, and article contents
+
+The point to note here is that the 907 rows on Hugging Face are not directly the same as the final retrieval corpus row count. In the dataset, each top-level record can represent a law or legal document, and these records contain a nested list called maddeler. In the project, this nested structure was expanded to the article level, unnecessary or problematic records were cleaned, and an article-level corpus that could be used for retrieval was created.
+Dataset Fields
+The main fields in the dataset are as follows:
+Field
+Description
+url
+The link of the related law or legislation record
+Kanun Adı
+The Turkish name of the legal text
+kanun_numarasi
+The official number of the law
+kabul_tarihi
+The adoption date of the law
+resmi_gazete
+Official Gazette information
+resmi_gazete.tarih
+Publication date in the Official Gazette
+resmi_gazete.sayi
+Official Gazette issue number
+dustur
+Düstur information
+dustur.tertip
+Düstur series information
+dustur.cilt
+Düstur volume information
+dustur.sayfa
+Düstur page information
+maddeler
+List containing the articles of the law
+maddeler.madde_numarasi
+The number of the article
+maddeler.text
+The text content of the article
+
+This structure is suitable for a RAG system because each legal document stores not only the text but also the source information and article number. In legal RAG systems, this metadata structure is important because it makes it possible to track which law, which article, and which document the system bases its answer on.
+Use of the Dataset in the Project
+The dataset was not used directly in its raw form. First, the structure of the data was examined, and then cleaning and normalization operations were performed to make it suitable for the retrieval system. Since the raw data contains a nested structure at the document level, the records had to be converted into article-level form so that the RAG system could find the correct article.
+The data preparation flow applied in the project is as follows:
+Stage
+Description
+Raw dataset examination
+The JSON structure, metadata fields, and maddeler list were examined.
+Document-article separation
+The articles within each law were converted into separate retrieval records.
+Metadata preservation
+Fields such as law name, law number, adoption date, Official Gazette information, and URL were preserved.
+QA and law separation
+Official legal articles and auxiliary QA records were separated.
+Duplicate cleaning
+Repeated records or records carrying the same content were detected.
+Removal of invalid records
+Missing, corrupted, or retrieval-unsuitable records were cleaned.
+Article-level corpus creation
+Each record was structured at the article level that the retrieval system could search.
+JSONL/CSV outputs
+The final corpus was saved in both .csv and .jsonl formats.
+
+As a result of this process, the main corpus used by the system was created through the following files:
+File
+Purpose
+legal_main_law_corpus_v3.csv
+Cleaned and normalized main legal corpus
+legal_main_law_corpus_v3.jsonl
+JSONL format used for retrieval/indexing
+
+Dataset Normalization Results
+The corpus statistics obtained after the dataset and additional data preparation process are as follows:
+Metric
+Value
+Raw rows
+39,223
+Law rows
+34,226
+QA rows
+4,997
+Valid law rows
+24,473
+Rejected rows
+9,753
+Duplicate groups
+3,886
+
+These results show that the raw data had to be cleaned before being used directly. In particular, separating official legal articles from QA-format records, cleaning duplicate records, and removing invalid rows were critical for the quality of the final corpus.
+In the final retrieval system, valid law rows were used as the main backbone. QA records were evaluated as auxiliary data, not as a replacement for the main official legal corpus. Thus, the system was aimed to base its answers as much as possible on official legal articles.
+
+Strengths of the Dataset
+Strength
+Description
+Based on an official source
+Since the data was extracted from the official legislation portal, it has strong legal source value.
+Contains metadata
+Fields such as law name, number, adoption date, Official Gazette information, and URL can be used for citation.
+Contains article structure
+An article-level retrieval system can be built through the maddeler list.
+Suitable for the Turkish legal domain
+It is not a general-purpose QA dataset, but consists directly of Turkish legislation texts.
+Convertible into a RAG system
+The JSON structure can be cleaned and converted into JSONL/CSV corpus format.
+
+Limitations of the Dataset
+Although the dataset is a strong source, it has some limitations in its raw form. The dataset page states that some fields may be missing or irregular, that date formats may vary, and that different character or punctuation issues may be observed, especially in older laws. It is also stated that articles may contain additional data and may need better parsing. (huggingface.co)
+The main limitations encountered in the project can be summarized as follows:
+Limitation
+Effect in the project
+Nested article structure
+Raw records had to be converted into article-level form for retrieval.
+Missing metadata
+Some citation fields had to be normalized.
+Different date formats
+Format standardization was performed for fields such as adoption date and Official Gazette date.
+Character issues in older texts
+Text cleaning and normalization steps were applied.
+Amendment laws
+Some articles did not contain direct legal provisions but amendment text incorporated into another law, so filtering was required.
+Duplicate records
+Repeated contents were cleaned because they could reduce retrieval quality.
+
+Because of these limitations, the dataset was not used directly as the final RAG corpus in its raw form; it first went through normalization and quality control processes.
+Data Leakage and Benchmark Separation
+The 190-question benchmark used in the project was kept separate from the tuning and development processes. The data used in retrieval tuning, embedding tuning, reranker tuning, and LLM fine-tuning stages was separated from the final benchmark evaluation.
+This separation is important because using the same questions in both tuning and test stages may cause system performance to appear higher than it actually is. Therefore, in the final evaluation, all systems were compared on the same 190-question test benchmark. This allowed a more reliable performance comparison between the baseline, tuned, and fully optimized systems.
+1. Project Objective
+The objective of this project is to gradually improve a Retrieval-Augmented Generation system operating in the Turkish legal domain and measure both retrieval and answer generation quality. The system was designed not only as a structure that produces answers, but also as a legal RAG architecture that can find the correct legal source, rely on the relevant article, generate citations, and measure hallucination risk.
+Therefore, throughout the project, different corpus structures, embedding models, retrieval methods, reranker approaches, and LLM fine-tuning experiments were compared on the same benchmark. Thus, which component truly contributed to the system, which stage did not produce the expected improvement, and which system was more reliable in the end were evaluated quantitatively.
+2. Benchmark and Data Structure
+A 190-question gold benchmark was used in the project. This benchmark consists of Turkish legal questions, and for each question, a verified answer, the relevant legal document, and article mapping were stored.
+Thanks to this structure, the system could be evaluated not only in terms of answer quality, but also in terms of its success in finding the correct document and the correct article. In the legal domain, answer generation alone is not sufficient; the legal source on which the answer is based must also be correct. Therefore, the benchmark made it possible to measure the retrieval and generation stages jointly.
+The benchmark structure is as follows:
+Feature
+Description
+Number of questions
+190
+Language
+Turkish
+Domain
+Turkish law
+Gold answer
+Available
+Gold article/document mapping
+Available
+Purpose of use
+Retrieval, generation, citation, and grounding evaluation
+Comparison method
+All systems were measured on the same benchmark
+
+3. Corpus Normalization
+The first important stage of the project is corpus normalization. In the initial data, official legislation articles, QA records, repeated rows, and different quality issues existed together. Therefore, the data was first cleaned, official legal articles were separated from QA records, and the main retrieval corpus was reconstructed at the article level.
+The basic numbers obtained as a result of corpus normalization are as follows:
+Metric
+Value
+Raw rows
+39,223
+Law rows
+34,226
+QA rows
+4,997
+Valid law rows
+24,473
+Rejected rows
+9,753
+Duplicate groups
+3,886
+
+Final main corpus files:
+File
+Purpose
+legal_main_law_corpus_v3.csv
+Main official legal corpus
+legal_main_law_corpus_v3.jsonl
+JSONL format used for RAG indexing
+
+This stage created an important turning point in system performance. Moving from the old Kaggle-only structure to a normalized corpus at the level of official legal articles provided a significant improvement, especially on the article-level retrieval side. Therefore, corpus normalization was evaluated not only as a technical preprocessing step, but also as a fundamental stage that directly affects system quality.
+4. First Baseline: Kaggle-only System
+The starting point of the project is the Kaggle-only corpus and the old retrieval/generation setup. This system was used as the initial level in order to see how meaningful the later improvements were.
+Kaggle-only Generation Metrics
+Metric
+Value
+exact_match
+0.0000
+rouge_l
+0.2311
+bleu
+0.0649
+token_f1
+0.1829
+
+Kaggle-only Retrieval Metrics
+Metric
+Value
+source_hit@1
+0.7105
+source_hit@3
+0.7632
+source_hit@5
+0.7947
+article_hit@1
+0.0263
+article_hit@3
+0.0526
+article_hit@5
+0.0526
+joint_source_article_hit@5
+0.0474
+mrr_source
+0.7393
+ndcg_source_5
+0.7449
+mrr_source_article
+0.0351
+ndcg_source_article_5
+0.0382
+
+These results show that the old baseline system appeared partially acceptable at the document/source level, but remained quite weak in finding the correct legal article. In particular, the article_hit@5 value of 0.0526 shows that the system had serious difficulty reaching the correct article.
+This difference is very important in the legal domain. Because an answer that is not based on the correct article cannot be considered reliable, even if it appears correct on the surface. Therefore, in the later stages, the system’s article-level retrieval and citation-grounding performance were especially improved.
+5. Retrieval Ablation Process
+On the retrieval side, the system was compared step by step. First, dense retrieval was tested on the normalized official legal corpus, and then BM25, hybrid retrieval, different reranker approaches, stronger embedding models, and tuning experiments were evaluated.
+The general flow of the retrieval experiments is as follows:
+Stage
+System
+Purpose
+1
+BGE-M3 dense baseline
+First strong dense baseline on the official-law corpus
+2
+BM25
+To observe sparse retrieval performance
+3
+Hybrid retrieval
+To measure the contribution of combining dense + BM25
+4
+MiniLM reranker
+To test the first reranker effect
+5
+Law-aware optimized retrieval v2
+To measure the effect of law-oriented optimizations
+6
+Qwen3-Embedding-8B dense
+To switch to a stronger embedding model
+7
+Qwen3-Embedding-8B + Qwen3-Reranker-8B
+To test the strongest retrieval stack candidate
+8
+Embedding tuning
+To measure the effect of domain adaptation and contrastive fine-tuning
+9
+Reranker tuning
+To measure the effect of a fine-tuned reranker
+
+
+6. Retrieval Ablation Results
+The main retrieval comparison results are as follows:
+System
+doc_hit@5
+doc_hit@10
+article_hit@5
+article_hit@10
+doc_mrr
+article_mrr
+article_ndcg@5
+article_ndcg@10
+BGE-M3 dense baseline
+0.884
+0.900
+0.674
+0.732
+0.764
+0.520
+0.552
+0.572
+BM25
+0.911
+0.942
+0.432
+0.532
+0.725
+0.295
+0.319
+0.352
+Hybrid retrieval
+0.889
+0.911
+0.589
+0.711
+0.796
+0.449
+0.472
+0.511
+BGE-M3 + MiniLM reranker
+0.863
+0.921
+0.663
+0.711
+0.721
+0.500
+0.536
+0.551
+Law-aware optimized retrieval v2
+0.874
+0.884
+0.626
+0.700
+0.810
+0.483
+0.509
+0.532
+Qwen3-Embedding-8B dense
+0.968
+0.979
+0.774
+0.837
+0.833
+0.624
+0.653
+0.674
+Qwen3-Embedding-8B + Qwen3-Reranker-8B
+0.968
+0.979
+0.837
+0.874
+0.869
+0.701
+0.731
+0.743
+
+BGE-M3 dense baseline produced a strong first retrieval result on the normalized official legal corpus. Although BM25 showed reasonable performance on the document-level side, it remained behind dense systems in article-level retrieval. This result shows that the Turkish legal article retrieval problem cannot be solved only through keyword matching.
+Hybrid retrieval produced better article-level results than BM25; however, it could not surpass the BGE-M3 dense baseline in terms of article_hit@5. Therefore, hybrid retrieval was tested but did not become the strongest option for the final system.
+The MiniLM reranker experiment also provided limited contribution. This stage showed that the reranking approach may not provide sufficient performance improvement when it is not used with the right model.
+The main improvement was obtained when switching to the Qwen3-Embedding-8B model. The Qwen3 embedding model produced stronger results than BGE-M3 in both document-level and article-level metrics. Later, when Qwen3-Reranker-8B was added, article_hit@5 increased to 0.837, article_mrr to 0.701, and article_ndcg@5 to 0.731. Therefore, Qwen3-Embedding-8B dense top-30 + Qwen3-Reranker-8B top-10 was selected as the final retrieval stack.
+7. Embedding Tuning and Reranker Tuning Results
+Embedding tuning and reranker tuning experiments were also performed in the project. In these stages, domain adaptation, contrastive fine-tuning, hard negative usage, and reranker fine-tuning were applied.
+The tuning retrieval results are as follows:
+System
+doc_hit@5
+doc_hit@10
+article_hit@5
+article_hit@10
+doc_mrr
+article_mrr
+article_ndcg@5
+article_ndcg@10
+Qwen3-Embedding-8B LoRA tuned dense
+0.963
+0.968
+0.742
+0.816
+0.818
+0.619
+0.639
+0.663
+Base embedding + tuned Qwen3 reranker
+0.953
+0.968
+0.737
+0.832
+0.812
+0.535
+0.576
+0.607
+Tuned embedding + tuned reranker
+0.926
+0.958
+0.705
+0.821
+0.779
+0.525
+0.558
+0.596
+Zero-shot Qwen3 embedding + zero-shot Qwen3 reranker
+0.968
+0.979
+0.837
+0.874
+0.869
+0.701
+0.731
+0.743
+
+Although embedding tuning was technically performed, the Qwen3-Embedding-8B LoRA tuned dense system could not surpass the zero-shot Qwen3 embedding system. Similarly, the tuned reranker did not produce a better result than the zero-shot Qwen3 reranker.
+This is an important finding. Fine-tuning does not automatically mean that the system will become better. In this project, the final system was determined not as the most fine-tuned system, but as the best measured system on the same benchmark.
+8. Generation Ablation Process
+After the best retrieval system was determined, the answer generation side was also evaluated separately. At this stage, Gemma-2-2B Base RAG, Gemma-2-2B LoRA RAG, Qwen3-32B Base RAG, and Qwen3-32B QLoRA RAG systems were compared.
+The generation comparison results are as follows:
+System
+exact_match
+token_f1
+rouge_l
+retrieval_gold_available
+citation_present
+citation_gold_match
+grounded_citation_score
+unsupported_or_missing_citation
+Gemma-2-2B Base RAG
+0.000
+0.144
+0.128
+0.732
+0.568
+0.337
+0.289
+0.574
+Gemma-2-2B LoRA RAG
+0.000
+0.127
+0.109
+0.732
+0.642
+0.179
+0.163
+0.563
+Qwen3-32B Base RAG + best retrieval
+0.000
+0.1449
+0.1233
+0.8737
+0.9842
+0.8211
+0.8053
+0.1421
+Qwen3-32B QLoRA RAG + best retrieval
+0.000
+0.1914
+0.1674
+0.8737
+0.9316
+0.7421
+0.7211
+0.1947
+
+The Gemma-2-2B Base RAG system was able to generate answers, but remained limited in terms of citation and grounding. After Gemma LoRA fine-tuning, although the citation_present metric increased, token_f1, rouge_l, citation_gold_match, and grounded_citation_score decreased. Therefore, Gemma fine-tuning did not improve overall quality in this setup.
+The Qwen3-32B Base RAG + best retrieval system produced the safest results in terms of citation and grounding. In this system, citation_present reached 0.9842, citation_gold_match reached 0.8211, and grounded_citation_score reached 0.8053.
+The Qwen3-32B QLoRA system increased the token_f1 and rouge_l metrics. This shows that fine-tuning was useful in terms of answer-overlap. However, the same system remained behind the base model in terms of citation_gold_match and grounded_citation_score. Therefore, although the QLoRA model produced higher lexical overlap, it showed a riskier profile in terms of citation-grounding.
+9. Comparison of Qwen3-32B Base RAG and QLoRA RAG
+The Qwen3-32B Base RAG and Qwen3-32B QLoRA RAG systems were compared on the same retrieval stack. Thus, the effect of fine-tuning was observed more clearly.
+Metric
+Qwen3-32B Base RAG
+Qwen3-32B QLoRA RAG
+Evaluation
+exact_match
+0.000
+0.000
+No change
+token_f1
+0.1449
+0.1914
+QLoRA is better
+rouge_l
+0.1233
+0.1674
+QLoRA is better
+retrieval_gold_available
+0.8737
+0.8737
+Same because the same retrieval stack was used
+citation_present
+0.9842
+0.9316
+Base is better
+citation_gold_match
+0.8211
+0.7421
+Base is better
+grounded_citation_score
+0.8053
+0.7211
+Base is better
+unsupported_or_missing_citation
+0.1421
+0.1947
+Base is safer
+
+According to these results, QLoRA fine-tuning increased the similarity of the answers to the gold answer at the word and expression level. In contrast, citation accuracy and grounding reliability decreased compared to the base model.
+In the legal domain, it is not sufficient for the answer to only appear similar. The answer must be based on the correct source and be reliable in terms of citation. Therefore, Qwen3-32B Base was preferred as the final generation model.
+10. Hallucination and Grounding Analysis
+A deterministic proxy-based analysis was performed in the project for hallucination and grounding evaluation. In this analysis, error types such as missing citation, retrieval miss, low answer overlap, and wrong or unsupported citation were examined.
+The error type comparison is as follows:
+Error Type
+Qwen3-32B Base RAG
+Qwen3-32B QLoRA RAG
+missing_citation
+3
+13
+retrieval_miss
+24
+24
+acceptable_automatic
+75
+95
+low_answer_overlap
+78
+42
+wrong_or_unsupported_citation
+10
+16
+
+The QLoRA system reduced the number of low_answer_overlap cases. This shows that the model produced expressions closer to the gold answer. However, in the same system, the numbers of missing_citation and wrong_or_unsupported_citation increased.
+The Base Qwen3-32B system showed lower citation risk. The number of missing citations remained at 3, and the number of wrong_or_unsupported_citation cases remained at 10. Therefore, the hallucination and grounding analysis supported the selection of the base Qwen3-32B model in the final system.
+11. LLM Judge Evaluation
+In addition to deterministic metrics, the final base system was evaluated with an LLM judge on all 190 questions.
+Judge information:
+
+Feature
+Value
+Judge model
+Qwen/Qwen3-32B
+Evaluated system
+Qwen3-32B Base RAG + best retrieval
+Number of questions
+190
+
+LLM judge results:
+Metric
+Score
+correctness
+4.053 / 5
+faithfulness
+3.789 / 5
+citation_support
+3.468 / 5
+hallucination_risk
+1.795 / 5
+
+These results show that the final base system is strong in terms of answer correctness and faithfulness to the retrieved context. Citation support is at a medium-good level. The low hallucination risk score supports the results observed in the deterministic hallucination analysis.
+12. Final System
+At the end of the project, the final system was selected not according to a single metric, but by evaluating retrieval success, citation accuracy, grounded generation, and hallucination risk together.
+The final system architecture is as follows:
+Component
+Final Selection
+Corpus
+Normalized official-law article corpus v3
+Retriever
+Qwen/Qwen3-Embedding-8B dense top-30
+Reranker
+Qwen/Qwen3-Reranker-8B top-10
+Generator
+Qwen/Qwen3-32B Base
+
+The reasons for selecting this system are:
+Criterion
+Reason
+Article-level retrieval
+The strongest article_hit@5, article_mrr, and article_ndcg values were obtained with this stack.
+Citation accuracy
+Qwen3-32B Base generated more accurate citations than the QLoRA model.
+Grounding
+grounded_citation_score remained at the safest level.
+Hallucination risk
+The error type analysis showed the base system to be safer.
+Overall system balance
+The final system was selected not only according to overlap score, but according to the reliability balance.
+
+The final system is not the system that gives the highest token_f1 or rouge_l value. However, when correct article retrieval, correct citation generation, and low hallucination risk, which are more important for the legal domain, are evaluated together, it is the most reliable system.
+13. Overall Improvement from the Beginning to the Final System
+One of the strongest indicators of the project is the article-level improvement between the old Kaggle-only baseline and the final retrieval stack.
+System
+article_hit@5
+Kaggle-only baseline
+0.0526
+BGE-M3 dense baseline
+0.674
+Qwen3-Embedding-8B dense
+0.774
+Qwen3-Embedding-8B + Qwen3-Reranker-8B
+0.837
+
+This table shows that the largest gain of the project was on the retrieval side. While article_hit@5 was approximately 0.053 at the beginning, this value increased to 0.837 with the final retrieval stack. This increase shows that the system’s capacity to reach not only the correct document but also the correct legal article improved significantly.
+14. Custom Data Pipeline
+The project also supports instructor-provided custom document collections and benchmark files in both local and Google Drive/Colab-based workflows. For this purpose, a single-entry evaluation script, run_teacher_eval.py, and a teacher-facing notebook, notebooks/25_teacher_custom_data_single_notebook_demo.ipynb, were prepared. The instructor only needs to place custom documents under data/custom_docs/ and the benchmark file under data/custom_benchmark/custom_benchmark.csv. The system then automatically ingests the custom documents, converts them into the project retrieval schema, builds a custom index, and evaluates the same RAG pipeline on the provided benchmark. The same workflow can also be executed in Google Drive and Colab by uploading the repository folder to Drive and running either run_teacher_eval.py or notebooks/25_teacher_custom_data_single_notebook_demo.ipynb.
+By default, this evaluation path uses the strongest final system configuration of the project: Qwen/Qwen3-Embedding-8B for dense retrieval, Qwen/Qwen3-Reranker-8B for reranking, and Qwen/Qwen3-32B for answer generation. If gold document/article fields are present, the system reports retrieval metrics such as hit/recall, MRR, and nDCG. If gold answers are also present, it additionally reports answer-level, citation-grounding, and hallucination-proxy metrics. The main results are written to output files, while the key metrics are also printed directly to the console so that the instructor can inspect them without manually opening intermediate CSV or JSON artifacts.
+
+
+
+
+15. Compute Environment and GPU Usage
+Experiment / Stage
+Environment
+GPU Usage
+Notes
+Corpus indexing
+Google Colab A100 GPU
+GPU used
+Corpus indexing and dense embedding generation were executed in Colab with A100 GPU support.
+Dense retrieval
+Google Colab A100 GPU
+GPU used
+Qwen/Qwen3-Embedding-8B dense retrieval experiments were executed in Colab.
+BM25 sparse retrieval
+Google Colab
+GPU not required
+BM25 is a lexical retrieval method and does not inherently require GPU acceleration, but it was still run inside the Colab workflow.
+Hybrid retrieval
+Google Colab A100 GPU
+GPU used for dense part
+BM25 was combined with dense retrieval; the dense embedding part used GPU acceleration.
+Reranker evaluation
+Google Colab A100 GPU
+GPU used
+Qwen/Qwen3-Reranker-8B evaluation was executed with GPU acceleration.
+Base RAG generation
+Google Colab A100 GPU
+GPU used
+Qwen/Qwen3-32B Base RAG generation was performed in Colab.
+Fine-tuned RAG generation
+Google Colab A100 GPU
+GPU used
+Qwen/Qwen3-32B QLoRA RAG generation was performed under the same Colab setup.
+QLoRA fine-tuning
+Google Colab A100 GPU
+GPU used
+Fine-tuning was performed using 4-bit loading and QLoRA configuration.
+Embedding adaptation
+Google Colab A100 GPU
+GPU used
+Qwen/Qwen3-Embedding-8B adaptation was performed using LoRA and hard negatives.
+Reranker adaptation
+Google Colab A100 GPU
+GPU used
+Qwen/Qwen3-Reranker-8B adaptation was executed in Colab.
+LLM judge evaluation
+Google Colab A100 GPU
+GPU used
+LLM-based evaluation was performed with the Qwen model family under GPU acceleration.
+Report and repository preparation
+Google Colab / local file organization
+Not part of heavy computation
+Notebook cleanup, report preparation, result organization, and file-level validation were performed after the main Colab experiments.
+
+
+16. Final Retrieval and Generation Hyperparameters
+Component
+Model / Method
+Main Hyperparameters
+Purpose
+Dense retriever
+Qwen/Qwen3-Embedding-8B
+candidate_k = 30, batch_size = 32
+Retrieves the first dense candidate pool from the legal corpus.
+Sparse retriever
+BM25
+Default BM25 lexical scoring
+Used as a sparse retrieval baseline and for hybrid retrieval comparison.
+Final reranker
+Qwen/Qwen3-Reranker-8B
+candidate_k = 30, final top_k = 10, evaluation batch_size = 16
+Reranks dense candidates and selects the final context documents.
+Interactive/demo reranker setting
+Qwen/Qwen3-Reranker-8B
+batch_size = 4
+Lower batch size was used in demo notebooks for stability.
+Base RAG generation
+Qwen/Qwen3-32B Base
+top_k_context = 10, candidate_k = 30, max_new_tokens = 384, temperature = 0.2, top_p = 0.9, max_context_chars = 9000
+Generates grounded answers using the retrieved legal context.
+Fine-tuned RAG generation
+Qwen/Qwen3-32B QLoRA
+Same retrieval defaults as Base RAG
+Used to compare the effect of LLM fine-tuning under the same retrieval setting.
+LLM judge evaluation
+Qwen/Qwen3-32B
+4-bit loading, max_new_tokens = 256
+Evaluates correctness, faithfulness, citation support, and hallucination risk.
+17. Fine-Tuning Hyperparameters
+Fine-Tuning Stage
+Model
+Hyperparameters
+Notes
+LLM fine-tuning
+Qwen/Qwen3-32B QLoRA
+epochs = 1.0, learning_rate = 1e-4, per_device_train_batch_size = 1, per_device_eval_batch_size = 1, gradient_accumulation_steps = 16, max_length = 2048, lora_r = 32, lora_alpha = 64, lora_dropout = 0.05, 4-bit loading = enabled
+Used for the final Base RAG vs Fine-tuned RAG comparison.
+Embedding adaptation
+Qwen/Qwen3-Embedding-8B
+epochs = 1, batch_size = 1, warmup_ratio = 0.1, warmup_steps = 185, max_seq_length = 1024, lora_r = 32, lora_alpha = 64, lora_dropout = 0.05, hard negatives = used
+Used to test domain adaptation and contrastive fine-tuning on the embedding layer.
+Reranker adaptation
+Qwen/Qwen3-Reranker-8B
+epochs = 1, batch_size = 1, learning_rate = 1e-5, warmup_ratio = 0.1, warmup_steps = 607, gradient_accumulation_steps = 1, max_length = 2048, lora_r = 32, lora_alpha = 64, lora_dropout = 0.05
+Used to test whether reranker fine-tuning improves ranking quality.
+
+All main experiments in this project were executed in a Google Colab A100 GPU environment. This includes dense embedding generation, corpus indexing, reranker evaluation, Qwen-based RAG generation, QLoRA fine-tuning, embedding adaptation, reranker adaptation, and LLM-judge evaluation. BM25 retrieval does not inherently require GPU acceleration, but it was also executed inside the same Colab-based experimental workflow. This setup ensured that both lightweight retrieval baselines and heavy multi-billion-parameter model experiments were tested under a consistent and reproducible Colab environment. 
+18. Limitations and Future Work
+Although strong results were obtained in this study, there are some limitations. First, the benchmark is limited to 190 questions. Although this number provides a sufficient starting point for comparing systems, a broader benchmark covering different legal fields would increase the generalizability of the results.
+Second, citation and hallucination analyses are largely based on deterministic proxy metrics and LLM judge evaluation. Although this approach provides systematic measurement, supporting it with expert human evaluation in the legal domain would further increase final reliability.
+Third, fine-tuning experiments did not always provide the expected improvement. In particular, embedding tuning and reranker tuning could not surpass the zero-shot Qwen3 retrieval stack. This shows that the quality of tuning data, its alignment with the task, and the selection of hard negatives should be optimized more carefully.
+The following improvements can be made in future work:
+Development Area
+Description
+Larger benchmark
+More questions from different legal fields can be added.
+Human expert evaluation
+Answers and citations can be checked by lawyers or legal experts.
+Better tuning data
+Higher-quality hard negative sets can be prepared for embedding and reranker tuning.
+Citation verification
+The article-level correctness of generated citations can be measured separately and manually.
+Real usage testing
+The system can be tested with sample questions in law office scenarios.
+Field-based analysis
+Separate performance reports can be produced for fields such as labor law, commercial law, and tenancy law.
+
+These limitations do not indicate that the system is unsuccessful; rather, they show the areas where the current study can be further strengthened. The current results show that the system forms a strong foundation, especially in terms of retrieval and grounded generation.
+19. General Conclusion
+This project has shown that developing a reliable RAG system in the Turkish legal domain cannot be solved only by increasing model size or performing fine-tuning. The largest gain was obtained by correctly structuring the data and carefully optimizing the retrieval architecture.
+At the beginning, although the Kaggle-only system appeared partially reasonable on the document-level side, it was quite weak in terms of article-level grounding. With corpus normalization, the official-law article corpus v3 structure, strong dense retrieval, and Qwen3-Reranker-8B, article-level retrieval was significantly improved. While article_hit@5 was 0.0526 in the Kaggle-only baseline, this value reached 0.837 in the final retrieval stack.
+On the generation side, the effect of fine-tuning was more complex. Gemma LoRA did not improve overall quality; Qwen3-32B QLoRA increased token_f1 and rouge_l metrics, but produced a riskier result than the base model in terms of citation accuracy and grounding. Therefore, the final system was selected not as the QLoRA system with the highest lexical overlap score, but as Qwen3-32B Base RAG + best retrieval stack, which is safer in terms of citation-grounding and low hallucination risk.
+As a result, the study presents a measurable, comparable, and reliability-oriented legal RAG system in the Turkish legal domain. In the project, all stages from corpus normalization to retrieval ablations, from fine-tuning experiments to hallucination analysis were evaluated on the same benchmark, and the final system was determined according to these measurements.
+20.  Base RAG Question-Answer Outputs and Retrieved Source 
+-55054512065
+-5029202519045-563245-327025
+
+
+21.  Fine-Tuned RAG Question-Answer Outputs and Retrieved Source
+-50292093345
+
+
+
+
+
+27940171450
+
+
+
+
+
+22. Qualitative Comparison of Base and Fine-Tuned Responses 
+
+In our qualitative comparison on the question of individual application to the Constitutional Court, the base Qwen3-32B system produced a more structured and practically useful answer than the fine-tuned variant. While the fine-tuned model tended to provide a broader and more verbose explanation, it also introduced a noisier list of supporting provisions and less focused legal grounding. By contrast, the base model gave a clearer procedural summary, organized the conditions more coherently, and relied on a more disciplined citation pattern. This example is consistent with our quantitative findings: although QLoRA fine-tuning improved overlap-based metrics such as Token F1 and ROUGE-L on average, the base model remained stronger in citation-grounding quality and overall legal reliability.
+23. References
+HuggingFace Renicames/turkish-lawchatbot
+muhammetakkurt/mevzuat-gov-dataset
+mevzuat.gov.tr
+
+

@@ -1,0 +1,29 @@
+{
+  "corpus_csv": "data\\processed\\legal_main_law_corpus_v3.csv",
+  "external_dir": "data\\external",
+  "seed": 42,
+  "val_ratio": 0.1,
+  "external_embedding_rows": 2059,
+  "external_embedding_mapped": 428,
+  "external_reranker_rows": 6752,
+  "external_reranker_mapped": 1462,
+  "external_llm_rows": 13758,
+  "external_llm_mapped": 2836,
+  "external_gold_questions": 240,
+  "external_gold_mapped": 71,
+  "embedding_train_records": 449,
+  "embedding_val_records": 50,
+  "reranker_train_records": 1444,
+  "reranker_val_records": 160,
+  "llm_train_records": 2616,
+  "llm_val_records": 291,
+  "outputs": {
+    "embedding_train": "data\\processed\\external_mapped_embedding_train.jsonl",
+    "embedding_val": "data\\processed\\external_mapped_embedding_val.jsonl",
+    "reranker_train": "data\\processed\\external_mapped_reranker_train.jsonl",
+    "reranker_val": "data\\processed\\external_mapped_reranker_val.jsonl",
+    "llm_train": "data\\processed\\external_mapped_llm_train.jsonl",
+    "llm_val": "data\\processed\\external_mapped_llm_val.jsonl"
+  },
+  "leakage_policy": "The locked final benchmark is not used for tuning. External examples are mapped to official article_key values only when law_no/article_no can be matched to the official corpus."
+}

@@ -586,3 +586,69 @@ When available, add:
 
 1. Custom-data ingestion demo metrics.
 2. Any final UI/demo latency measurements, if collected.
+
+## K. Base vs Fine-Tuned RAG Semantic Similarity
+
+Semantic similarity was computed with `Qwen/Qwen3-Embedding-8B` using cosine similarity between each `generated_answer` and `gold_answer`.
+
+| System | answer_semantic_similarity | median | std |
+| --- | ---: | ---: | ---: |
+| Base RAG | 0.7890 | 0.8064 | 0.0835 |
+| Fine-tuned RAG | 0.7908 | 0.8072 | 0.0911 |
+
+Combined with the existing lexical metrics:
+
+| Metric | Base RAG | Fine-tuned RAG | Change |
+| --- | ---: | ---: | ---: |
+| token_f1 | 0.1449 | 0.1914 | +0.0465 |
+| rouge_l | 0.1233 | 0.1674 | +0.0441 |
+| answer_semantic_similarity | 0.7890 | 0.7908 | +0.0018 |
+
+Interpretation:
+
+- Fine-tuning substantially improved lexical answer overlap and slightly improved semantic answer similarity.
+- The semantic gain is small, but it supports the conclusion that the fine-tuned LLM moved answers closer to gold answers at the meaning level.
+- User-safety interpretation: better semantic alignment can make answers feel more relevant and confidence-inducing, but legal systems must avoid unsupported confidence. Because citation-grounding decreased in the fine-tuned run, semantic similarity is reported together with grounding metrics rather than used as the only selection criterion.
+
+## L. Leakage-Safe External-Mapped Fine-Tuning Metrics
+
+### L1. External-Mapped Retrieval Ablation
+
+Training source:
+
+- `data/processed/external_mapped_embedding_train.jsonl`
+- `data/processed/external_mapped_embedding_val.jsonl`
+- `data/processed/external_mapped_reranker_train.jsonl`
+- `data/processed/external_mapped_reranker_val.jsonl`
+
+Adapters:
+
+- `models/embedding_tuned/qwen3_embedding_8b_external_mapped_lora_v1`
+- `models/reranker_tuned/qwen3_reranker_8b_external_mapped_lora_v1`
+
+Index:
+
+- `indexes/official_law_v3_qwen3_embedding_8b_external_mapped_lora_v1`
+
+Index build:
+
+| Metric | Value |
+| --- | ---: |
+| record_count | 24,473 |
+| embedding_count | 24,473 |
+| embedding_dim | 4,096 |
+
+Retrieval metrics:
+
+| System | article_hit@5 | article_hit@10 | article_recall@5 | article_recall@10 | article_mrr | article_ndcg@5 | article_ndcg@10 | doc_hit@10 | doc_mrr |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| external_mapped_tuned_embedding_dense_only | 0.7421 | 0.7789 | 0.7421 | 0.7789 | 0.5859 | 0.6211 | 0.6336 | 0.9368 | 0.7578 |
+| external_mapped_tuned_embedding_base_reranker | 0.1368 | 0.2737 | 0.1368 | 0.2737 | 0.0838 | 0.0830 | 0.1274 | 0.8316 | 0.5024 |
+| external_mapped_tuned_embedding_tuned_reranker | 0.3474 | 0.5053 | 0.3474 | 0.5053 | 0.2102 | 0.2272 | 0.2793 | 0.8579 | 0.4609 |
+
+Current interpretation:
+
+- The external-mapped embedding LoRA adapter, reranker LoRA adapter, and tuned embedding index were built successfully.
+- Dense-only tuned embedding is lower than the zero-shot Qwen3-Embedding-8B dense baseline on the locked official-law benchmark.
+- The tuned embedding + base reranker combination produced a large ranking collapse.
+- The tuned reranker partially recovered the ranking drop, but the fully tuned external-mapped retrieval stack did not beat the zero-shot Qwen3 retrieval stack.
