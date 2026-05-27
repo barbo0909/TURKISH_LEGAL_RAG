@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 from pathlib import Path
 from typing import Any
 
@@ -32,39 +31,7 @@ def choose_existing_column(columns: list[str], candidates: list[str]) -> str | N
     return None
 
 
-def extract_first_number(value: str) -> str:
-    match = re.search(r"\d+", str(value))
-    return match.group(0) if match else ""
-
-
-def extract_article_no(value: str) -> str:
-    match = re.search(r"\d+(?:/[A-Za-z0-9]+)?", str(value))
-    return match.group(0).upper() if match else ""
-
-
-def corpus_gold_key_maps(corpus_csv: Path | None) -> dict[str, dict[str, str]]:
-    if not corpus_csv or not corpus_csv.exists():
-        return {"doc_by_law_no": {}, "article_by_law_article": {}}
-    corpus = pd.read_csv(corpus_csv, dtype=str, keep_default_na=False)
-    doc_by_law_no: dict[str, str] = {}
-    article_by_law_article: dict[str, str] = {}
-    for _, row in corpus.iterrows():
-        source_url = str(row.get("source_url", ""))
-        law_no_match = re.search(r"MevzuatNo=(\d+)", source_url)
-        law_no = law_no_match.group(1) if law_no_match else ""
-        if not law_no:
-            continue
-        doc_key = str(row.get("doc_key", "")).strip()
-        article_key = str(row.get("article_key", "")).strip()
-        article_no = extract_article_no(str(row.get("article_no_norm", "")))
-        if doc_key:
-            doc_by_law_no.setdefault(law_no, doc_key)
-        if article_key and article_no:
-            article_by_law_article.setdefault(f"{law_no}:{article_no}", article_key)
-    return {"doc_by_law_no": doc_by_law_no, "article_by_law_article": article_by_law_article}
-
-
-def normalize_benchmark_csv(input_csv: Path, output_csv: Path, corpus_csv: Path | None = None) -> dict[str, Any]:
+def normalize_benchmark_csv(input_csv: Path, output_csv: Path) -> dict[str, Any]:
     df = pd.read_csv(input_csv, dtype=str, keep_default_na=False)
     columns = list(df.columns)
 
@@ -75,53 +42,13 @@ def normalize_benchmark_csv(input_csv: Path, output_csv: Path, corpus_csv: Path 
         )
 
     gold_answer_col = choose_existing_column(columns, ["gold_answer", "answer", "expected_answer"])
-    gold_doc_col = choose_existing_column(
-        columns,
-        [
-            "gold_doc_keys",
-            "gold_docs",
-            "doc_keys",
-            "gold_source",
-            "gold_source_canonical",
-            "source",
-            "source_title",
-        ],
-    )
+    gold_doc_col = choose_existing_column(columns, ["gold_doc_keys", "gold_docs", "doc_keys"])
     gold_article_col = choose_existing_column(
-        columns,
-        [
-            "gold_article_keys",
-            "gold_articles",
-            "article_keys",
-            "madde_keys",
-            "gold_article",
-            "gold_article_normalized",
-            "article",
-            "article_no",
-        ],
+        columns, ["gold_article_keys", "gold_articles", "article_keys", "madde_keys"]
     )
     topic_col = choose_existing_column(columns, ["topic", "domain", "category"])
     difficulty_col = choose_existing_column(columns, ["difficulty", "level"])
     question_id_col = choose_existing_column(columns, ["question_id", "id"])
-    key_maps = corpus_gold_key_maps(corpus_csv)
-
-    gold_doc_values = []
-    gold_article_values = []
-    mapped_doc_count = 0
-    mapped_article_count = 0
-    for _, row in df.iterrows():
-        raw_doc = str(row.get(gold_doc_col, "")) if gold_doc_col else ""
-        raw_article = str(row.get(gold_article_col, "")) if gold_article_col else ""
-        law_no = extract_first_number(raw_doc)
-        article_no = extract_article_no(raw_article)
-        mapped_doc = key_maps["doc_by_law_no"].get(law_no, raw_doc)
-        mapped_article = key_maps["article_by_law_article"].get(f"{law_no}:{article_no}", raw_article)
-        if mapped_doc != raw_doc:
-            mapped_doc_count += 1
-        if mapped_article != raw_article:
-            mapped_article_count += 1
-        gold_doc_values.append(mapped_doc)
-        gold_article_values.append(mapped_article)
 
     normalized = pd.DataFrame(
         {
@@ -134,8 +61,8 @@ def normalize_benchmark_csv(input_csv: Path, output_csv: Path, corpus_csv: Path 
             "difficulty": df[difficulty_col].astype(str) if difficulty_col else "",
             "question": df[question_col].astype(str),
             "gold_answer": df[gold_answer_col].astype(str) if gold_answer_col else "",
-            "gold_doc_keys": gold_doc_values if gold_doc_col else "",
-            "gold_article_keys": gold_article_values if gold_article_col else "",
+            "gold_doc_keys": df[gold_doc_col].astype(str) if gold_doc_col else "",
+            "gold_article_keys": df[gold_article_col].astype(str) if gold_article_col else "",
             "gold_law": "",
             "gold_article_no": "",
         }
@@ -151,8 +78,6 @@ def normalize_benchmark_csv(input_csv: Path, output_csv: Path, corpus_csv: Path 
         "gold_answer_column": gold_answer_col or "",
         "gold_doc_keys_column": gold_doc_col or "",
         "gold_article_keys_column": gold_article_col or "",
-        "mapped_doc_keys": mapped_doc_count,
-        "mapped_article_keys": mapped_article_count,
         "topic_column": topic_col or "",
         "difficulty_column": difficulty_col or "",
         "question_id_column": question_id_col or "",
@@ -218,22 +143,6 @@ def print_final_console_summary(report: dict[str, Any]) -> None:
     print("=" * 72)
 
 
-def resolve_benchmark_path(path: Path) -> Path:
-    if path.exists():
-        return path
-    if path.name == "custom_benchmark.csv" and path.parent.exists():
-        csv_files = sorted(
-            candidate
-            for candidate in path.parent.glob("*.csv")
-            if candidate.name.lower() != "custom_benchmark.csv"
-        )
-        if len(csv_files) == 1:
-            print(f"Custom benchmark file not found at {path}.")
-            print(f"Using detected benchmark CSV instead: {csv_files[0]}")
-            return csv_files[0]
-    return path
-
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Single-entry custom teacher evaluation pipeline for the Turkish Legal RAG project."
@@ -267,7 +176,7 @@ def main() -> None:
     args = parse_args()
 
     input_dir = Path(args.input_dir)
-    benchmark_path = resolve_benchmark_path(Path(args.benchmark))
+    benchmark_path = Path(args.benchmark)
     output_dir = Path(args.output_dir)
     index_root = Path(args.index_root)
     processed_dir = Path(args.processed_dir)
@@ -281,21 +190,13 @@ def main() -> None:
     ingest_report_json = reports_dir / "custom_teacher_ingestion_report.json"
 
     print("[1/5] Ingesting custom documents...")
-    try:
-        ingestion_report = ingest_custom_documents(
-            input_dir=input_dir,
-            output_csv=custom_csv,
-            output_jsonl=custom_jsonl,
-            report_json=ingest_report_json,
-            text_column=args.text_column,
-        )
-    except ValueError as exc:
-        print("\nNo usable custom documents were found.")
-        print(f"Input folder: {input_dir}")
-        print("Please add at least one .txt, .csv, or .jsonl source document to data/custom_docs/.")
-        print("The placeholder file put_custom_documents_here.txt is intentionally ignored.")
-        print(f"Original error: {exc}")
-        return
+    ingestion_report = ingest_custom_documents(
+        input_dir=input_dir,
+        output_csv=custom_csv,
+        output_jsonl=custom_jsonl,
+        report_json=ingest_report_json,
+        text_column=args.text_column,
+    )
 
     print("[2/5] Building indexes...")
     manifest = build_indexes(
@@ -329,7 +230,7 @@ def main() -> None:
 
     print("[3/5] Normalizing custom benchmark...")
     normalized_benchmark_csv = output_dir / "custom_benchmark_normalized.csv"
-    benchmark_info = normalize_benchmark_csv(benchmark_path, normalized_benchmark_csv, corpus_csv=custom_csv)
+    benchmark_info = normalize_benchmark_csv(benchmark_path, normalized_benchmark_csv)
     final_report["normalized_benchmark"] = benchmark_info
 
     benchmark_df = pd.read_csv(normalized_benchmark_csv, dtype=str, keep_default_na=False)
@@ -416,7 +317,7 @@ def main() -> None:
     else:
         final_report["generation_eval"] = {
             "skipped": True,
-            "reason": "Answer generation not requested. Remove --no-generate-answers to run the full QA pipeline.",
+            "reason": "Answer generation not requested. Use --generate-answers to run the full QA pipeline.",
         }
 
     final_report_path = output_dir / "teacher_eval_report.json"
