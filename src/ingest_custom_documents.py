@@ -70,13 +70,14 @@ def choose_text_column(df: pd.DataFrame, explicit: str | None = None) -> str:
         if explicit not in df.columns:
             raise ValueError(f"Requested text column not found: {explicit}. Available columns: {list(df.columns)}")
         return explicit
+    if df.empty or not len(df.columns):
+        raise ValueError("Could not infer a text column from an empty custom CSV/JSONL.")
     chosen = choose_column(list(df.columns), TEXT_COLUMN_CANDIDATES)
     if chosen:
         return chosen
     object_columns = [column for column in df.columns if df[column].dtype == "object"]
-    if not object_columns:
-        raise ValueError("Could not infer a text column from custom CSV/JSONL.")
-    return max(object_columns, key=lambda col: df[col].astype(str).str.len().mean())
+    candidate_columns = object_columns or list(df.columns)
+    return max(candidate_columns, key=lambda col: df[col].astype(str).str.len().mean())
 
 
 def chunk_text(text: str, max_chars: int = 1800, overlap_chars: int = 180) -> list[str]:
