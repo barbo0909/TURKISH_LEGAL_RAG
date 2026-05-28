@@ -1007,6 +1007,74 @@ This is why the project reports ROUGE/F1 together with:
 
 In this project, Qwen3-32B Base RAG had modest ROUGE-L (`0.123`) but strong grounded citation score (`0.805`). After QLoRA, ROUGE-L improved to `0.167`, showing that fine-tuning made answers more similar to benchmark answer style, while citation grounding remained reasonably strong at `0.721`.
 
+### 24.1 Prompt-Style Ablation: Citation-Aware vs Concise Benchmark-Style Prompt
+
+Notebook:
+
+- `notebooks/34_qwen3_32b_concise_prompt_ablation_colab.ipynb`
+
+Controlled setup:
+
+- Same benchmark: `data/benchmark/gold_benchmark_v1.csv`
+- Same retrieval stack: Qwen3-Embedding-8B dense top-30 + Qwen3-Reranker-8B top-10
+- Same precomputed retrieval file: `outputs/retrieval_eval/qwen3_embedding_8b_dense_top30_qwen3_reranker_8b_predictions_v1.csv`
+- Same LLM: `Qwen/Qwen3-32B`
+- Changed variable: prompt style only
+
+Original citation-aware prompt behavior:
+
+```text
+Answer in a structured legal format:
+1. Short answer
+2. Conditions / explanation
+3. Supporting legal articles
+4. Note / limitation
+
+Use only the retrieved legal context and cite the context sources.
+```
+
+Concise evaluation prompt behavior:
+
+```text
+Write the answer close to the gold benchmark style.
+Give the final answer in the first sentence.
+Avoid unnecessary explanation.
+Use at most 2-3 sentences.
+Write the supporting legal source/article on the final line.
+```
+
+Result:
+
+| Metric | Citation-aware final prompt | Concise benchmark-style prompt | Delta |
+| --- | ---: | ---: | ---: |
+| exact_match | 0.000 | 0.000 | +0.000 |
+| token_f1 | 0.144925 | 0.326667 | +0.181742 |
+| rouge_l | 0.123274 | 0.291655 | +0.168381 |
+| retrieval_gold_available | 0.873684 | 0.873684 | +0.000000 |
+| citation_present | 0.984211 | 0.731579 | -0.252632 |
+| citation_gold_match | 0.821053 | 0.678947 | -0.142106 |
+| grounded_citation_score | 0.805263 | 0.505263 | -0.300000 |
+| unsupported_or_missing_citation | 0.142105 | 0.347368 | +0.205263 |
+
+Fixed retrieval metrics used in this prompt ablation:
+
+| Metric | Value |
+| --- | ---: |
+| article_hit@5 | 0.836842 |
+| article_hit@10 | 0.873684 |
+| article_recall@5 | 0.836842 |
+| article_recall@10 | 0.873684 |
+| article_mrr | 0.700921 |
+| article_ndcg@5 | 0.731402 |
+| article_ndcg@10 | 0.743439 |
+
+Interpretation:
+
+- The concise prompt substantially improved lexical overlap with the gold answers: token F1 increased from `0.144925` to `0.326667`, and ROUGE-L increased from `0.123274` to `0.291655`.
+- Retrieval stayed unchanged, so the improvement comes from answer style rather than retrieval quality.
+- The gain came with a clear citation-grounding trade-off: grounded citation score dropped from `0.805263` to `0.505263`, and unsupported/missing citation increased from `0.142105` to `0.347368`.
+- Therefore, the concise prompt is reported as a prompt-style ablation for lexical metrics, while the citation-aware explanatory prompt remains the safer final user-facing prompt.
+
 ## 25. Embedding and Reranker Fine-tuning Ablation
 
 This section records the optional extra-credit retrieval tuning experiments. These were implemented and evaluated after the main Qwen3 system was already complete.

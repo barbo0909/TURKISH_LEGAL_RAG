@@ -55,3 +55,36 @@ Cevap formatı:
 
 Cevap:
 """
+
+
+CONCISE_EVAL_SYSTEM_INSTRUCTION = (
+    "Sen Turk hukuku alaninda calisan citation-aware bir hukuk asistanisin. "
+    "Sadece verilen mevzuat baglamina dayanarak cevap ver. "
+    "Cevabi gold benchmark stiline yakin, kisa ve dogrudan yaz. "
+    "Gereksiz aciklama yapma ve uydurma kaynak uretme."
+)
+
+
+def build_concise_eval_rag_prompt(
+    question: str,
+    retrieved_items: list[dict[str, Any]],
+    max_context_chars: int = 9000,
+) -> str:
+    context = format_context(retrieved_items, max_chars=max_context_chars)
+    return f"""{CONCISE_EVAL_SYSTEM_INSTRUCTION}
+
+Soru:
+{question}
+
+Baglam:
+{context}
+
+Cevap kurallari:
+- Ilk cumlede nihai cevabi ver.
+- En fazla 2-3 cumle kullan.
+- Gold benchmark cevabi gibi kisa, dogrudan ve hukuki sonucu belirten bir cevap yaz.
+- Son satirda yalnizca baglamdaki ilgili kaynak veya maddeyi dayanak olarak yaz.
+- Baglamda cevap yoksa bunu kisa bicimde belirt.
+
+Cevap:
+"""

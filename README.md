@@ -43,6 +43,20 @@ Recommended columns:
 - `gold_doc_keys`
 - `gold_article_keys`
 
+The benchmark can use either of these gold-reference formats:
+
+- Normalized key format: `gold_doc_keys`, `gold_article_keys`
+- Human-readable legal reference format: `gold_source`, `gold_article`
+
+Example human-readable reference:
+
+```text
+gold_source = 2709 sayili Anayasa
+gold_article = m.148
+```
+
+The Colab notebook can map this format to the internal article-key format when the custom documents use the project corpus schema.
+
 ## 3. Run the evaluation
 
 ### Option A: Google Drive / Colab recommended
@@ -163,3 +177,5 @@ If the benchmark includes:
 - `gold_article_keys`
 
 then the full retrieval, QA, citation-grounding, and hallucination-proxy metrics will be computed.
+
+Alternatively, the benchmark may provide `gold_source` and `gold_article` instead of `gold_doc_keys` and `gold_article_keys`. This is useful for instructor-created benchmarks that refer to legal sources in a human-readable form.
