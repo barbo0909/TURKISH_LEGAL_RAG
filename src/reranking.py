@@ -13,9 +13,10 @@ except ImportError:  # pragma: no cover - handled in Colab installs
     PeftModel = None
 
 try:
-    from transformers import AutoTokenizer, AutoModelForSequenceClassification
+    from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModelForSequenceClassification
 except ImportError:  # pragma: no cover - handled in Colab installs
     AutoTokenizer = None
+    AutoModelForCausalLM = None
     AutoModelForSequenceClassification = None
 
 
@@ -118,7 +119,7 @@ class Qwen3RerankerReranker:
             batch_candidates = candidates[i : i + batch_size]
             texts_a = [query for _ in batch_candidates]
             texts_b = [str(candidate.get(text_field, "")) for candidate in batch_candidates]
-            
+
             inputs = self.tokenizer(
                 texts_a,
                 texts_b,
@@ -153,6 +154,94 @@ class Qwen3RerankerReranker:
         # Sort by reranker score (descending)
         reranked.sort(key=lambda item: item["reranker_score"], reverse=True)
         return reranked[:top_k]
+
+
+class Qwen3CausalRerankerDemo:
+    """Teacher-demo reranker for the base Qwen3-Reranker checkpoint.
+
+    This class intentionally does not replace CrossEncoderReranker. It is used
+    only by the custom-data notebook when the base Qwen3-Reranker checkpoint
+    does not expose a sequence-classification score head.
+    """
+
+    def __init__(self, model_name: str = DEFAULT_QWEN3_RERANKER_MODEL, device: str | None = None) -> None:
+        if AutoTokenizer is None or AutoModelForCausalLM is None:
+            raise ImportError("transformers is required to load Qwen3 causal reranker models.")
+        self.model_name = model_name
+        self.device = device
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+        self.tokenizer.padding_side = "left"
+        if self.tokenizer.pad_token is None:
+            self.tokenizer.pad_token = self.tokenizer.eos_token
+        self.model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            torch_dtype=torch.float16,
+            trust_remote_code=True,
+        )
+        if getattr(self.model.config, "pad_token_id", None) is None and self.tokenizer.pad_token_id is not None:
+            self.model.config.pad_token_id = self.tokenizer.pad_token_id
+        self.true_token_id = self.tokenizer.encode("yes", add_special_tokens=False)[0]
+        self.false_token_id = self.tokenizer.encode("no", add_special_tokens=False)[0]
+        if device:
+            self.model.to(device)
+        self.model.eval()
+
+    def rerank(
+        self,
+        query: str,
+        candidates: list[dict[str, Any]],
+        text_field: str = "retrieval_text",
+        top_k: int = 10,
+        batch_size: int = 1,
+    ) -> list[dict[str, Any]]:
+        if not candidates:
+            return []
+        scores: list[float] = []
+        for i in range(0, len(candidates), batch_size):
+            batch_candidates = candidates[i : i + batch_size]
+            prompts = [
+                self._format_pair(query, str(candidate.get(text_field, "")))
+                for candidate in batch_candidates
+            ]
+            inputs = self.tokenizer(
+                prompts,
+                truncation=True,
+                padding=True,
+                return_tensors="pt",
+                max_length=2048,
+            )
+            if self.device:
+                inputs = {key: value.to(self.device) for key, value in inputs.items()}
+            with torch.no_grad():
+                outputs = self.model(**inputs)
+            logits = outputs.logits[:, -1, :]
+            selected = logits[:, [self.false_token_id, self.true_token_id]]
+            scores.extend(torch.log_softmax(selected, dim=1)[:, 1].cpu().numpy().flatten().tolist())
+
+        reranked: list[dict[str, Any]] = []
+        for candidate, score in zip(candidates, scores):
+            row = dict(candidate)
+            row["reranker_score"] = float(score)
+            row["retriever_score"] = float(candidate.get("score", 0.0))
+            row["score"] = float(score)
+            row["retriever"] = f"{candidate.get('retriever', 'retrieval')}+qwen3_causal_reranker_demo"
+            reranked.append(row)
+        reranked.sort(key=lambda item: item["reranker_score"], reverse=True)
+        return reranked[:top_k]
+
+    @staticmethod
+    def _format_pair(query: str, document: str) -> str:
+        instruction = "Given a legal question, judge whether the document is relevant to answer it."
+        system = (
+            "Judge whether the Document meets the requirements based on the Query and the Instruct provided. "
+            "Note that the answer can only be \"yes\" or \"no\"."
+        )
+        user = f"<Instruct>: {instruction}\n<Query>: {query}\n<Document>: {document}"
+        return (
+            f"<|im_start|>system\n{system}<|im_end|>\n"
+            f"<|im_start|>user\n{user}<|im_end|>\n"
+            "<|im_start|>assistant\n<think>\n\n</think>\n\n"
+        )
 
 
 
