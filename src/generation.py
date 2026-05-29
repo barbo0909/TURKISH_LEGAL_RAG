@@ -79,7 +79,7 @@ def generate_text(
                 add_generation_prompt=True,
                 return_tensors="pt",
             )
-        if hasattr(input_ids, "data") and "input_ids" in input_ids:
+        if isinstance(input_ids, dict) or hasattr(input_ids, "keys"):
             attention_mask = input_ids.get("attention_mask")
             input_ids = input_ids["input_ids"]
         else:
