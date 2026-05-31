@@ -17,12 +17,16 @@ cd <project-folder>
 pip install -r requirements.txt
 ```
 
+For Qwen model downloads, add a Hugging Face access token to Colab Secrets with the name `HF_TOKEN`, or run `huggingface_hub.login()` in Colab before loading the models.
+
 ## 1. Put your files in these folders
 
 - Custom source documents:
   - `data/custom_docs/`
 - Custom benchmark CSV:
   - `data/custom_benchmark/custom_benchmark.csv`
+
+If `custom_benchmark.csv` is not present but there is exactly one `.csv` file under `data/custom_benchmark/`, the Colab notebook and `run_teacher_eval.py` automatically use that file.
 
 Supported custom document formats:
 
@@ -149,6 +153,7 @@ The Colab notebook writes notebook-specific metric files here:
 ## 6. Notes
 
 - If the machine is not strong enough for the full Qwen setup, use a GPU-backed environment.
+- The optional UI loads large models. If the full evaluation was already run and Colab VRAM is full, restart the runtime and run only the setup, Drive mount, index-check, and UI cells.
 - The teacher-facing notebook is:
   - `notebooks/25_teacher_custom_data_single_notebook_demo.ipynb`
 - The final official system UI notebook is:
